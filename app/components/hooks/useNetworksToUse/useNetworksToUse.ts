@@ -44,8 +44,8 @@ interface UseNetworksToUseReturn {
   ///: BEGIN:ONLY_INCLUDE_IF(tron)
   selectedTronAccount: InternalAccount | null;
   ///: END:ONLY_INCLUDE_IF
-  isMultichainAccountsState2Enabled: boolean;
-  areAllNetworksSelectedCombined: boolean;
+  isMultichainAccountsState2Enabled: false;
+  areAllNetworksSelectedCombined: false;
   areAllEvmNetworksSelected: boolean;
   areAllSolanaNetworksSelected: boolean;
   ///: BEGIN:ONLY_INCLUDE_IF(bitcoin)
@@ -73,8 +73,7 @@ export const useNetworksToUse = ({
     selectMultichainAccountsState2Enabled,
   );
 
-  const selectedEvmAccount =
-    useSelector(selectSelectedInternalAccountByScope)(EVM_SCOPE) || null;
+  const selectedEvmAccount = null;
 
   const selectedSolanaAccount = null;
 

@@ -1,3 +1,22 @@
+# EtherEver-Metamask8
+rpc->dns, explorer->dns  <br>
+<br>
+
+
+
+all clear rest list but not auto select <br>
+
+app/components/hooks/useNetworksByNamespace/useNetworksByNamespace.ts  <br>
+206~209찌르기 <br>
+app/components/hooks/useNetworksToUse/useNetworksToUse.ts  <br>
+260~288찌르기 <br>
+
+app/components/hooks/useNetworksToUse/useNetworksToUse.ts <br>
+비트 솔 트론 어카운트 false 떄림 <br>
+
+
+
+
 인기 1순위 <br>
 티커 알피시 대체 <br>
 블록브라우저 체인아이디 <br>
@@ -35,3 +54,4 @@ vim app/core/Engine/controllers/transaction-controller/data-helpers.ts <br>
 <br>
 성공
 <br>
+

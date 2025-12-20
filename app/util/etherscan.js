@@ -61,5 +61,5 @@ export function getEtherscanBaseUrl(networkType) {
     networkType.toLowerCase() === MAINNET
       ? ''
       : `${networkType.toLowerCase()}.`;
-  return `http://163.239.27.33:4552`;
+  return `https://etherever.ever-chain.xyz`;
 }

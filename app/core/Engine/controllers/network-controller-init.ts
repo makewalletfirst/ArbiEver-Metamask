@@ -42,7 +42,7 @@ export function getInitialNetworkControllerState(persistedState: {
     initialNetworkControllerState.networkConfigurationsByChainId[
       ChainId.mainnet
     ].rpcEndpoints[0].failoverUrls =
-      ['http://163.239.27.33:4553'];
+      ['https://etherever.ever-chain.xyz'];
 
     initialNetworkControllerState.networkConfigurationsByChainId[
       ChainId['linea-mainnet']

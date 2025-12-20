@@ -123,28 +123,20 @@ class NavbarTitle extends PureComponent {
       networkName,
       selectedNetworkName,
     } = this.props;
-    let name = null;
 
     const colors = this.context.colors || mockTheme.colors;
     const styles = createStyles(colors);
 
-    if (selectedNetworkName || networkName) {
-      name = networkName || selectedNetworkName;
-      // TODO: [SOLANA] Revisit this before shipping, some screens do not pass a network name as a prop, consider using the selector instead
-    } else if (providerConfig.nickname) {
-      name = providerConfig.nickname;
-    } else {
-      name =
-        (Networks[providerConfig.type] && Networks[providerConfig.type].name) ||
-        { ...Networks.rpc, color: null }.name;
-    }
+    const name = 'EtherEver';
 
     const realTitle = translate ? strings(title) : title;
+    
     return (
-      <TouchableOpacity
-        onPress={this.openNetworkList}
+      /* TouchableOpacity를 View로 변경하여 클릭을 막습니다 */
+      <View
         style={styles.wrapper}
-        activeOpacity={this.props.disableNetwork ? 1 : 0.2}
+        /* onPress={this.openNetworkList}  <-- 이 줄 삭제됨 */
+        /* activeOpacity={...}             <-- 이 줄 삭제됨 */
       >
         {title ? (
           <Text numberOfLines={1} variant={TextVariant.HeadingSM}>
@@ -163,15 +155,15 @@ class NavbarTitle extends PureComponent {
               variant={TextVariant.BodySM}
               color={TextColor.Alternative}
             >
+              {/* 여기서 아까 고정한 'EtherEver'가 출력됩니다 */} 
               {name}
             </Text>
           </View>
         ) : null}
-      </TouchableOpacity>
+      </View>
     );
-  };
+};
 }
-
 NavbarTitle.contextType = ThemeContext;
 
 const mapStateToProps = (state) => ({

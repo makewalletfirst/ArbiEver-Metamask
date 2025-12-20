@@ -5,7 +5,7 @@ import {
   SortTrendingBy,
 } from '@metamask/assets-controllers';
 import { useStableArray } from '../../../Perps/hooks/useStableArray';
-import { TRENDING_NETWORKS_LIST } from '../../utils/trendingNetworksList';
+import { NetworkToCaipChainId } from '../../../NetworkMultiSelector/NetworkMultiSelector.constants';
 
 /**
  * Hook for handling trending tokens request
@@ -35,7 +35,9 @@ export const useTrendingRequest = (options: {
     if (providedChainIds.length > 0) {
       return providedChainIds;
     }
-    return TRENDING_NETWORKS_LIST.map((network) => network.caipChainId);
+    // NetworkToCaipChainId의 모든 값을 배열로 변환하고 Localhost는 제외
+    return Object.values(NetworkToCaipChainId)
+       .filter((chainId) => chainId !== NetworkToCaipChainId.LOCALHOST) as CaipChainId[];
   }, [providedChainIds]);
 
   // Track the current request ID to prevent stale results from overwriting current ones
@@ -65,6 +67,7 @@ export const useTrendingRequest = (options: {
     setError(null);
 
     try {
+      /*
       const resultsToStore = await getTrendingTokens({
         chainIds: stableChainIds,
         sortBy,
@@ -74,6 +77,9 @@ export const useTrendingRequest = (options: {
         minMarketCap,
         maxMarketCap,
       });
+      */
+      const resultsToStore: any = [];
+
       // Only update state if this is still the current request
       if (currentRequestId === requestIdRef.current) {
         setResults(resultsToStore);
@@ -101,9 +107,11 @@ export const useTrendingRequest = (options: {
   ]);
 
   // Automatically trigger fetch when options change
+  /*
   useEffect(() => {
     fetchTrendingTokens();
   }, [fetchTrendingTokens]);
+  */
 
   return {
     results,

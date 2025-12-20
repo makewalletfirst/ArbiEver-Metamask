@@ -1,7 +1,7 @@
 import { NetworkType, toHex } from '@metamask/controller-utils';
 import { KnownCaipNamespace, toCaipChainId } from '@metamask/utils';
 
-export const INFURA_PROJECT_ID = 'http://163.239.27.33:4553';
+export const INFURA_PROJECT_ID = 'https://rpc-ether.ever-chain.xyz';
 
 export const MAINNET = 'mainnet';
 export const HOMESTEAD = 'homestead';
@@ -29,42 +29,6 @@ export const IPFS_DEFAULT_GATEWAY_URL = 'https://dweb.link/ipfs/';
  */
 export const NETWORKS_CHAIN_ID = {
   MAINNET: toHex('58051'),
-  OPTIMISM: toHex('10'),
-  OPTIMISM_SEPOLIA: toHex('11155420'),
-  BSC: toHex('56'),
-  POLYGON: toHex('137'),
-  FANTOM: toHex('250'),
-  BASE: toHex('8453'),
-  BASE_SEPOLIA: toHex('84532'),
-  ARBITRUM: toHex('42161'),
-  AVAXCCHAIN: toHex('43114'),
-  CELO: toHex('42220'),
-  HARMONY: toHex('1666600000'),
-  SEPOLIA: toHex('11155111'),
-  LINEA_GOERLI: toHex('59140'),
-  LINEA_SEPOLIA: toHex('59141'),
-  GOERLI: toHex('5'),
-  LINEA_MAINNET: toHex('59145'),
-  ZKSYNC_ERA: toHex('324'),
-  LOCALHOST: toHex('1337'),
-  ARBITRUM_GOERLI: toHex('421613'),
-  OPTIMISM_GOERLI: toHex('420'),
-  MUMBAI: toHex('80001'),
-  OPBNB: toHex('204'),
-  SCROLL: toHex('534352'),
-  BERACHAIN: toHex('80094'),
-  METACHAIN_ONE: toHex('112358'),
-  MEGAETH_TESTNET: toHex('6342'),
-  MEGAETH_MAINNET: toHex('4326'),
-  SEI: toHex('1329'),
-  MONAD: toHex('143'),
-  MONAD_TESTNET: toHex('10143'),
-  HYPER_EVM: toHex('999'),
-  LUKSO: toHex('42'),
-  INJECTIVE: toHex('1776'),
-  PLASMA: toHex('9745'),
-  CRONOS: toHex('25'),
-  NOMINA: toHex('166'),
 };
 
 // To add a deprecation warning to a network, add it to the array

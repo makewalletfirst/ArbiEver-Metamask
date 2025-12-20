@@ -71,7 +71,7 @@ const NetworkMultiSelector = ({
   });
 
   const {
-    networksToUse,
+    networksToUse: originalNetworksToUse, // 이름을 잠깐 바꿔서 받습니다
     areAllNetworksSelectedCombined,
     isMultichainAccountsState2Enabled,
   } = useNetworksToUse({
@@ -79,6 +79,12 @@ const NetworkMultiSelector = ({
     networkType: NetworkType.Popular,
     areAllNetworksSelected,
   });
+
+  // ★★★ [하이재킹 코드] 여기서 이더리움 빼고 다 죽입니다 ★★★
+  // eip155:1 은 이더리움 메인넷의 체인 ID입니다.
+  const networksToUse = originalNetworksToUse.filter(
+      (network) => network.caipChainId === 'eip155:58051'
+  );
 
   const { selectPopularNetwork, selectAllPopularNetworks } =
     useNetworkSelection({
@@ -176,27 +182,7 @@ const NetworkMultiSelector = ({
     [selectPopularNetwork, dismissModal],
   );
 
-  const selectAllNetworksComponent = useMemo(
-    () => (
-      <Cell
-        testID={
-          areAllNetworksSelectedCombined
-            ? NETWORK_MULTI_SELECTOR_TEST_IDS.SELECT_ALL_POPULAR_NETWORKS_SELECTED
-            : NETWORK_MULTI_SELECTOR_TEST_IDS.SELECT_ALL_POPULAR_NETWORKS_NOT_SELECTED
-        }
-        isSelected={areAllNetworksSelectedCombined}
-        variant={CellVariant.Select}
-        title={strings('networks.all_popular_networks')}
-        onPress={onSelectAllPopularNetworks}
-        avatarProps={{
-          variant: AvatarVariant.Icon,
-          name: IconName.Global,
-          size: AvatarSize.Sm,
-        }}
-      />
-    ),
-    [areAllNetworksSelectedCombined, onSelectAllPopularNetworks],
-  );
+  const selectAllNetworksComponent = null;
 
   return (
     <ScrollView
