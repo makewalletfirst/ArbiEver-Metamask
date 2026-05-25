@@ -36318,7 +36318,7 @@ __metadata:
     react-native-pager-view: "npm:^6.7.0"
     react-native-performance: "npm:^5.1.2"
     react-native-permissions: "npm:^3.7.2"
-    react-native-progress: "npm:3.5.0"
+    react-native-progress: "npm:5.0.1"
     react-native-qrcode-svg: "npm:5.1.2"
     react-native-quick-base64: "npm:^2.2.0"
     react-native-quick-crypto: "npm:^0.7.15"
@@ -39982,7 +39982,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:*, prop-types@npm:^15.5.10, prop-types@npm:^15.5.7, prop-types@npm:^15.5.8, prop-types@npm:^15.5.9, prop-types@npm:^15.6.0, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+"prop-types@npm:*, prop-types@npm:^15.5.10, prop-types@npm:^15.5.7, prop-types@npm:^15.5.9, prop-types@npm:^15.6.0, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -41112,12 +41112,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-progress@npm:3.5.0":
-  version: 3.5.0
-  resolution: "react-native-progress@npm:3.5.0"
+"react-native-progress@npm:5.0.1":
+  version: 5.0.1
+  resolution: "react-native-progress@npm:5.0.1"
   dependencies:
-    prop-types: "npm:^15.5.8"
-  checksum: 10/bc8c68df8a87f8d4f44985daadab0161a5127873b56560b53b097dade19d78ff23f316cc7e7a03d2d275e2b19ccfbdbbf0c1c826d074c4bc63fdbac533161831
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    react-native-svg: "*"
+  checksum: 10/902189578ce233bbc3cb3a85c13d4bcd439430e1a3da7bcf622e00ff6a2404155b22ce3c3350ccdb5b50952746b99f8522404a818531472250b60b75975a524c
   languageName: node
   linkType: hard
 
