@@ -488,7 +488,7 @@
     "@ethersproject/contracts": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",
     "@lavamoat/allow-scripts": "^3.0.4",
-    "@lavamoat/git-safe-dependencies": "^0.2.1",
+    "@lavamoat/git-safe-dependencies": "^1.0.0",
     "@metamask/abi-utils": "^3.0.0",
     "@metamask/auto-changelog": "^5.1.0",
     "@metamask/browser-passworder": "^5.0.0",
