@@ -36315,7 +36315,7 @@ __metadata:
     react-native-modal: "npm:^14.0.0-rc.1"
     react-native-nitro-modules: "npm:^0.29.6"
     react-native-os: "npm:^1.2.6"
-    react-native-pager-view: "npm:^6.7.0"
+    react-native-pager-view: "npm:^8.0.2"
     react-native-performance: "npm:^5.1.2"
     react-native-permissions: "npm:^3.7.2"
     react-native-progress: "npm:3.5.0"
@@ -41079,13 +41079,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-pager-view@npm:^6.7.0":
-  version: 6.7.1
-  resolution: "react-native-pager-view@npm:6.7.1"
+"react-native-pager-view@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "react-native-pager-view@npm:8.0.2"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10/22cc95dcf5085cab2b88272610b836375044cc9ab22f8e81f586e9ecb5c75880dc2c649321cbd173b48c6c7025c9914ab4b67ed0207f623a84ea26025257a4e0
+  checksum: 10/b17b9407291c42978b163009bb2d27d44e35ffb84f19a60c66108249c564ad911554cf22dc9ef214d7f9318b75fe5cc68f4555bb57a042de3c7171d4230d893b
   languageName: node
   linkType: hard
 

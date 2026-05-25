@@ -426,7 +426,7 @@
     "react-native-modal": "^14.0.0-rc.1",
     "react-native-nitro-modules": "^0.29.6",
     "react-native-os": "^1.2.6",
-    "react-native-pager-view": "^6.7.0",
+    "react-native-pager-view": "^8.0.2",
     "react-native-permissions": "^3.7.2",
     "react-native-progress": "3.5.0",
     "react-native-qrcode-svg": "5.1.2",
