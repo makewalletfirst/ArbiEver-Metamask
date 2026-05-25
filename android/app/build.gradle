@@ -221,9 +221,9 @@ android {
 	  signingConfigs {
       mainProd {
 	storeFile file('../keystores/arbiever-release.keystore')
-        storePassword "dmswk123"
+        storePassword "YOUR_PW"
         keyAlias "arbiever-key"
-        keyPassword "dmswk123"
+        keyPassword "YOUR_PW"
 
       }
       mainBeta {
