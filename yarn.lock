@@ -29432,15 +29432,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-sensors@npm:~14.0.2":
-  version: 14.0.2
-  resolution: "expo-sensors@npm:14.0.2"
+"expo-sensors@npm:~56.0.5":
+  version: 56.0.5
+  resolution: "expo-sensors@npm:56.0.5"
   dependencies:
     invariant: "npm:^2.2.4"
   peerDependencies:
     expo: "*"
     react-native: "*"
-  checksum: 10/adf2616822831cbac9ec1e1d00f47ba9be3366bf2a5977cb47f8ee9841a4fa45bc88276f25cfe033e6167859fbb7a9cc6c43a93826859a31418238416b9bd098
+  checksum: 10/4ed6129b03ccb053e48d21bfa8b9df34524660eef9f84aa9ebaa7a92419267663d7e6bc324e3ddf05ca984dcfc94dee511130661fe665e56902bac66962b0ed5
   languageName: node
   linkType: hard
 
@@ -36233,7 +36233,7 @@ __metadata:
     expo-haptics: "npm:~14.0.1"
     expo-image: "npm:~2.0.7"
     expo-screen-orientation: "npm:~8.0.4"
-    expo-sensors: "npm:~14.0.2"
+    expo-sensors: "npm:~56.0.5"
     expo-updates: "patch:expo-updates@npm%3A0.27.4#~/.yarn/patches/expo-updates-npm-0.27.4-2a215516d7.patch"
     fast-equals: "npm:^5.2.2"
     fs-extra: "npm:^10.1.0"
