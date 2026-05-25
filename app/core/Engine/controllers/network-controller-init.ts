@@ -74,6 +74,28 @@ export function getInitialNetworkControllerState(persistedState: {
       ChainId.mainnet
     ].name = 'EtherEver';
 
+    // [ArbiEver] Add ArbiEver L2 (chainId 580511) as 2nd default chain
+    const ARBIEVER_CHAIN_ID = '0x8db9f'; // toHex('580511')
+    initialNetworkControllerState.networkConfigurationsByChainId[
+      ARBIEVER_CHAIN_ID
+    ] = {
+      chainId: ARBIEVER_CHAIN_ID,
+      name: 'ArbiEver',
+      nativeCurrency: 'ETE',
+      blockExplorerUrls: ['https://arbiever.ever-chain.xyz'],
+      defaultBlockExplorerUrlIndex: 0,
+      rpcEndpoints: [
+        {
+          name: 'ArbiEver',
+          url: 'https://rpc-arbi.ever-chain.xyz',
+          type: 'custom' as any,
+          networkClientId: 'arbiever-mainnet',
+          failoverUrls: [],
+        },
+      ],
+      defaultRpcEndpointIndex: 0,
+    } as any;
+
     // Remove Sei from initial state so it appears in Additional Networks section
     // Users can add it manually, and it will be available in FEATURED_RPCS
     delete initialNetworkControllerState.networkConfigurationsByChainId[

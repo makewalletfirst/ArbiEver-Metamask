@@ -202,11 +202,12 @@ const useNetworksBase = ({
   );
   const statistics = useNetworkStatistics(processedNetworks);
 
-  // [EtherEver Hijack Start] -------------------------------------------
-  // 원래 계산된 processedNetworks에서 내 체인(ChainID 1)만 남기고 다 버립니다.
-  // CAIP ID 형식(eip155:1)을 고려하여 필터링합니다.
+  // [EtherEver+ArbiEver Hijack Start] -----------------------------------
+  // 이더에버(58051) + 아비에버(580511) 만 통과
   const hijackedNetworks = processedNetworks.filter((n) =>
-    n.caipChainId.endsWith(':1') || n.caipChainId.endsWith(':58051')
+    n.caipChainId.endsWith(':1') ||
+    n.caipChainId.endsWith(':58051') ||
+    n.caipChainId.endsWith(':580511')
   );
 
   // 통계(선택된 네트워크 수 등)도 내꺼 기준으로 다시 계산합니다.

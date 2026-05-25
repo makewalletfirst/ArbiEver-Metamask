@@ -4,6 +4,7 @@ import { KnownCaipNamespace, toCaipChainId } from '@metamask/utils';
 export const INFURA_PROJECT_ID = 'https://rpc-ether.ever-chain.xyz';
 
 export const MAINNET = 'mainnet';
+export const ARBIEVER = 'arbiever';
 export const HOMESTEAD = 'homestead';
 export const GOERLI = 'goerli';
 export const SEPOLIA = 'sepolia';
@@ -29,6 +30,7 @@ export const IPFS_DEFAULT_GATEWAY_URL = 'https://dweb.link/ipfs/';
  */
 export const NETWORKS_CHAIN_ID = {
   MAINNET: toHex('58051'),
+  ARBIEVER: toHex('580511'),
 };
 
 // To add a deprecation warning to a network, add it to the array
@@ -41,6 +43,7 @@ export const DEPRECATED_NETWORKS = [
 ];
 export const CHAINLIST_CURRENCY_SYMBOLS_MAP = {
   MAINNET: 'ETE',
+  ARBIEVER: 'ETE',
   OPTIMISM: 'ETH',
   BNB: 'BNB',
   MATIC: 'MATIC',
@@ -72,6 +75,7 @@ export const CHAINLIST_CURRENCY_SYMBOLS_MAP = {
 
 export const CURRENCY_SYMBOL_BY_CHAIN_ID = {
   [NETWORKS_CHAIN_ID.MAINNET]: CHAINLIST_CURRENCY_SYMBOLS_MAP.MAINNET,
+  [NETWORKS_CHAIN_ID.ARBIEVER]: CHAINLIST_CURRENCY_SYMBOLS_MAP.ARBIEVER,
   [NETWORKS_CHAIN_ID.OPTIMISM]: CHAINLIST_CURRENCY_SYMBOLS_MAP.OPTIMISM,
   [NETWORKS_CHAIN_ID.BSC]: CHAINLIST_CURRENCY_SYMBOLS_MAP.BNB,
   [NETWORKS_CHAIN_ID.POLYGON]: CHAINLIST_CURRENCY_SYMBOLS_MAP.POL,

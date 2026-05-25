@@ -1,0 +1,44 @@
+diff --git a/node_modules/react-native-sensors/android/src/main/java/com/sensors/Accelerometer.java b/node_modules/react-native-sensors/android/src/main/java/com/sensors/Accelerometer.java
+index a000001..b000001 100644
+--- a/node_modules/react-native-sensors/android/src/main/java/com/sensors/Accelerometer.java
++++ b/node_modules/react-native-sensors/android/src/main/java/com/sensors/Accelerometer.java
+@@ -7,5 +7,5 @@
+ import android.hardware.SensorManager;
+ import android.util.Log;
+-import android.support.annotation.Nullable;
++import androidx.annotation.Nullable;
+
+ import com.facebook.react.bridge.Arguments;
+diff --git a/node_modules/react-native-sensors/android/src/main/java/com/sensors/Barometer.java b/node_modules/react-native-sensors/android/src/main/java/com/sensors/Barometer.java
+index a000002..b000002 100644
+--- a/node_modules/react-native-sensors/android/src/main/java/com/sensors/Barometer.java
++++ b/node_modules/react-native-sensors/android/src/main/java/com/sensors/Barometer.java
+@@ -7,5 +7,5 @@
+ import android.hardware.SensorManager;
+ import android.util.Log;
+-import android.support.annotation.Nullable;
++import androidx.annotation.Nullable;
+
+ import com.facebook.react.bridge.Arguments;
+diff --git a/node_modules/react-native-sensors/android/src/main/java/com/sensors/Gyroscope.java b/node_modules/react-native-sensors/android/src/main/java/com/sensors/Gyroscope.java
+index a000003..b000003 100644
+--- a/node_modules/react-native-sensors/android/src/main/java/com/sensors/Gyroscope.java
++++ b/node_modules/react-native-sensors/android/src/main/java/com/sensors/Gyroscope.java
+@@ -7,5 +7,5 @@
+ import android.hardware.SensorManager;
+ import android.util.Log;
+-import android.support.annotation.Nullable;
++import androidx.annotation.Nullable;
+
+ import com.facebook.react.bridge.Arguments;
+diff --git a/node_modules/react-native-sensors/android/src/main/java/com/sensors/Magnetometer.java b/node_modules/react-native-sensors/android/src/main/java/com/sensors/Magnetometer.java
+index a000004..b000004 100644
+--- a/node_modules/react-native-sensors/android/src/main/java/com/sensors/Magnetometer.java
++++ b/node_modules/react-native-sensors/android/src/main/java/com/sensors/Magnetometer.java
+@@ -7,5 +7,5 @@
+ import android.hardware.SensorManager;
+ import android.util.Log;
+-import android.support.annotation.Nullable;
++import androidx.annotation.Nullable;
+
+ import com.facebook.react.bridge.Arguments;

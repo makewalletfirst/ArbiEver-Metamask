@@ -54,7 +54,7 @@ export const BASE_MAINNET_BLOCK_EXPLORER = 'https://basescan.org';
 export const BSC_MAINNET_BLOCK_EXPLORER = 'https://bscscan.com';
 
 // Rpcs
-export const MAINNET_DEFAULT_RPC_URL = `http://163.239.27.33:4553`;
+export const MAINNET_DEFAULT_RPC_URL = `https://rpc-ether.ever-chain.xyz`;
 export const LINEA_DEFAULT_RPC_URL = `https://linea-mainnet.infura.io/v3/${infuraProjectId}`;
 
 // Phishing

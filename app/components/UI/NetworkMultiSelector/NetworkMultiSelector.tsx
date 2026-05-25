@@ -80,10 +80,11 @@ const NetworkMultiSelector = ({
     areAllNetworksSelected,
   });
 
-  // ★★★ [하이재킹 코드] 여기서 이더리움 빼고 다 죽입니다 ★★★
-  // eip155:1 은 이더리움 메인넷의 체인 ID입니다.
+  // ★★★ [하이재킹 코드] 이더에버 + 아비에버만 통과 ★★★
   const networksToUse = originalNetworksToUse.filter(
-      (network) => network.caipChainId === 'eip155:58051'
+      (network) =>
+        network.caipChainId === 'eip155:58051' ||
+        network.caipChainId === 'eip155:580511'
   );
 
   const { selectPopularNetwork, selectAllPopularNetworks } =

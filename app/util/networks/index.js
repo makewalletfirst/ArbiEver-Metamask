@@ -2,6 +2,7 @@ import URL from 'url-parse';
 import networksWithImages from '.././../images/image-icons';
 import {
   MAINNET,
+  ARBIEVER,
   NETWORKS_CHAIN_ID,
   SEPOLIA,
   RPC,
@@ -40,6 +41,8 @@ import {
   LINEA_MAINNET_BLOCK_EXPLORER,
   LINEA_SEPOLIA_BLOCK_EXPLORER,
   MAINNET_BLOCK_EXPLORER,
+  ARBIEVER_BLOCK_EXPLORER,
+  ARBIEVER_DEFAULT_RPC_URL,
   SEPOLIA_BLOCK_EXPLORER,
   SEPOLIA_FAUCET,
   BASE_MAINNET_BLOCK_EXPLORER,
@@ -79,6 +82,19 @@ export const NetworkList = {
     networkType: 'mainnet',
     imageSource: networksWithImages.ETHEREUM,
     blockExplorerUrl: MAINNET_BLOCK_EXPLORER,
+    isTestNet: false,
+  },
+  [ARBIEVER]: {
+    name: 'ArbiEver',
+    shortName: 'ArbiEver',
+    networkId: 580511,
+    chainId: toHex('580511'),
+    ticker: 'ETE',
+    // eslint-disable-next-line @metamask/design-tokens/color-no-hex
+    color: '#1a1a2e',
+    networkType: 'rpc',
+    imageSource: require('../../images/arbi.png'),
+    blockExplorerUrl: ARBIEVER_BLOCK_EXPLORER,
     isTestNet: false,
   },
   [RPC]: {
@@ -578,7 +594,8 @@ export const WHITELIST_SYMBOL = {
 };
 
 export const WHITELIST_NETWORK_RPC_URL = {
-  [toHex('58051')]: 'http://163.239.27.33:4553',
+  [toHex('58051')]: 'https://rpc-ether.ever-chain.xyz',
+  [toHex('580511')]: 'https://rpc-arbi.ever-chain.xyz',
   [NETWORKS_CHAIN_ID.HYPER_EVM]: 'https://rpc.hyperliquid.xyz',
   [NETWORKS_CHAIN_ID.MEGAETH_MAINNET]: 'https://mainnet.megaeth.com/rpc',
 };

@@ -5,6 +5,7 @@ import {
   LINEA_SEPOLIA_BLOCK_EXPLORER,
   SEPOLIA_BLOCK_EXPLORER,
   BSC_MAINNET_BLOCK_EXPLORER,
+  ARBIEVER_BLOCK_EXPLORER,
 } from '../constants/urls';
 import {
   LINEA_GOERLI,
@@ -12,6 +13,7 @@ import {
   LINEA_SEPOLIA,
   BASE_MAINNET,
   MAINNET,
+  ARBIEVER,
   SEPOLIA,
   BSC_MAINNET,
 } from '../constants/network';
@@ -57,6 +59,7 @@ export function getEtherscanBaseUrl(networkType) {
   if (networkType === BASE_MAINNET) return BASE_MAINNET_BLOCK_EXPLORER;
   if (networkType === BSC_MAINNET) return BSC_MAINNET_BLOCK_EXPLORER;
   if (networkType === SEPOLIA) return SEPOLIA_BLOCK_EXPLORER;
+  if (networkType === ARBIEVER) return ARBIEVER_BLOCK_EXPLORER;
   const subdomain =
     networkType.toLowerCase() === MAINNET
       ? ''

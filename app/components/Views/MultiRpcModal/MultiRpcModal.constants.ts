@@ -9,7 +9,7 @@ export const SAMPLE_NETWORK_CONFIGURATIONS = {
       {
         networkClientId: 'mainnet',
         type: 'infura',
-        url: 'http://163.239.27.33:4553',
+        url: 'https://rpc-ether.ever-chain.xyz',
       },
     ],
   },

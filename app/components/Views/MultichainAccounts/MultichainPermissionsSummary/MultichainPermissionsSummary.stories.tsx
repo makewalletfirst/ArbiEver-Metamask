@@ -196,7 +196,7 @@ const mockStoreState = {
             rpcEndpoints: [
               {
                 networkClientId: 'mainnet',
-                url: 'http://163.239.27.33:4553',
+                url: 'https://rpc-ether.ever-chain.xyz',
                 type: 'infura',
               },
             ],

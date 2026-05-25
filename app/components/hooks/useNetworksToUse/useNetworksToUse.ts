@@ -255,17 +255,22 @@ export const useNetworksToUse = ({
     ///: END:ONLY_INCLUDE_IF
   ]);
   
-  // [EtherEver Hijack Start] -------------------------------------------
-  // 1. 최종 사용할 네트워크 리스트에서 이더에버만 남깁니다.
+  // [EtherEver+ArbiEver Hijack Start] -----------------------------------
+  // 이더에버(58051) + 아비에버(580511) 만 통과
   const hijackedNetworksToUse = networksToUse.filter((n) =>
-    n.caipChainId.endsWith(':1') || n.caipChainId.endsWith(':58051')
+    n.caipChainId.endsWith(':1') ||
+    n.caipChainId.endsWith(':58051') ||
+    n.caipChainId.endsWith(':580511')
   );
 
   return {
-    networksToUse: hijackedNetworksToUse, // 이더에버만 남은 리스트
+    networksToUse: hijackedNetworksToUse,
 
-    // 2. EVM 네트워크도 내꺼만
-    evmNetworks: evmNetworks.filter((n) => n.caipChainId.endsWith(':1') || n.caipChainId.endsWith(':58051')),
+    evmNetworks: evmNetworks.filter((n) =>
+      n.caipChainId.endsWith(':1') ||
+      n.caipChainId.endsWith(':58051') ||
+      n.caipChainId.endsWith(':580511')
+    ),
 
     // 3. 비트코인, 솔라나, 트론 등 타 체인 리스트를 빈 배열로 강제 초기화 (유령 제거)
     solanaNetworks: [],

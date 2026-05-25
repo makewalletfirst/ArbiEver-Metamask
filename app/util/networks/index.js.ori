@@ -690,8 +690,8 @@ export const WHITELIST_SYMBOL = {
 };
 
 export const WHITELIST_NETWORK_RPC_URL = {
-  [toHex('58051')]: 'http://163.239.27.33:4553',
-  [NETWORKS_CHAIN_ID.MAINNET]: 'http://163.239.27.33:4553',
+  [toHex('58051')]: 'https://rpc-ether.ever-chain.xyz',
+  [NETWORKS_CHAIN_ID.MAINNET]: 'https://rpc-ether.ever-chain.xyz',
   [NETWORKS_CHAIN_ID.HYPER_EVM]: 'https://rpc.hyperliquid.xyz',
   [NETWORKS_CHAIN_ID.MEGAETH_MAINNET]: 'https://mainnet.megaeth.com/rpc',
 };

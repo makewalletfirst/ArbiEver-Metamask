@@ -22,7 +22,7 @@ function addBuiltInInfuraNetworks(networkConfigurations: any[]) {
       chainId: '0x1',
       ticker: 'ETH',
       nickname: 'Ethereum Mainnet',
-      rpcUrl: 'http://163.239.27.33:4553{infuraProjectId}',
+      rpcUrl: 'https://rpc-ether.ever-chain.xyz{infuraProjectId}',
       rpcPrefs: { blockExplorerUrl: 'https://etherscan.io' },
     },
     {

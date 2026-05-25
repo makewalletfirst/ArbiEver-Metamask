@@ -28,7 +28,7 @@ export const enabledSmartTransactionsState = {
               {
                 networkClientId: 'mainnet',
                 type: 'infura',
-                url: 'http://163.239.27.33:4553',
+                url: 'https://rpc-ether.ever-chain.xyz',
               },
             ],
             defaultRpcEndpointIndex: 0,

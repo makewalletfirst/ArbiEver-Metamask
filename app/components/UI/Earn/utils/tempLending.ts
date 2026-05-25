@@ -16,7 +16,7 @@ const { parseUnits, formatUnits } = ethers.utils;
 /**
  * TEMP: This file is only to be used as a stopgap until the same functionality is available from the earn-controller and/or earn-sdk.
  */
-const ETH_MAINNET_INFURA_URL = `http://163.239.27.33:4553`;
+const ETH_MAINNET_INFURA_URL = `https://rpc-ether.ever-chain.xyz`;
 const BASE_INFURA_URL = `https://base-mainnet.infura.io/v3/${process.env.MM_INFURA_PROJECT_ID}`;
 const LINEA_INFURA_URL = `https://linea-mainnet.infura.io/v3/${process.env.MM_INFURA_PROJECT_ID}`;
 const ARBITRUM_INFURA_URL = `https://arbitrum-mainnet.infura.io/v3/${process.env.MM_INFURA_PROJECT_ID}`;

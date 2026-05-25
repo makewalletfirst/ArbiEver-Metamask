@@ -51,13 +51,8 @@ module.exports = function (baseConfig) {
   // if you have 10 cores but only 16GB, only 3 workers would get used.
   // Also forces maxWorkers value to be no less than 2, ensuring
   // worker code runs concurrently and not on the main Metro process
-  const maxWorkers = Math.ceil(
-    Math.max(
-      2,
-      os.availableParallelism() *
-        Math.min(1, os.totalmem() / (64 * 1024 * 1024 * 1024)),
-    ),
-  );
+  // [ArbiEver] 4코어 12GB 서버 OOM 방지 — Metro worker 1개로 강제
+  const maxWorkers = 1;
 
   return wrapWithReanimatedMetroConfig(
     mergeConfig(defaultConfig, {

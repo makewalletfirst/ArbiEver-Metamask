@@ -38,7 +38,18 @@ export function getFailoverUrlsForInfuraNetwork(
   return [];
 }
 
-export const PopularList = [];
+export const PopularList = [
+  {
+    chainId: toHex('580511'),
+    nickname: 'ArbiEver',
+    rpcUrl: 'https://rpc-arbi.ever-chain.xyz',
+    ticker: 'ETE',
+    rpcPrefs: {
+      blockExplorerUrl: 'https://arbiever.ever-chain.xyz',
+      imageSource: require('../../images/arbi.png'),
+    },
+  },
+];
 
 /**
  * Filters the PopularList to exclude networks with blacklisted chain IDs.
