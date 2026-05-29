@@ -36320,7 +36320,7 @@ __metadata:
     react-native-permissions: "npm:^3.7.2"
     react-native-progress: "npm:3.5.0"
     react-native-qrcode-svg: "npm:5.1.2"
-    react-native-quick-base64: "npm:^2.2.0"
+    react-native-quick-base64: "npm:^3.0.0"
     react-native-quick-crypto: "npm:^0.7.15"
     react-native-randombytes: "npm:^3.5.3"
     react-native-reanimated: "npm:^3.17.2"
@@ -41135,13 +41135,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-quick-base64@npm:^2.0.5, react-native-quick-base64@npm:^2.2.0":
+"react-native-quick-base64@npm:^2.0.5":
   version: 2.2.0
   resolution: "react-native-quick-base64@npm:2.2.0"
   peerDependencies:
     react: "*"
     react-native: "*"
   checksum: 10/8f6c099ac628e60a757f3a6835b3cd7e1dc4d987c46c42cb17cf2688d5ce38a50913f305fa036a010d103de6259fdc6d524de905760ca60e49d177dafdf03d53
+  languageName: node
+  linkType: hard
+
+"react-native-quick-base64@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "react-native-quick-base64@npm:3.0.0"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10/ee3d44bb4f034a3077412d69c050415fbce99a7dc4a0e1001443841a9d3d88f1307b9979d5ac4ce9eea37996b858d3f0dad409700c5920577b87043b27dc2297
   languageName: node
   linkType: hard
 
