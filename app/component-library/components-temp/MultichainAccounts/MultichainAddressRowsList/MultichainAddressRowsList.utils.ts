@@ -150,5 +150,11 @@ export const getCompatibleNetworksForAccount = (
     }
   });
 
-  return compatibleItems;
+  // [ArbiEver] Receive 주소 모달에서 EtherEver(L1 hijack of chainId 1) + ArbiEver(L2, 0x8db9f)
+  // 두 네트워크만 노출. BTC / Solana / Linea / Arbitrum One / BSC 등 모두 숨김.
+  const ARBIEVER_ALLOWED_HEX = new Set(['0x1', '0x8db9f']);
+  return compatibleItems.filter((item) => {
+    if (!item.chainId.startsWith('eip155:')) return false; // non-EVM 제외
+    return ARBIEVER_ALLOWED_HEX.has(extractHexChainId(item.chainId).toLowerCase());
+  });
 };
