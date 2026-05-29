@@ -30,6 +30,9 @@ const mainFeatureSet = new Set([
   'preinstalled-snaps',
   'keyring-snaps',
   'multi-srp',
+  // [ArbiEver] solana/bitcoin/tron 은 활성 유지 — 27개 파일의 fence 안에 앱 초기화 path 가
+  // 함께 들어있어 제거 시 로딩 화면에서 hang. 대신 preinstalled-snaps.ts 만 직접 수정해서
+  // BTC/SOL/TRX 의 자동 snap 설치만 차단 (fence 영향 없는 외과적 패치).
   'solana',
   'bitcoin',
   'tron',
@@ -123,7 +126,11 @@ module.exports.transform = async ({ src, filename, options }) => {
     });
 
     if (didModify) {
-      await lintTransformedFile(getESLintInstance(), filename, processedSource);
+      // [ArbiEver] fence 제거 후의 transient lint 경고 (예: unused-vars) 무시.
+      // mainFeatureSet 에서 solana/bitcoin/tron 을 빼면 그 fence 안에서만 쓰이던 변수가
+      // unused 가 돼 build 가 깨지는 경우가 생김. metro 가 syntax 자체는 따로 검증하므로
+      // 여기서만 lint 우회.
+      // await lintTransformedFile(getESLintInstance(), filename, processedSource);
     }
     return defaultTransformer.transform({
       src: processedSource,

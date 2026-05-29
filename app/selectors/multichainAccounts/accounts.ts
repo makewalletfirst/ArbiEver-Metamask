@@ -267,13 +267,21 @@ export const selectInternalAccountListSpreadByScopesByGroupId =
   createDeepEqualSelector(
     [selectInternalAccountsByGroupId, selectNetworkConfigurationsByCaipChainId],
     (internalAccounts, networkConfigurations) => {
+      // [ArbiEver] AddressList 화면 (받는 주소 모달) 화이트리스트.
+      // EtherEver(L1, chainId 0xe2c3 = 58051) + ArbiEver(L2, 0x8db9f = 580511) 두 체인만 노출.
+      // (controller-utils 의 ChainId.Mainnet 을 0xe2c3 로 hijack 했으므로 0x1 슬롯은 사용 안 함)
+      // EVM 전부 / BTC / Solana / Tron 등 나머지 모두 제거.
+      const ARBIEVER_ALLOWED_HEX = new Set(['0xe2c3', '0x8db9f']);
+
       // Pre-compute Ethereum network IDs once and filter out non-EVM networks and testnets
       const ethereumNetworkIds = Object.values(networkConfigurations)
         .filter(
           ({ caipChainId, chainId }) =>
             caipChainId.startsWith('eip155:') &&
             // @ts-expect-error - the chain id should be hex for NetworkConfiguration
-            !TEST_NETWORK_IDS.includes(chainId),
+            !TEST_NETWORK_IDS.includes(chainId) &&
+            // [ArbiEver] 두 체인만 통과
+            ARBIEVER_ALLOWED_HEX.has(String(chainId).toLowerCase()),
         )
         .map(({ caipChainId }) => caipChainId);
 
@@ -284,11 +292,12 @@ export const selectInternalAccountListSpreadByScopesByGroupId =
         const accounts = internalAccounts(groupId);
 
         const items = accounts.flatMap((account) => {
-          // Determine scopes based on account type
+          // Determine scopes based on account type.
+          // [ArbiEver] non-EVM 계정(Bitcoin / Solana 등)은 빈 scopes 로 처리 → row 자체가 안 만들어짐.
           const scopes =
             account.type === EthAccountType.Eoa
               ? ethereumNetworkIds
-              : account.scopes || [];
+              : [];
           // Filter out testnets from scopes and map each scope to an account-scope object
           return filterTestnets(
             scopes as CaipChainId[],
