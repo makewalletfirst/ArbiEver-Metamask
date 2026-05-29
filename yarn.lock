@@ -10908,6 +10908,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@open-rpc/schema-utils-js@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@open-rpc/schema-utils-js@npm:2.2.1"
+  dependencies:
+    "@json-schema-tools/dereferencer": "npm:^1.6.3"
+    "@json-schema-tools/meta-schema": "npm:^1.7.5"
+    "@json-schema-tools/reference-resolver": "npm:^1.2.6"
+    "@open-rpc/spec-types": "npm:0.0.2"
+    "@open-rpc/specification-extension-spec": "npm:^1.0.2"
+    ajv: "npm:^6.10.0"
+    detect-node: "npm:^2.0.4"
+    fast-safe-stringify: "npm:^2.0.7"
+    fs-extra: "npm:^10.1.0"
+    is-url: "npm:^1.2.4"
+    isomorphic-fetch: "npm:^3.0.0"
+  checksum: 10/8ac30b3880e57638af8c75e8cc130cb97237bbd55c4cae0948c5e1dbf01e6c639caa0515fa8eacb4b350f5410a9f02f47617244249c6231bc550b791478ee515
+  languageName: node
+  linkType: hard
+
 "@open-rpc/server-js@npm:1.9.3":
   version: 1.9.3
   resolution: "@open-rpc/server-js@npm:1.9.3"
@@ -10921,6 +10940,22 @@ __metadata:
     node-ipc: "npm:9.1.1"
     ws: "npm:^8.0.0"
   checksum: 10/27005f6a782f99892989a5e6df8d7d5ce00aa83f09f009d5826a19fe3d8c2d65ea51613a0d10ae4f798774279c4b5dd204aa5cf57eb657d7c74c9bb3a317d77e
+  languageName: node
+  linkType: hard
+
+"@open-rpc/spec-types@npm:0.0.2":
+  version: 0.0.2
+  resolution: "@open-rpc/spec-types@npm:0.0.2"
+  dependencies:
+    "@open-rpc/spec": "npm:1.4.1"
+  checksum: 10/e2698a458df89fa4a538b9773438cbe057e9514a2b298c7e4357ca1a13921d7ac8fc559048ec047d3e664292ae43ff598b57d19e73b237cb0793ab186222f333
+  languageName: node
+  linkType: hard
+
+"@open-rpc/spec@npm:1.4.1":
+  version: 1.4.1
+  resolution: "@open-rpc/spec@npm:1.4.1"
+  checksum: 10/6e6679a1b85039a724f9938b1840a020f75428b2ef899704ce7a964e16024be620b97d467a7e5d69b56a735026db62c465b841c3c349034e60ba243e9aae2db5
   languageName: node
   linkType: hard
 
@@ -36073,7 +36108,7 @@ __metadata:
     "@notifee/react-native": "npm:^9.0.0"
     "@octokit/rest": "npm:^21.0.0"
     "@open-rpc/mock-server": "npm:^1.7.5"
-    "@open-rpc/schema-utils-js": "npm:^1.16.2"
+    "@open-rpc/schema-utils-js": "npm:^2.2.1"
     "@open-rpc/test-coverage": "npm:^2.2.2"
     "@react-native-async-storage/async-storage": "npm:^1.23.1"
     "@react-native-clipboard/clipboard": "npm:^1.16.1"
