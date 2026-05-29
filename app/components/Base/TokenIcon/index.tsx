@@ -13,6 +13,8 @@ import Text from '../Text';
 import { useTheme } from '../../../util/theme';
 import imageIcons from '../../../images/image-icons';
 import ethLogo from '../../../images/eth-logo-new.png';
+// [ArbiEver] ETE (ArbiEver native asset) 큰 아이콘
+import arbiLogo from '../../../images/arbi.png';
 import { ThemeColors } from '@metamask/design-tokens';
 
 const REGULAR_SIZE = 24;
@@ -132,6 +134,11 @@ function TokenIcon({
   const getSource = useCallback(() => {
     if (symbol === 'ETH') {
       return ethLogo;
+    }
+
+    // [ArbiEver] ArbiEver L2 의 native asset (ETE) 큰 아이콘
+    if (symbol === 'ETE') {
+      return arbiLogo;
     }
 
     if (symbol === 'SOL') {

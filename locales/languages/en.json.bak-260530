@@ -1,7 +1,7 @@
 {
   "sample_feature": {
     "title": "Sample Feature",
-    "description": "This is a screen demonstrating how to build a sample feature end-to-end in ArbiEver.",
+    "description": "This is a screen demonstrating how to build a sample feature end-to-end in EtherEver.",
     "counter": {
       "title": "Counter",
       "value": "Value: {{value}}",
@@ -204,14 +204,14 @@
   },
   "onboarding": {
     "title": "Let’s get started!",
-    "sync_desc": "If you’ve already got the ArbiEver extension or another wallet, sync or import it to manage your existing assets.",
+    "sync_desc": "If you’ve already got the EtherEver extension or another wallet, sync or import it to manage your existing assets.",
     "create_desc": "Set up your first wallet and start exploring decentralized apps.",
     "import": "Import an existing wallet or create a new one",
     "import_wallet_button": "Sync or import wallet",
     "new_to_crypto": "New to crypto?",
     "start_exploring_now": "Create a new wallet",
     "unlock": "Unlock",
-    "new_to_metamask": "New to ArbiEver?",
+    "new_to_metamask": "New to EtherEver?",
     "already_have_wallet": "Already have a wallet?",
     "optin_back_title": "Heads up!",
     "optin_back_desc": "Please agree or disagree to the usage of data analytics.  You can also update this option in settings.",
@@ -219,15 +219,15 @@
     "warning_text_1": "Your current wallet and accounts will be",
     "warning_text_2": "removed",
     "warning_text_3": "if you proceed.",
-    "warning_text_4": "You can ONLY recover them with your wallet’s Secret Recovery Phrase. ArbiEver cannot help you recover it.",
+    "warning_text_4": "You can ONLY recover them with your wallet’s Secret Recovery Phrase. EtherEver cannot help you recover it.",
     "warning_proceed": "Remove wallet & proceed",
     "warning_cancel": "Cancel",
     "step1": "Wallet setup",
     "step2": "Create password",
     "step3": "Secure wallet",
     "already_have": "Already have a wallet?",
-    "sync_existing": "Sync your existing ArbiEver wallet from the browser extension or import manually.",
-    "scan_title": "Steps to sync with ArbiEver extension",
+    "sync_existing": "Sync your existing EtherEver wallet from the browser extension or import manually.",
+    "scan_title": "Steps to sync with EtherEver extension",
     "scan": "Scan",
     "scan_step_1": "Open the extension on desktop",
     "scan_step_2": "Go to Settings > Advanced",
@@ -248,7 +248,7 @@
     "have_existing_wallet": "I have an existing wallet",
     "import_using_srp": "Import using Secret Recovery Phrase",
     "import_using_srp_social_login": "I have an existing wallet",
-    "by_continuing": "By continuing, you agree to ArbiEver's",
+    "by_continuing": "By continuing, you agree to EtherEver's",
     "terms_of_use": "Terms of use",
     "privacy_notice": "Privacy notice",
     "and": "and"
@@ -293,12 +293,12 @@
     "existing_user_button": "Unlock wallet"
   },
   "onboarding_carousel": {
-    "title1": "Welcome to ArbiEver",
+    "title1": "Welcome to EtherEver",
     "title2": "Manage your digital assets",
     "title3": "Your gateway to web3",
-    "subtitle1": "Trusted by millions, ArbiEver is a secure wallet making the world of web3 accessible to all.",
+    "subtitle1": "Trusted by millions, EtherEver is a secure wallet making the world of web3 accessible to all.",
     "subtitle2": "Store, spend and send digital assets like tokens, Ethereum, unique collectibles.",
-    "subtitle3": "Login with ArbiEver and make transactions to invest, earn, play games, sell and more!",
+    "subtitle3": "Login with EtherEver and make transactions to invest, earn, play games, sell and more!",
     "get_started": "Get started"
   },
   "onboarding_wizard": {
@@ -328,7 +328,7 @@
     "step4": {
       "title": "Main Menu",
       "content1": "You can access Transaction history, Settings, and Support from this menu.",
-      "content2": "You can take more actions with your accounts & access ArbiEver settings."
+      "content2": "You can take more actions with your accounts & access EtherEver settings."
     },
     "step5": {
       "title": "Explore the Browser",
@@ -347,7 +347,7 @@
     },
     "step1": {
       "title": "Welcome to your wallet!",
-      "content1": "On the blockchain, you need a wallet (and maybe some ETH). So let’s take a look at how to use your ArbiEver wallet."
+      "content1": "On the blockchain, you need a wallet (and maybe some ETH). So let’s take a look at how to use your EtherEver wallet."
     },
     "step2": {
       "title": "Your accounts",
@@ -379,14 +379,14 @@
     "subtitle": "This shouldn’t take long"
   },
   "import_wallet": {
-    "title": "Already a ArbiEver user?",
+    "title": "Already a EtherEver user?",
     "sub_title": "Sync with the extension",
     "sync_help": "Sync your wallet with the extension",
     "sync_help_step_one": "1. Open the extension",
     "sync_help_step_two": "2. Go to Settings > Advanced",
     "sync_help_step_three": "3. Click on \"Sync with Mobile\"",
     "sync_help_step_four": "4. Scan the QR Code to start syncing",
-    "sync_from_browser_extension_button": "Sync with ArbiEver extension",
+    "sync_from_browser_extension_button": "Sync with EtherEver extension",
     "or": "OR",
     "import_from_seed_button": "Import using Secret Recovery Phrase"
   },
@@ -406,22 +406,22 @@
     "your_current_wallet": "Your wallet, accounts, and assets will be",
     "removed_from": " permanently removed from this app",
     "this_action": "This action cannot be undone.",
-    "you_can_only": "You can only get this wallet back with the info used when creating it, such as your Secret Recovery Phrase, Google account, or Apple account. ArbiEver doesn’t have this info.",
+    "you_can_only": "You can only get this wallet back with the info used when creating it, such as your Secret Recovery Phrase, Google account, or Apple account. EtherEver doesn’t have this info.",
     "recovery_phrase": "Secret Recovery Phrase ",
-    "metamask_does_not": "ArbiEver does not have your Secret Recovery Phrase.",
+    "metamask_does_not": "EtherEver does not have your Secret Recovery Phrase.",
     "i_understand": "I understand, continue",
     "passcode_not_set_error": "Error: Passcode not set.",
     "wrong_password_error": "Error: Decrypt failed",
     "wrong_password_error_android": "Error: error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT",
     "vault_error": "Error: Cannot unlock without a previous vault.",
-    "clean_vault_error": "ArbiEver encountered an error due to reaching a storage limit. The local data has been corrupted. Please reinstall ArbiEver and restore with your Secret Recovery Phrase.",
+    "clean_vault_error": "EtherEver encountered an error due to reaching a storage limit. The local data has been corrupted. Please reinstall EtherEver and restore with your Secret Recovery Phrase.",
     "seedless_password_outdated": "Your password was changed recently.",
     "seedless_password_outdated_modal_title": "Your password was changed",
-    "seedless_password_outdated_modal_content": "Your password was recently changed, so you need to enter your new password to stay logged into ArbiEver.",
+    "seedless_password_outdated_modal_content": "Your password was recently changed, so you need to enter your new password to stay logged into EtherEver.",
     "seedless_password_outdated_modal_confirm": "Continue",
     "no_internet_connection": "Seedless account recovery requires internet connection.",
     "seedless_controller_error_prompt_title": "Something went wrong",
-    "seedless_controller_error_prompt_description": "An issue occurred while unlocking. Re-login with Google and your ArbiEver password.",
+    "seedless_controller_error_prompt_description": "An issue occurred while unlocking. Re-login with Google and your EtherEver password.",
     "seedless_controller_error_prompt_primary_button_label": "Log in",
     "security_alert_title": "Security Alert",
     "security_alert_desc": "In order to proceed, you need to turn Passcode on or any biometrics authentication method supported in your device (FaceID, TouchID or Fingerprint)",
@@ -430,8 +430,8 @@
     "google_button": "Sign in with Google",
     "other_methods": "Use a different login method",
     "forgot_password_desc": "Forgot your password?",
-    "forgot_password_desc_2": "ArbiEver can’t recover your password for you.",
-    "forgot_password_point_1": "If you’re logged into ArbiEver on a device with",
+    "forgot_password_desc_2": "EtherEver can’t recover your password for you.",
+    "forgot_password_point_1": "If you’re logged into EtherEver on a device with",
     "forgot_password_point_1_bold": "biometrics turned on",
     "forgot_password_point_1_1": "(like Face ID), you can reset your password there.",
     "forgot_password_point_2": "If you have your",
@@ -440,9 +440,9 @@
     "reset_wallet": "Reset wallet",
     "reset_wallet_desc": "Your wallet data will be",
     "reset_wallet_desc_bold": "permanently erased",
-    "reset_wallet_desc_2": "from ArbiEver on this device. This can’t be undone.",
-    "reset_wallet_desc_login": "To restore your wallet, you can use your Secret Recovery Phrase, or your Google or Apple account password. ArbiEver doesn’t have this information.",
-    "reset_wallet_desc_srp": "To restore your wallet, make sure you have your Secret Recovery Phrase. ArbiEver doesn’t have this information."
+    "reset_wallet_desc_2": "from EtherEver on this device. This can’t be undone.",
+    "reset_wallet_desc_login": "To restore your wallet, you can use your Secret Recovery Phrase, or your Google or Apple account password. EtherEver doesn’t have this information.",
+    "reset_wallet_desc_srp": "To restore your wallet, make sure you have your Secret Recovery Phrase. EtherEver doesn’t have this information."
   },
   "connect_hardware": {
     "title_select_hardware": "Connect a hardware wallet",
@@ -456,13 +456,13 @@
     "error": "Error"
   },
   "choose_password": {
-    "title": "ArbiEver password",
-    "description": "Unlocks ArbiEver on this device only.",
+    "title": "EtherEver password",
+    "description": "Unlocks EtherEver on this device only.",
     "description_social_login": "Use this for wallet recovery on all devices.",
     "description_social_login_update": "If you lose this password, you’ll lose access to your wallet on all devices. Store it somewhere safe,",
-    "description_social_login_update_ios": "Use this for wallet recovery on all devices. ArbiEver can’t reset it.",
-    "description_social_login_update_bold": "ArbiEver can't reset it.",
-    "subtitle": "This password will unlock your ArbiEver wallet only on this device.",
+    "description_social_login_update_ios": "Use this for wallet recovery on all devices. EtherEver can’t reset it.",
+    "description_social_login_update_bold": "EtherEver can't reset it.",
+    "subtitle": "This password will unlock your EtherEver wallet only on this device.",
     "password": "Create password",
     "confirm_password": "Confirm password",
     "create_button": "Create password",
@@ -480,7 +480,7 @@
     "remember_me": "Remember me",
     "security_alert_title": "Security Alert",
     "security_alert_message": "In order to proceed, you need to turn Passcode on or any biometrics authentication method supported in your device (FaceID, TouchID or Fingerprint)",
-    "i_understand": "I understand that ArbiEver cannot recover this password for me.",
+    "i_understand": "I understand that EtherEver cannot recover this password for me.",
     "learn_more": "Learn more",
     "secure": "Secure wallet",
     "confirm": "Confirm Secret Recovery Phrase",
@@ -489,11 +489,11 @@
     "steps": "Step {{currentStep}} of {{totalSteps}}",
     "password_error": "Passwords don’t match.",
     "marketing_opt_in_description": "Get product updates, tips, and news including by email. We may use your interactions to improve what we share.",
-    "loose_password_description": "If I lose this password, ArbiEver can’t reset it."
+    "loose_password_description": "If I lose this password, EtherEver can’t reset it."
   },
   "reset_password": {
     "title": "Change password",
-    "subtitle": "This password will unlock your ArbiEver wallet only on this device.",
+    "subtitle": "This password will unlock your EtherEver wallet only on this device.",
     "password": "New password",
     "confirm_password": "Confirm password",
     "reset_button": "Reset password",
@@ -511,7 +511,7 @@
     "remember_me": "Remember me",
     "security_alert_title": "Security Alert",
     "security_alert_message": "In order to proceed, you need to turn Passcode on or any biometrics authentication method supported in your device (FaceID, TouchID or Fingerprint)",
-    "i_understand": "I understand that ArbiEver cannot recover this password for me.",
+    "i_understand": "I understand that EtherEver cannot recover this password for me.",
     "learn_more": "Learn more",
     "secure": "Secure wallet",
     "confirm": "Confirm Secret Recovery Phrase",
@@ -521,12 +521,12 @@
     "confirm_password_placeholder": "Re-enter your password",
     "confirm_btn": "Save",
     "warning_password_change_title": "Are you sure?",
-    "warning_password_change_description": "Changing your password here will lock ArbiEver on other devices you’re using. You’ll need to log in again with your new password",
+    "warning_password_change_description": "Changing your password here will lock EtherEver on other devices you’re using. You’ll need to log in again with your new password",
     "warning_password_change_button": "Confirm",
     "warning_password_cancel_button": "Cancel",
     "changing_password": "Changing password...",
     "changing_password_subtitle": "This shouldn’t take long",
-    "checkbox_forgot_password": "If I forget this password, I’ll lose access to my wallet permanently. ArbiEver can’t reset it for me.",
+    "checkbox_forgot_password": "If I forget this password, I’ll lose access to my wallet permanently. EtherEver can’t reset it for me.",
     "seedless_change_password_error_modal_title": "Change password failed",
     "seedless_change_password_error_modal_content": "We were unable to change your password. Please try again.",
     "seedless_change_password_error_modal_confirm": "Try again"
@@ -546,14 +546,14 @@
     "invalid_qr_code_title": "Invalid QR Code",
     "invalid_qr_code_message": "This QR code doesn't represent a valid Secret Recovery Phrase",
     "enter_your_secret_recovery_phrase": "Enter your Secret Recovery Phrase",
-    "metamask_password": "ArbiEver password",
-    "metamask_password_description": "Unlocks ArbiEver on this device only.",
+    "metamask_password": "EtherEver password",
+    "metamask_password_description": "Unlocks EtherEver on this device only.",
     "seed_phrase_required": "Secret Recovery Phrase is required",
     "re_enter_password": "Re-enter your password",
     "use_at_least_8_characters": "Use at least 8 characters",
     "unlock_with_face_id": "Unlock with Face ID?",
-    "learn_more": "If I forget this password, ArbiEver can't recover it for me.",
-    "learn_more_social_login": "If I forget this password, I’ll lose access to my wallet permanently. ArbiEver can’t reset it for me.",
+    "learn_more": "If I forget this password, EtherEver can't recover it for me.",
+    "learn_more_social_login": "If I forget this password, I’ll lose access to my wallet permanently. EtherEver can’t reset it for me.",
     "seed_phrase_length_error": "Secret Recovery Phrase must be 12, 15, 18, 21, or 24 words",
     "continue": "Continue",
     "clear_all": "Clear all",
@@ -607,7 +607,7 @@
     "lock_ok": "YES",
     "lock_cancel": "NO",
     "feedback": "Feedback",
-    "metamask_support": "ArbiEver Support",
+    "metamask_support": "EtherEver Support",
     "public_address": "Public Address"
   },
   "send": {
@@ -641,7 +641,7 @@
     "network_not_found_title": "Network not found",
     "network_not_found_description": "Network with chain id {{chain_id}} not found in your wallet. Please add the network first.",
     "network_missing_id": "Missing chain id.",
-    "search_tokens": "Search tokens",
+    "search_tokens":"Search tokens",
     "search_tokens_and_nfts": "Search tokens and NFTs",
     "tokens": "Tokens",
     "nfts": "NFTs",
@@ -855,7 +855,7 @@
     },
     "privacy_section": {
       "transak": "Transak encrypts and stores this information.",
-      "metamask": "ArbiEver never receives or uses your data."
+      "metamask": "EtherEver never receives or uses your data."
     },
     "kyc_processing": {
       "navbar_title": "Verify your identity",
@@ -1016,8 +1016,8 @@
       "apply": "Apply",
       "max_button": "Max",
       "done_button": "Done",
-      "metamask_fee": "ArbiEver fee",
-      "metamask_fee_tooltip": "ArbiEver does not charge any fees for deposits to Hyperliquid",
+      "metamask_fee": "EtherEver fee",
+      "metamask_fee_tooltip": "EtherEver does not charge any fees for deposits to Hyperliquid",
       "minimum_deposit_error": "Minimum deposit amount is {{amount}} USDC",
       "processing_title": "Processing deposit",
       "preview": {
@@ -1091,7 +1091,7 @@
       "success_title": "Withdrawal successful",
       "success_description": "Your {{amount}} USDC has been withdrawn from Hyperliquid",
       "network_fee": "Network fee",
-      "metamask_fee": "ArbiEver fee",
+      "metamask_fee": "EtherEver fee",
       "total_fees": "Total fees",
       "receiving_amount": "You will receive",
       "estimated_time": "Estimated time",
@@ -1119,10 +1119,10 @@
       "network_fee": "Network fee",
       "estimated_time": "Estimated time",
       "rate": "Rate",
-      "metamask_fee": "ArbiEver fee",
-      "metamask_fee_tooltip": "ArbiEver does not charge any fees for Hyperliquid transactions",
-      "metamask_fee_tooltip_deposit": "ArbiEver does not charge any fees for deposits to Hyperliquid",
-      "metamask_fee_tooltip_withdrawal": "ArbiEver does not charge any fees for withdrawals from Hyperliquid"
+      "metamask_fee": "EtherEver fee",
+      "metamask_fee_tooltip": "EtherEver does not charge any fees for Hyperliquid transactions",
+      "metamask_fee_tooltip_deposit": "EtherEver does not charge any fees for deposits to Hyperliquid",
+      "metamask_fee_tooltip_withdrawal": "EtherEver does not charge any fees for withdrawals from Hyperliquid"
     },
     "order": {
       "title": "New order",
@@ -1599,14 +1599,14 @@
       "fees": {
         "title": "Fees",
         "content": "Trading fees are charged when you open or close a position.",
-        "metamask_fee": "ArbiEver fee",
+        "metamask_fee": "EtherEver fee",
         "provider_fee": "Provider fee",
         "total": "Total fees",
-        "discount_message": "You're saving {{percentage}}% with ArbiEver Rewards."
+        "discount_message": "You're saving {{percentage}}% with EtherEver Rewards."
       },
       "closing_fees": {
         "title": "Closing fees",
-        "metamask_fee": "ArbiEver fee",
+        "metamask_fee": "EtherEver fee",
         "provider_fee": "Provider fee"
       },
       "estimated_pnl": {
@@ -1667,7 +1667,7 @@
       },
       "points": {
         "title": "Points",
-        "content": "Points are how you earn ArbiEver Rewards for completing transactions, like when you swap, bridge, or trade perps."
+        "content": "Points are how you earn EtherEver Rewards for completing transactions, like when you swap, bridge, or trade perps."
       },
       "market_hours": {
         "title": "Market hours",
@@ -1745,7 +1745,7 @@
     },
     "support": {
       "title": "Contact support",
-      "description": "Contact ArbiEver Support for assistance"
+      "description": "Contact EtherEver Support for assistance"
     },
     "close_all_modal": {
       "title": "Close all positions",
@@ -1777,7 +1777,7 @@
     },
     "crossMargin": {
       "title": "Cross margin not supported",
-      "message": "ArbiEver Perps only support trading with isolated margin. You need to first close your cross margin position before you can trade on ArbiEver.",
+      "message": "EtherEver Perps only support trading with isolated margin. You need to first close your cross margin position before you can trade on EtherEver.",
       "dismiss": "Got it"
     },
     "sort": {
@@ -1841,7 +1841,7 @@
         "size": "Size",
         "limit_price": "Limit price",
         "filled": "Filled",
-        "metamask_fee": "ArbiEver fee",
+        "metamask_fee": "EtherEver fee",
         "hyperliquid_fee": "Hyperliquid fee",
         "total_fee": "Total fee",
         "liquidated": "Liquidated",
@@ -1881,7 +1881,7 @@
       "add_funds": "Add funds",
       "what_are_perps": {
         "title": "What are perps?",
-        "description": "ArbiEver now supports perpetual futures—aka perps—letting you trade on a token's price movement without buying it.",
+        "description": "EtherEver now supports perpetual futures—aka perps—letting you trade on a token's price movement without buying it.",
         "subtitle": "Here's how it works."
       },
       "go_long_or_short": {
@@ -1904,7 +1904,7 @@
       "ready_to_trade": {
         "title": "Ready to trade?",
         "description": "Fund your perps account with any token and make your first trade in seconds.",
-        "footer_text": "ArbiEver will swap your funds to USDC on Arbitrum, and deposit them onto HyperCore for no added fee."
+        "footer_text": "EtherEver will swap your funds to USDC on Arbitrum, and deposit them onto HyperCore for no added fee."
       },
       "got_it": "Got it",
       "lets_go": "Let's go",
@@ -1922,15 +1922,15 @@
       "title": "PnL Hero Card",
       "header_title": "Share your trade",
       "share_button": "Share",
-      "share_message_with_referral_code": "Trade {{asset}} perps on ArbiEver. Sign up using my referral code {{code}} to earn extra rewards. {{link}}",
-      "share_message_without_referral_code": "Trade {{asset}} perps on ArbiEver.",
+      "share_message_with_referral_code": "Trade {{asset}} perps on EtherEver. Sign up using my referral code {{code}} to earn extra rewards. {{link}}",
+      "share_message_without_referral_code": "Trade {{asset}} perps on EtherEver.",
       "share_failed": "Failed to export image",
       "export_success": "Exported image",
       "referral_code_text": "Use my referral code to earn extra rewards."
     }
   },
   "predict": {
-    "title": "ArbiEver Predict",
+    "title": "EtherEver Predict",
     "prediction_markets": "Prediction markets",
     "market_list": "Market list",
     "loading": "Loading...",
@@ -2055,7 +2055,7 @@
     },
     "consent_sheet": {
       "title": "Terms of use",
-      "description": "ArbiEver partners with Polymarket to offer prediction markets. All of our available markets, orders, and settlements happen on Polymarket.",
+      "description": "EtherEver partners with Polymarket to offer prediction markets. All of our available markets, orders, and settlements happen on Polymarket.",
       "learn_more": "Learn more.",
       "agree": "Agree",
       "disagree": "Disagree",
@@ -2133,11 +2133,11 @@
       "fees": "Fees",
       "provider_fee_label": "Polymarket fee",
       "provider_fee": "Provider fee",
-      "metamask_fee": "ArbiEver fee",
+      "metamask_fee": "EtherEver fee",
       "total": "Total",
       "estimated_points": "Est. points",
       "points_tooltip": "Points",
-      "points_tooltip_content_1": "Points are how you earn ArbiEver Rewards for completing transactions, like when you swap, bridge, or predict.",
+      "points_tooltip_content_1": "Points are how you earn EtherEver Rewards for completing transactions, like when you swap, bridge, or predict.",
       "points_tooltip_content_2": "Keep in mind this value is an estimate and will be finalized once the transaction is complete. Points can take up to 1 hour to be confirmed in your Rewards balance.",
       "points_error": "We can't load points right now",
       "points_error_content": "You'll still earn any points for this transaction. We'll notify you once they've been added to your account. You can also check your rewards tab in about an hour."
@@ -2190,7 +2190,7 @@
       "subtitle": "Move across 9 chains, all within your wallet"
     },
     "card": {
-      "title": "ArbiEver Card",
+      "title": "EtherEver Card",
       "subtitle": "Available in select regions"
     },
     "fund": {
@@ -2198,7 +2198,7 @@
       "subtitle": "Add or transfer tokens to get started"
     },
     "cashout": {
-      "title": "Cash out with ArbiEver",
+      "title": "Cash out with EtherEver",
       "subtitle": "Sell your crypto for cash"
     },
     "aggregated": {
@@ -2207,7 +2207,7 @@
     },
     "multisrp": {
       "title": "Add multiple Secret Recovery Phrases",
-      "subtitle": "Import and use multiple wallets in ArbiEver"
+      "subtitle": "Import and use multiple wallets in EtherEver"
     },
     "solana": {
       "title": "Solana is now supported",
@@ -2279,7 +2279,7 @@
     "no_tokens": "You don't have any tokens!",
     "show_tokens_without_balance": "Show tokens without balance",
     "nfts_autodetection_title": "NFT detection",
-    "nfts_autodetection_desc": "Let ArbiEver automatically detect and display NFTs in your wallet.",
+    "nfts_autodetection_desc": "Let EtherEver automatically detect and display NFTs in your wallet.",
     "network_details_check": "Network details check",
     "network_with_chain_id": "The network with chain ID",
     "chain_list_returned_different_ticker_symbol": "This token symbol doesn't match the network name or chain ID entered. Many popular tokens use similar symbols, which scammers can use to trick you into sending them a more valuable token in return. Verify everything before you continue.",
@@ -2376,7 +2376,7 @@
       "remove_nft": "Remove NFT"
     },
     "attributes": "Attributes",
-    "disclaimer": "Disclaimer: ArbiEver pulls the media file from the source URL. This URL is sometimes changed by the marketplace the NFT was minted on."
+    "disclaimer": "Disclaimer: EtherEver pulls the media file from the source URL. This URL is sometimes changed by the marketplace the NFT was minted on."
   },
   "activity_view": {
     "title": "Activity"
@@ -2435,7 +2435,7 @@
     "privacy_policy_button": "Privacy Policy",
     "agree": "I Agree",
     "decline": "No Thanks",
-    "description_title": "Help improve ArbiEver",
+    "description_title": "Help improve EtherEver",
     "description_content_1": "We’d like to request these permissions. You can opt out or delete your usage data at any time.",
     "description_content_2": "When we gather metrics, it will always be...",
     "description_content_3": "Learn how we protect your privacy while collecting usage data for your profile.",
@@ -2455,12 +2455,12 @@
     "cta_i_agree": "I agree",
     "continue": "Continue",
     "fine_print_1_legacy": "This data is aggregated and is therefore anonymous for the purposes of General Data Protection Regulation (EU) 2016/679.",
-    "fine_print_2a_legacy": "*When you use Infura as your default RPC provider in ArbiEver, Infura will collect your IP address and your Ethereum wallet address when you send a transaction. We don’t store this information in a way that allows our systems to associate those two pieces of data. You can configure your RPC provider",
-    "fine_print_2b_legacy": "before proceeding.\nFor more information on how ArbiEver and Infura interact from a data collection perspective, see our update",
+    "fine_print_2a_legacy": "*When you use Infura as your default RPC provider in EtherEver, Infura will collect your IP address and your Ethereum wallet address when you send a transaction. We don’t store this information in a way that allows our systems to associate those two pieces of data. You can configure your RPC provider",
+    "fine_print_2b_legacy": "before proceeding.\nFor more information on how EtherEver and Infura interact from a data collection perspective, see our update",
     "fine_print_2c_legacy": ". For more information on our privacy practices in general, see our Privacy Policy",
     "here_legacy": "here",
-    "description_content_1_legacy": "ArbiEver would like to gather usage data to better understand how our users interact with ArbiEver. This data will be used to provide the service, which includes improving the service based on your use.",
-    "description_content_2_legacy": "ArbiEver will...",
+    "description_content_1_legacy": "EtherEver would like to gather usage data to better understand how our users interact with EtherEver. This data will be used to provide the service, which includes improving the service based on your use.",
+    "description_content_2_legacy": "EtherEver will...",
     "action_description_1_legacy": "Always allow you to opt-out via Settings",
     "action_description_2_legacy": "Send anonymized click & pageview events",
     "action_description_3_legacy": "collect information we don’t need to provide the service (such as keys, addresses, transaction hashes, or balances)",
@@ -2558,7 +2558,7 @@
     "no": "No",
     "yes_remove_it": "Yes, remove it",
     "remove_hardware_account": "Remove hardware account",
-    "remove_hw_account_alert_description": "Are you sure you want to remove this hardware wallet account? You’ll have to resync your hardware wallet if you want to use this account again with ArbiEver Mobile.",
+    "remove_hw_account_alert_description": "Are you sure you want to remove this hardware wallet account? You’ll have to resync your hardware wallet if you want to use this account again with EtherEver Mobile.",
     "remove_snap_account": "Remove snap account",
     "remove_snap_account_alert_description": "This account will be removed from your wallet. Please make sure you have the original Secret Recovery Phrase or private key for this imported account before continuing. You can import or create accounts again from the account drop-down.",
     "remove_account_alert_remove_btn": "Remove",
@@ -2598,7 +2598,7 @@
     "learn_more": "Learn more",
     "advisory_by": "Advisory provided by Ethereum Phishing Detector and PhishFort",
     "potential_threat": "Potential threats include",
-    "fake_metamask": "Fake versions of ArbiEver",
+    "fake_metamask": "Fake versions of EtherEver",
     "srp_theft": "Secret recovery phrase or password theft",
     "malicious_transactions": "Malicious transactions resulting in stolen assets",
     "secret_recovery_phrase": "Secret Recovery Phrase",
@@ -2673,7 +2673,7 @@
   },
   "data_collection_modal": {
     "accept": "Okay",
-    "content": "You turned off data collection for our marketing purposes. This only applies to this device. If you use ArbiEver on other devices, make sure to opt out there as well."
+    "content": "You turned off data collection for our marketing purposes. This only applies to this device. If you use EtherEver on other devices, make sure to opt out there as well."
   },
   "account_selector": {
     "prev": "PREV",
@@ -2698,7 +2698,7 @@
     "current_conversion": "Base Currency",
     "current_language": "Current Language",
     "ipfs_gateway": "IPFS Gateway",
-    "ipfs_gateway_content": "ArbiEver uses third-party services to show images of your NFTs stored on IPFS, display information related to ENS addresses entered in your browser's address bar, and fetch icons for different tokens. Your IP address may be exposed to these services when you’re using them.",
+    "ipfs_gateway_content": "EtherEver uses third-party services to show images of your NFTs stored on IPFS, display information related to ENS addresses entered in your browser's address bar, and fetch icons for different tokens. Your IP address may be exposed to these services when you’re using them.",
     "ipfs_gateway_down": "Your current IPFS gateway is down",
     "ipfs_gateway_desc": "Choose your preferred IPFS gateway.",
     "search_engine": "Search Engine",
@@ -2707,7 +2707,7 @@
     "add_network_title": "Add a network",
     "auto_lock": "Auto-lock",
     "auto_lock_desc": "Choose the amount of time before the application automatically locks.",
-    "state_logs_desc": "This will help ArbiEver debug any issue you might encounter. Please send it to ArbiEver support via hamburger icon > Send Feedback, or reply to your existing ticket if you have one.",
+    "state_logs_desc": "This will help EtherEver debug any issue you might encounter. Please send it to EtherEver support via hamburger icon > Send Feedback, or reply to your existing ticket if you have one.",
     "autolock_immediately": "Immediately",
     "autolock_never": "Never",
     "autolock_after": "After {{time}} seconds",
@@ -2744,7 +2744,7 @@
     "manage_recovery_method": "Manage recovery methods",
     "video_failed": "Video Failed to Load.",
     "protect_desc": "Back up your Secret Recovery Phrase so you never lose access to your wallet. Be sure to store it in a safe place that only you can access and won’t forget",
-    "protect_desc_no_backup": "This is your wallet’s 12 word phrase. This phrase can be used to take control of all your current and future accounts, including the ability to send away funds in your wallet. Keep this phrase stored safely, DO NOT share it with anyone. ArbiEver cannot help you recover this key.",
+    "protect_desc_no_backup": "This is your wallet’s 12 word phrase. This phrase can be used to take control of all your current and future accounts, including the ability to send away funds in your wallet. Keep this phrase stored safely, DO NOT share it with anyone. EtherEver cannot help you recover this key.",
     "learn_more": "Learn more.",
     "seedphrase_not_backed_up": "Important! Secret Recovery Phrase not backed up",
     "seedphrase_backed_up": "Secret Recovery Phrase backed up",
@@ -2833,9 +2833,9 @@
     "remove_network_title": "Do you want to remove this network?",
     "remove_network": "Remove",
     "cancel_remove_network": "Cancel",
-    "info_title": "About ArbiEver",
-    "info_title_beta": "About ArbiEver Beta",
-    "info_title_flask": "About ArbiEver Flask",
+    "info_title": "About EtherEver",
+    "info_title_beta": "About EtherEver Beta",
+    "info_title_flask": "About EtherEver Flask",
     "experimental_title": "Experimental",
     "experimental_desc": "WalletConnect & more...",
     "legal_title": "Legal",
@@ -2855,7 +2855,7 @@
     "clear_history_desc": "Choose this option to clear your entire browsing history.",
     "clear_cookies_desc": "Choose this option to clear your browser's cookies.",
     "metametrics_title": "Participate in MetaMetrics",
-    "metametrics_description": "Participate in MetaMetrics to help us make ArbiEver better.",
+    "metametrics_description": "Participate in MetaMetrics to help us make EtherEver better.",
     "data_collection_title": "Data collection for marketing",
     "data_collection_description": "We’ll use MetaMetrics to learn how you interact with our marketing communications. We may share relevant news (like product features and other materials).",
     "batch_balance_requests_title": "Batch account balance requests",
@@ -2918,18 +2918,18 @@
     "delete_metrics_confirm_modal_title": "Delete MetaMetrics data?",
     "delete_metrics_confirm_modal_description": "We are about to remove all your MetaMetrics data. Are you sure?",
     "delete_wallet_data_title": "Reset wallet",
-    "delete_wallet_data_description": "This will remove all wallet related data from your device. Your accounts exist on the blockchain and are not related to ArbiEver. You can always recover your accounts using your Secret Recovery Phrase.",
+    "delete_wallet_data_description": "This will remove all wallet related data from your device. Your accounts exist on the blockchain and are not related to EtherEver. You can always recover your accounts using your Secret Recovery Phrase.",
     "delete_wallet_data_button": "Reset wallet",
     "delete_data_status_title": "Deletion Task Status",
     "delete_data_status_description": "The current status is",
     "delete_metrics_error_title": "We are unable to delete this data right now.",
     "delete_metrics_error_description": "This request can't be completed right now due to an analytics system server issue, please try again later.",
     "ok": "OK",
-    "clear_sdk_connections_title": "Clear all ArbiEver SDK Connections",
+    "clear_sdk_connections_title": "Clear all EtherEver SDK Connections",
     "clear_sdk_connections_text": "All connections will be cleared and dapps will need to request connection again",
-    "sdk_connections": "ArbiEver SDK Connections",
+    "sdk_connections": "EtherEver SDK Connections",
     "manage_sdk_connections_title": "Manage connections",
-    "manage_sdk_connections_text": "Remove connections to sites and/or ArbiEver SDK.",
+    "manage_sdk_connections_text": "Remove connections to sites and/or EtherEver SDK.",
     "fiat_on_ramp": {
       "title": "Buy & Sell Crypto",
       "description": "Region & more...",
@@ -2954,9 +2954,9 @@
     "contact_support": "Contact support",
     "display_nft_media": "Display NFT Media",
     "display_nft_media_desc": "Displaying NFT media and data exposes your IP address to OpenSea or other third parties. NFT autodetection relies on this feature, and won't be available when this is turned off.",
-    "autodetect_nft_desc": "Let ArbiEver add NFTs you own using third-party services (like OpenSea). Autodetecting NFTs exposes your IP and account address to these services. Enabling this feature could associate your IP address with your Ethereum address and display fake NFTs airdropped by scammers. You can add tokens manually to avoid this risk.",
+    "autodetect_nft_desc": "Let EtherEver add NFTs you own using third-party services (like OpenSea). Autodetecting NFTs exposes your IP and account address to these services. Enabling this feature could associate your IP address with your Ethereum address and display fake NFTs airdropped by scammers. You can add tokens manually to avoid this risk.",
     "display_nft_media_desc_new": "Displaying NFT media and data exposes your IP address to OpenSea or other third parties. NFT autodetection relies on this feature, and won't be available when turned off. If NFT media is fully located on IPFS, it can still be displayed even when this feature is turned off.",
-    "use_safe_chains_list_validation_desc_1": "ArbiEver uses a third-party service called ",
+    "use_safe_chains_list_validation_desc_1": "EtherEver uses a third-party service called ",
     "use_safe_chains_list_validation_desc_2": "to show accurate and standardized network details. This reduces your chances of connecting to malicious or incorrect network. When using this feature, your IP address is exposed to  ",
     "snaps": {
       "title": "Snaps",
@@ -2972,7 +2972,7 @@
         "remove_button_label": "Remove {{snapName}}",
         "remove_account_snap_warning": {
           "title": "Remove Snap",
-          "description": "Removing this Snap removes these accounts from ArbiEver:",
+          "description": "Removing this Snap removes these accounts from EtherEver:",
           "remove_account_snap_alert_description_1": "Type",
           "remove_account_snap_alert_description_2": "to confirm you want to remove this snap:",
           "banner_title": "Be sure you can access any accounts created by this Snap on your own before removing it",
@@ -3045,7 +3045,7 @@
     "dismiss_smart_account_update_heading": "Dismiss \"Switch to Smart Account\" suggestion",
     "dismiss_smart_account_update_desc": "Turn this on to no longer see the \"Switch to Smart Account\" suggestion on any account. Smart accounts unlocks faster transactions, lower network fees and more flexibility on payment for those.",
     "use_smart_account_heading": "Use smart account",
-    "use_smart_account_desc": "Keep this on to automatically switch accounts created within ArbiEver to smart accounts whenever relevant features are available, such as faster transactions, lower network fees and payment flexibility on payment for those.",
+    "use_smart_account_desc": "Keep this on to automatically switch accounts created within EtherEver to smart accounts whenever relevant features are available, such as faster transactions, lower network fees and payment flexibility on payment for those.",
     "use_smart_account_learn_more": "Learn more.",
     "smart_transactions_opt_in_heading": "Smart Transactions",
     "smart_transactions_opt_in_desc_supported_networks": "Turn on Smart Transactions for more reliable and secure transactions on supported networks.",
@@ -3054,7 +3054,7 @@
     "simulation_details_description": "Turn this on to estimate balance changes of transactions before you confirm them. This doesn't guarantee the final outcome of your transactions. ",
     "simulation_details_learn_more": "Learn more.",
     "aes_crypto_test_form_title": "AES Crypto - Test Form",
-    "aes_crypto_test_form_description": "Section exclusively developed for E2E testing. If this is visible in your app, please report it to ArbiEver support.",
+    "aes_crypto_test_form_description": "Section exclusively developed for E2E testing. If this is visible in your app, please report it to EtherEver support.",
     "developer_options": {
       "title": "Developer Options",
       "generate_trace_test": "Generate Trace Test",
@@ -3090,7 +3090,7 @@
     "manage_connections": "Manage Connections",
     "manage": "Manage",
     "cancel": "Cancel",
-    "loading": "Connecting to ArbiEver...",
+    "loading": "Connecting to EtherEver...",
     "unkown_dapp": "DAPP name not available",
     "unknown": "Unknown",
     "no_connections": "No connections",
@@ -3116,7 +3116,7 @@
   "sdk_feedback_modal": {
     "ok": "OK",
     "title": "Account couldn't connect",
-    "info": "Please scan the QR code on the dApp to reconnect to ArbiEver"
+    "info": "Please scan the QR code on the dApp to reconnect to EtherEver"
   },
   "app_information": {
     "title": "Information",
@@ -3141,7 +3141,7 @@
       "Secret Recovery Phrase",
       "gives",
       "full access to your wallet, funds and accounts.\n\n",
-      "ArbiEver is a",
+      "EtherEver is a",
       "non-custodial wallet.",
       "That means,",
       "you are the owner of your Secret Recovery Phrase."
@@ -3150,14 +3150,14 @@
     "private_key_warning": "This is the private key for the current selected account: {{accountName}}. Never disclose this key. Anyone with your private key can fully control your account, including transferring away any of your funds.",
     "seed_phrase_warning_explanation": [
       "Make sure nobody is looking at your screen. ",
-      "ArbiEver Support will never request this."
+      "EtherEver Support will never request this."
     ],
     "private_key_warning_explanation": "Never disclose this key. Anyone with your private key can fully control your account, including transferring away any of your funds.",
     "reveal_credential_modal": [
       "Your {{credentialName}} provides ",
       "full access to your account and funds.\n\nDo not share this with anyone.\n",
       "full access to your wallet and funds.\n\nDo not share this with anyone.\n",
-      "ArbiEver Support will not request this, ",
+      "EtherEver Support will not request this, ",
       "but phishers might."
     ],
     "seed_phrase": "Your Secret Recovery Phrase",
@@ -3194,7 +3194,7 @@
   },
   "password_reset": {
     "password_title": "Password",
-    "password_desc": "Choose a strong password to unlock ArbiEver app on your device. If you lose this password, you will need your Secret Recovery Phrase to re-import your wallet.",
+    "password_desc": "Choose a strong password to unlock EtherEver app on your device. If you lose this password, you will need your Secret Recovery Phrase to re-import your wallet.",
     "password_learn_more": "Learn more.",
     "change_password": "Change password",
     "password_hint": "Password hint"
@@ -3297,7 +3297,7 @@
       "show_less": "Show less"
     },
     "activity": "{{symbol}} activity",
-    "disclaimer": "Market data is provided by third-party sources like CoinGecko. Data is for informational purposes only. ArbiEver is not responsible for its accuracy."
+    "disclaimer": "Market data is provided by third-party sources like CoinGecko. Data is for informational purposes only. EtherEver is not responsible for its accuracy."
   },
   "account_details": {
     "title": "Account Details",
@@ -3309,7 +3309,7 @@
   },
   "enable_nft-auto-detection": {
     "title": "Enable NFT autodetection",
-    "description": "Allow ArbiEver to detect and display your NFTs with autodetection. You’ll be able to:",
+    "description": "Allow EtherEver to detect and display your NFTs with autodetection. You’ll be able to:",
     "immediateAccess": "Immediately access your NFTs",
     "navigate": "Effortlessly navigate your digital assets",
     "dive": "Dive straight into using your NFTs",
@@ -3349,9 +3349,9 @@
     "cancel": "Cancel",
     "error": "Error",
     "attempting_to_scan_with_wallet_locked": "Looks like you're trying to scan a QR code, you need to unlock your wallet to be able to use it.",
-    "attempting_sync_from_wallet_error": "Looks like you're trying to sync with the extension. In order to do so, you will need to erase your current wallet. \n\nOnce you've erased or reinstalled a fresh version of the app, select the option to \"Sync with ArbiEver Extension\". Important! Before erasing your wallet, make sure you've backed up your Secret Recovery Phrase.",
+    "attempting_sync_from_wallet_error": "Looks like you're trying to sync with the extension. In order to do so, you will need to erase your current wallet. \n\nOnce you've erased or reinstalled a fresh version of the app, select the option to \"Sync with EtherEver Extension\". Important! Before erasing your wallet, make sure you've backed up your Secret Recovery Phrase.",
     "not_allowed_error_title": "Turn on camera access",
-    "not_allowed_error_desc": "To scan a QR code, you'll need to give ArbiEver camera access from your device's settings menu.",
+    "not_allowed_error_desc": "To scan a QR code, you'll need to give EtherEver camera access from your device's settings menu.",
     "unrecognized_address_qr_code_title": "Unrecognized QR Code",
     "unrecognized_address_qr_code_desc": "Sorry, this QR code is not associated with an account address or a contract address.",
     "url_redirection_alert_title": "You are about to visit an external link",
@@ -3369,7 +3369,7 @@
     "native_toggle_wallet": "Pay for network fee using the balance in your wallet.",
     "list_balance": "Bal:",
     "insufficient_balance": "Insufficient funds",
-    "native_toggle_metamask": "ArbiEver is supplementing the balance to complete this transaction."
+    "native_toggle_metamask": "EtherEver is supplementing the balance to complete this transaction."
   },
   "gas_fee_token_toast": {
     "message": "You're paying this network fee with "
@@ -3485,7 +3485,7 @@
     "gas_education_1": "Gas fees are paid to crypto miners who process transactions on the ",
     "gas_education_2_ethereum": "Ethereum network.",
     "gas_education_2": "network.",
-    "gas_education_3": "ArbiEver does not profit from gas fees.",
+    "gas_education_3": "EtherEver does not profit from gas fees.",
     "gas_education_4": "Gas fees fluctuate based on network traffic and transaction complexity.",
     "gas_education_learn_more": "Learn more about gas fees",
     "confusable_title": "Check the recipient address",
@@ -3500,7 +3500,7 @@
     "invalid_qr_code_sync": "Invalid QR code. Please scan the sync QR code of the hardware wallet.",
     "no_camera_permission": "Camera not authorized. Please give permission and retry",
     "invalid_qr_code_sign": "Invalid QR code. Please check your hardware and retry.",
-    "no_camera_permission_android": "You need to grant ArbiEver access to your camera to proceed. You may also need to change your system settings.",
+    "no_camera_permission_android": "You need to grant EtherEver access to your camera to proceed. You may also need to change your system settings.",
     "mismatched_qr_request_id": "Incongruent transaction data. Please use your hardware wallet to sign the QR code below and tap 'Get Signature'.",
     "fiat_conversion_not_available": "Fiat conversions are not available at this moment",
     "hex_data_copied": "Hex data copied to clipboard",
@@ -3519,7 +3519,7 @@
     "save": "Save",
     "warning_gas_limit": "Gas limit must be greater than 20999",
     "warning_gas_limit_estimated": "Estimated gas limit is {{gas}}, use it as minimum value",
-    "cost_explanation": "The gas fee covers the cost of processing your transaction on the Ethereum network. ArbiEver does not profit from this fee. The higher the fee the better chances of your transaction getting processed."
+    "cost_explanation": "The gas fee covers the cost of processing your transaction on the Ethereum network. EtherEver does not profit from this fee. The higher the fee the better chances of your transaction getting processed."
   },
   "spend_limit_edition": {
     "save": "Save",
@@ -3588,7 +3588,7 @@
     "change_url": "Change url",
     "switch_network": "Switch network",
     "dapp_browser": "DAPP BROWSER",
-    "dapp_browser_message": "ArbiEver is your wallet and browser for the decentralized web. Have a look around!",
+    "dapp_browser_message": "EtherEver is your wallet and browser for the decentralized web. Have a look around!",
     "featured_dapps": "FEATURED DAPPS",
     "my_favorites": "MY FAVORITES",
     "search": "Search or type a URL",
@@ -3716,7 +3716,7 @@
     "view_on": "View on",
     "view_on_etherscan": "View on Etherscan",
     "view_full_history_on": "View full history on",
-    "view_full_history_on_etherscan": "View Full History on EtherEverscan",
+    "view_full_history_on_etherscan": "View full history on Etherscan",
     "hash_copied_to_clipboard": "Transaction hash copied to clipboard",
     "address_copied_to_clipboard": "Address copied to clipboard",
     "transaction_error": "Transaction error",
@@ -3739,8 +3739,8 @@
     "request_from": "Request from",
     "network_fee": "Network fee",
     "network_fee_tooltip": "Amount paid to process the transaction on network.",
-    "confirm_gas_fee_token_tooltip": "This is paid to the network to process your transaction. It includes a {{metamaskFeeFiat}} ArbiEver fee for non-ETH tokens or pre-funded ETH.",
-    "paid_by_metamask": "Paid by ArbiEver",
+    "confirm_gas_fee_token_tooltip": "This is paid to the network to process your transaction. It includes a {{metamaskFeeFiat}} EtherEver fee for non-ETH tokens or pre-funded ETH.",
+    "paid_by_metamask": "Paid by EtherEver",
     "confirm_gas_fee_token_metamask_fee": "Includes {{metamaskFeeFiat}} fee",
     "smart_account_upgrade": "Upgrade to smart account",
     "smart_account_downgrade": "Switch to standard account",
@@ -3776,8 +3776,7 @@
       "no_zero_value": "{{field}} must be greater than 0",
       "speed": "Speed",
       "only_integers_allowed": "Only whole numbers are allowed"
-    },
-    "view_full_history_on_arbieverscan": "View Full History on ArbiEverscan"
+    }
   },
   "smart_transactions": {
     "status_submitting_header": "Submitting your transaction",
@@ -3788,7 +3787,7 @@
     "status_cancelled_header": "Your transaction was canceled",
     "status_cancelled_description": "Your transaction couldn't be completed, so it was canceled to save you from paying unnecessary gas fees.",
     "status_failed_header": "Your transaction failed",
-    "status_failed_description": "Sudden market changes can cause failures. If the problem continues, reach out to ArbiEver customer support.",
+    "status_failed_description": "Sudden market changes can cause failures. If the problem continues, reach out to EtherEver customer support.",
     "view_transaction": "View transaction",
     "view_activity": "View activity",
     "return_to_dapp": "Return to {{dappName}}",
@@ -3841,8 +3840,8 @@
     "status_not_ok": "The network is having some issues",
     "want_to_add_network": "Want to add this network?",
     "add_custom_network": "Add custom network",
-    "network_infomation": "This allows this network to be used within ArbiEver",
-    "network_endorsement": "ArbiEver does not endorse custom networks or their security.",
+    "network_infomation": "This allows this network to be used within EtherEver",
+    "network_endorsement": "EtherEver does not endorse custom networks or their security.",
     "learn_about": "Learn about",
     "network_risk": "scams and network security risks",
     "network_display_name": "Display name",
@@ -3899,7 +3898,7 @@
     "show_test_networks": "Show test networks",
     "deprecated_goerli": "Due to the protocol changes of Ethereum: Goerli test network may not work as reliably and will be deprecated soon.",
     "network_deprecated_title": "This network is deprecated",
-    "network_deprecated_description": "The network you're trying to connect to is no longer supported on ArbiEver.",
+    "network_deprecated_description": "The network you're trying to connect to is no longer supported on EtherEver.",
     "edit_networks_title": "Edit networks",
     "no_network_fee": "No network fee"
   },
@@ -3921,7 +3920,7 @@
     "cancel": "Cancel",
     "got_it": "Got it",
     "connection_details_title": "Connection Details",
-    "connection_details_description": "You connected to this site using the ArbiEver browser on {{connectionDateTime}}",
+    "connection_details_description": "You connected to this site using the EtherEver browser on {{connectionDateTime}}",
     "title_add_network_permission": "Add network permission",
     "add_this_network": "Add this network",
     "permitted_networks": "Permitted networks",
@@ -3934,7 +3933,7 @@
     "sdk_connection": "SDK {{originator_platform}} v{{api_version}}"
   },
   "account_dapp_connections": {
-    "account_summary_header": "Connect this website with ArbiEver"
+    "account_summary_header": "Connect this website with EtherEver"
   },
   "select": {
     "cancel": "Cancel",
@@ -3987,9 +3986,9 @@
   },
   "authentication": {
     "auth_prompt_title": "Authentication required",
-    "auth_prompt_desc": "Please authenticate in order to use ArbiEver",
+    "auth_prompt_desc": "Please authenticate in order to use EtherEver",
     "fingerprint_prompt_title": "Authentication required",
-    "fingerprint_prompt_desc": "Use your fingerprint to unlock ArbiEver",
+    "fingerprint_prompt_desc": "Use your fingerprint to unlock EtherEver",
     "fingerprint_prompt_cancel": "Cancel"
   },
   "accountApproval": {
@@ -4012,7 +4011,7 @@
   "import_private_key": {
     "title": "Import Account",
     "description_one": "Imported private keys are backed up to your account and sync automatically when you sign in with the same Google or Apple login.",
-    "description_srp": "Imported accounts are viewable in your wallet but are not recoverable with your ArbiEver Secret Recovery Phrase.",
+    "description_srp": "Imported accounts are viewable in your wallet but are not recoverable with your EtherEver Secret Recovery Phrase.",
     "learn_more": "Learn more",
     "learn_more_here": "about how imported keys work.",
     "learn_more_srp": "Learn more about imported accounts",
@@ -4027,7 +4026,7 @@
   },
   "import_private_key_success": {
     "title": "Account successfully imported!",
-    "description_one": "You'll now be able to view your account in ArbiEver."
+    "description_one": "You'll now be able to view your account in EtherEver."
   },
   "import_new_secret_recovery_phrase": {
     "title": "Import Secret Recovery Phrase",
@@ -4073,7 +4072,7 @@
     "step_1_description": "Create password",
     "step_2": "Step 2:",
     "step_2_description": "Save wallet Secret Recovery Phrase",
-    "info_text_1": "Take a few moments to finish setting up your ArbiEver wallet.",
+    "info_text_1": "Take a few moments to finish setting up your EtherEver wallet.",
     "info_text_2": "This will ensure only you can access your funds and will let you recover your wallet if you lose your device",
     "cta_text": "Create Password",
     "creating_password": "Creating password...",
@@ -4094,9 +4093,9 @@
     "skip_title": "Skip account security?",
     "skip_check": "If you lose this Secret Recovery Phrase, you won’t be able to access this wallet.",
     "what_is_seedphrase_title": "What’s a Secret Recovery Phrase?",
-    "what_is_seedphrase_text_1": "A Secret Recovery Phrase, also called a seed phrase or mnemonic, is a set of words that lets you access and control your crypto wallet. To move your wallet to ArbiEver, you need this phrase.",
+    "what_is_seedphrase_text_1": "A Secret Recovery Phrase, also called a seed phrase or mnemonic, is a set of words that lets you access and control your crypto wallet. To move your wallet to EtherEver, you need this phrase.",
     "what_is_seedphrase_text_2": "You must keep your Secret Recovery Phrase secret and safe. If someone gets your Secret Recovery Phrase, they’ll gain control over your accounts.",
-    "what_is_seedphrase_text_3": "Save it in a place where only you can access it. If you lose it, not even ArbiEver can help you recover it.",
+    "what_is_seedphrase_text_3": "Save it in a place where only you can access it. If you lose it, not even EtherEver can help you recover it.",
     "what_is_seedphrase_text_4": "Anyone with your Secret Recovery Phrase can:",
     "seedPhrase_point_1": "Take all your money",
     "seedPhrase_point_2": "Confirm transactions",
@@ -4174,7 +4173,7 @@
   },
   "account_backup_step_6": {
     "title": "Security Tips",
-    "info_text": "ArbiEver cannot recover your Secret Recovery Phrase if you lose it",
+    "info_text": "EtherEver cannot recover your Secret Recovery Phrase if you lose it",
     "tip_1": "Keep multiple backups of your Secret Recovery Phrase",
     "tip_2": "Store the phrase in a trusted password manager and paper backups in a safe place",
     "tip_3": "Never share this phrase with anyone",
@@ -4229,7 +4228,7 @@
     "congratulations": "Congratulations",
     "success": "You’ve successfully protected your wallet. Remember to keep your Secret Recovery Phrase safe, it's your responsibility!",
     "hint": "Leave yourself a hint?",
-    "recover": "ArbiEver cannot recover your wallet should you lose it. You can find your Secret Recovery Phrase in Settings > Security & Privacy.",
+    "recover": "EtherEver cannot recover your wallet should you lose it. You can find your Secret Recovery Phrase in Settings > Security & Privacy.",
     "learn": "Learn more",
     "done": "Done",
     "recovery_hint": "Recovery hint",
@@ -4242,7 +4241,7 @@
   "phishing": {
     "ethereum_phishing_detection": "Ethereum Phishing Detection",
     "ethereum_phishing_detector": "Ethereum Phishing Detector",
-    "intro": " is currently on the ArbiEver domain warning list. This means that based on information available to us, ArbiEver believes this domain could currently compromise your security and, as an added safety feature, ArbiEver has restricted access to the site. To override this, please read the rest of this warning for instructions on how to continue at your own risk.",
+    "intro": " is currently on the EtherEver domain warning list. This means that based on information available to us, EtherEver believes this domain could currently compromise your security and, as an added safety feature, EtherEver has restricted access to the site. To override this, please read the rest of this warning for instructions on how to continue at your own risk.",
     "reasons": "There are many reasons sites can appear on our warning list, and our warning list compiles from other widely used industry lists. Such reasons can include known fraud or security risks, such as domains that test positive on the ",
     "list_content": "Domains on these warning lists may include outright malicious websites and legitimate websites that have been compromised by a malicious actor.",
     "to_read_more": "To read more about this site ",
@@ -4253,13 +4252,13 @@
     "file_an_issue": "please file an issue.",
     "back_to_safety": "Back to safety",
     "site_might_be_harmful": "This website might be harmful",
-    "metamask_flagged_site": "ArbiEver flagged the site you're trying to visit as potentially deceptive. Attackers may trick you into doing something dangerous.",
+    "metamask_flagged_site": "EtherEver flagged the site you're trying to visit as potentially deceptive. Attackers may trick you into doing something dangerous.",
     "you_may_proceed_anyway": "You may also",
     "proceed_anyway": "proceed anyway",
     "but_please_do_so_at_your_own_risk": "but please do so at your own risk.",
     "report_detection_problem": "Report a detection problem",
     "share_on_twitter": "If you found this helpful, share on X!",
-    "share_text": "ArbiEver protected me from visiting a potentially harmful site: {{url}}. Stay safe!"
+    "share_text": "EtherEver protected me from visiting a potentially harmful site: {{url}}. Stay safe!"
   },
   "notifications": {
     "timeout": "Timeout",
@@ -4355,7 +4354,7 @@
     "erc721_received_title": "NFT received",
     "erc1155_sent_title": "NFT sent",
     "erc1155_received_title": "NFT received",
-    "default_message_title": "ArbiEver",
+    "default_message_title": "EtherEver",
     "default_message_description": "Tap to view",
     "received_payment_title": "Instant payment received",
     "pending_message": "Waiting for confirmation",
@@ -4391,7 +4390,7 @@
       "funds_received_description": "You received {{amount}} {{symbol}}",
       "funds_received_default_description": "You received some tokens",
       "metamask_swap_completed_title": "Swap completed",
-      "metamask_swap_completed_description": "Your ArbiEver Swap was successful",
+      "metamask_swap_completed_description": "Your EtherEver Swap was successful",
       "nft_sent_title": "NFT sent",
       "nft_sent_description": "You have successfully sent an NFT",
       "nft_received_title": "NFT received",
@@ -4455,7 +4454,7 @@
     "activation_card": {
       "title": "Turn on notifications",
       "description_1": "Stay in the loop on what's happening in your wallet with notifications.",
-      "description_2": "To use this feature, we’ll generate an anonymous ID for your account. It’s used only for syncing your data in ArbiEver and doesn't link to your activities or other identifiers, ensuring your privacy.",
+      "description_2": "To use this feature, we’ll generate an anonymous ID for your account. It’s used only for syncing your data in EtherEver and doesn't link to your activities or other identifiers, ensuring your privacy.",
       "learn_more": "Learn how we protect your privacy while using this feature.",
       "manage_preferences_1": "You can turn off notifications at any time in ",
       "manage_preferences_2": "Settings > Notifications.",
@@ -4523,8 +4522,8 @@
     "network_not_supported": "Current network not supported",
     "select_provider": "Select your preferred provider",
     "switch_network": "Please switch to mainnet or sepolia",
-    "card_title": "Always show ArbiEver Card button",
-    "card_desc": "ArbiEver Card is only available to residents of select countries."
+    "card_title": "Always show EtherEver Card button",
+    "card_desc": "EtherEver Card is only available to residents of select countries."
   },
   "walletconnect_sessions": {
     "no_active_sessions": "You have no active sessions",
@@ -4616,7 +4615,7 @@
     "wyre_minimum_deposit": "Minimum deposit is {{amount}}",
     "wyre_maximum_deposit": "Maximum deposit is {{amount}}",
     "apple_pay_purchase": "{{currency}} Purchase",
-    "apple_pay_provider_total_label": "{{provider}} (via ArbiEver)",
+    "apple_pay_provider_total_label": "{{provider}} (via EtherEver)",
     "buy_with": "Buy with",
     "plus_fee": "Plus a {{fee}} fee",
     "date": "Date",
@@ -4635,12 +4634,12 @@
         "average_gas_fee": "Current average gas fee:",
         "subtitle_1": "If you plan to swap or transfer your {{ticker}}, purchase extra to cover gas fees.",
         "subtitle_2": "Gas fees for transactions are separate from the cost of purchasing {{ticker}}.",
-        "subtitle_3": "ArbiEver does not profit from gas fees."
+        "subtitle_3": "EtherEver does not profit from gas fees."
       },
       "step_2": {
         "title": "What are gas fees?",
         "subtitle_1": "Gas powers transactions on the Ethereum network. It’s a fee paid in {{ticker}} to the crypto miners who process your transactions.",
-        "subtitle_2": "ArbiEver does not profit from gas fees.",
+        "subtitle_2": "EtherEver does not profit from gas fees.",
         "learn_more": "Learn more about gas fees"
       },
       "step_3": {
@@ -4684,7 +4683,7 @@
     "onboarding": {
       "what_to_expect": "What to Expect",
       "quotes": "Our buy crypto feature aggregates quotes from integrated vendors, providing quotes from those sources to get crypto directly into your wallet with no waiting period.",
-      "quotes_sell": "Now you can cash out directly in ArbiEver! Get up-to-the-minute quotes from trusted providers while we guide you every step of the way.",
+      "quotes_sell": "Now you can cash out directly in EtherEver! Get up-to-the-minute quotes from trusted providers while we guide you every step of the way.",
       "benefits": "Fewer gas fees to pay, and numerous networks, tokens, and payment methods supported",
       "benefits_sell": "Off-ramping from crypto to your local currency is now easier than ever.",
       "get_started": "Get started"
@@ -4891,13 +4890,13 @@
       "best_swap": "best swap",
       "across": "across...",
       "want_to_learn_more": "Want to learn more?",
-      "learn_more": "Learn more about ArbiEver Swaps",
+      "learn_more": "Learn more about EtherEver Swaps",
       "what_are": "What are token swaps?",
       "review_audits": "Review our official contracts audit",
       "start_swapping": "Start swapping"
     },
     "feature_off_title": "Temporarily unavailable",
-    "feature_off_body": "ArbiEver Swaps is undergoing maintenance. Please check back later.",
+    "feature_off_body": "EtherEver Swaps is undergoing maintenance. Please check back later.",
     "wrong_network_title": "Swaps not available",
     "wrong_network_body": "You’re only able to swap tokens on the Ethereum Main Network.",
     "unallowed_asset_title": "Can’t swap this token",
@@ -4976,17 +4975,17 @@
     "included": "included",
     "max_gas_fee": "Max gas fee",
     "edit": "Edit",
-    "quotes_include_fee": "Quotes include a {{fee}}% ArbiEver fee",
-    "quotes_include_gas_and_metamask_fee": "Quote includes gas and a {{fee}}% ArbiEver fee",
+    "quotes_include_fee": "Quotes include a {{fee}}% EtherEver fee",
+    "quotes_include_gas_and_metamask_fee": "Quote includes gas and a {{fee}}% EtherEver fee",
     "tap_to_swap": "Tap to Swap",
     "swipe_to_swap": "Swipe to swap",
     "swipe_to": "Swipe to",
     "swap": "Swap",
     "completed_swap": "Swap!",
-    "metamask_swap_fee": "ArbiEver Swap fee",
+    "metamask_swap_fee": "EtherEver Swap fee",
     "fee_text": {
-      "fee_is_applied": "The fee of {{fee}} is automatically factored into this quote. You pay it in exchange for a license to use ArbiEver's liquidity provider information aggregation software.",
-      "fee_is_not_applied": "ArbiEver does not include an additional fee in this quote."
+      "fee_is_applied": "The fee of {{fee}} is automatically factored into this quote. You pay it in exchange for a license to use EtherEver's liquidity provider information aggregation software.",
+      "fee_is_not_applied": "EtherEver does not include an additional fee in this quote."
     },
     "enable": {
       "this_will": "This will",
@@ -5053,7 +5052,7 @@
     "gas_education_1": "Gas fees are paid to crypto miners who process transactions on the ",
     "gas_education_2_ethereum": "Ethereum network.",
     "gas_education_2": "network.",
-    "gas_education_3": "ArbiEver does not profit from gas fees.",
+    "gas_education_3": "EtherEver does not profit from gas fees.",
     "gas_education_4": "The",
     "gas_education_5": "“Estimated gas fee”",
     "gas_education_6": "is what we expect the actual fee to be. The exact amount depends on network conditions.",
@@ -5130,9 +5129,9 @@
   "switch_custom_network": {
     "title_existing_network": "This site would like to switch the network",
     "title_new_network": "New network added",
-    "switch_warning": "This will switch the selected network within ArbiEver to a previously added network:",
-    "add_network_and_give_dapp_permission_warning": "You're adding this network to ArbiEver and giving {{dapp_origin}} permission to use it.",
-    "update_network_and_give_dapp_permission_warning": "You're updating this network in ArbiEver and giving {{dapp_origin}} permission to use it.",
+    "switch_warning": "This will switch the selected network within EtherEver to a previously added network:",
+    "add_network_and_give_dapp_permission_warning": "You're adding this network to EtherEver and giving {{dapp_origin}} permission to use it.",
+    "update_network_and_give_dapp_permission_warning": "You're updating this network in EtherEver and giving {{dapp_origin}} permission to use it.",
     "request_update_network_url": "{{dapp_origin}} is requesting to update your default network URL. You can edit defaults and network information any time.",
     "available": "is now available in the network selector.",
     "cancel": "Cancel",
@@ -5140,8 +5139,8 @@
   },
   "add_custom_network": {
     "title": "Allow this site to add a network?",
-    "warning": "This allows this network to be used within ArbiEver.",
-    "warning_subtext_1": "ArbiEver does not verify custom networks or their security.",
+    "warning": "This allows this network to be used within EtherEver.",
+    "warning_subtext_1": "EtherEver does not verify custom networks or their security.",
     "warning_subtext_2": "Learn about",
     "warning_subtext_3": "scams and network security risks",
     "display_name": "Display name",
@@ -5157,7 +5156,7 @@
     "alert_recommend": "We recommend you",
     "alert_verify": "verify the chain ID",
     "warning_subtext_new": {
-      "1": "ArbiEver doesn’t verify custom networks, so only approve networks you trust.",
+      "1": "EtherEver doesn’t verify custom networks, so only approve networks you trust.",
       "2": "Learn more about network security risks and scams."
     },
     "invalid_rpc_url": "This network URL doesn't match a known provider for this chain ID.",
@@ -5232,7 +5231,7 @@
     "estimated_gas_fee_tooltip_text_1": "Gas fees are paid to crypto miners who process transactions on the",
     "estimated_gas_fee_tooltip_text_2": " Ethereum",
     "estimated_gas_fee_tooltip_text_3": " network.",
-    "estimated_gas_fee_tooltip_text_4": "ArbiEver does not profit from gas fees.",
+    "estimated_gas_fee_tooltip_text_4": "EtherEver does not profit from gas fees.",
     "estimated_gas_fee_tooltip_text_5": "Gas fees are set by the network and fluctuate based on network traffic and transaction complexity.",
     "learn_more": "Learn more about gas fees",
     "legacy_gas_suggestion_tooltip": "This gas fee suggestion is using legacy gas estimation which may be inaccurate."
@@ -5256,7 +5255,7 @@
     "high_fees": "Why are fees so high?",
     "missing_tokens": "I'm missing tokens...",
     "swap_issues": "I'm unable to swap...",
-    "mobile_sentiment": "How do you feel about ArbiEver mobile?",
+    "mobile_sentiment": "How do you feel about EtherEver mobile?",
     "sentiment_good_face": "😁",
     "sentiment_bad_face": "☹️",
     "sentiment_good": "Love it!",
@@ -5306,12 +5305,12 @@
   },
   "remember_me": {
     "enable_remember_me": "Turn on Remember me",
-    "enable_remember_me_description": "When Remember me is on, anyone with access to your phone can access your ArbiEver account."
+    "enable_remember_me_description": "When Remember me is on, anyone with access to your phone can access your EtherEver account."
   },
   "turn_off_remember_me": {
     "title": "Enter your password to turn off Remember me",
     "placeholder": "Password",
-    "description": "If you turn this option off, you'll need your password to unlock ArbiEver from now on.",
+    "description": "If you turn this option off, you'll need your password to unlock EtherEver from now on.",
     "action": "Turn off Remember me"
   },
   "dapp_connect": {
@@ -5323,11 +5322,11 @@
   },
   "automatic_security_checks": {
     "title": "Automatic security checks",
-    "description": "Automatically checking for updates may expose your IP address to GitHub servers. This only indicates that your IP address is using ArbiEver. No other information or account addresses are exposed."
+    "description": "Automatically checking for updates may expose your IP address to GitHub servers. This only indicates that your IP address is using EtherEver. No other information or account addresses are exposed."
   },
   "terms_of_use_modal": {
     "title": "Review our Terms of Use",
-    "terms_of_use_check_description": "I agree to the Terms of Use, which apply to my use of ArbiEver and all of its features",
+    "terms_of_use_check_description": "I agree to the Terms of Use, which apply to my use of EtherEver and all of its features",
     "accept_cta": "Accept",
     "accept_helper_description": "Please scroll to read all sections",
     "agree_cta": "Agree"
@@ -5339,7 +5338,7 @@
   },
   "enable_automatic_security_check_modal": {
     "title": "Automatically check for security updates?",
-    "description": "Automatically checking for updates may expose your IP address to GitHub servers. This only indicates that your IP address is using ArbiEver. No other information or account addresses are exposed.",
+    "description": "Automatically checking for updates may expose your IP address to GitHub servers. This only indicates that your IP address is using EtherEver. No other information or account addresses are exposed.",
     "primary_action": "Enable automatic security checks",
     "secondary_action": "No thanks"
   },
@@ -5392,7 +5391,7 @@
     "new_wallet_needed_create_try_again_action": "Try recovering wallet",
     "new_wallet_needed_description_part_one": "Something's wrong with your wallet, and you'll need to create a new one. Because your accounts are on the blockchain, they're still safe. Only the preferences, saved networks, account names, and related data saved on your device are gone.",
     "new_wallet_needed_description_part_two": "To import your accounts to a new wallet, you'll need your Secret Recovery Phrase. If you don't have your Secret Recovery Phrase, you won't be able to import your accounts.",
-    "new_wallet_needed_description_part_three": "To keep this from happening again, be sure to always keep your ArbiEver app and OS updated to the latest version."
+    "new_wallet_needed_description_part_three": "To keep this from happening again, be sure to always keep your EtherEver app and OS updated to the latest version."
   },
   "srp_security_quiz": {
     "title": "Security quiz",
@@ -5403,7 +5402,7 @@
     "continue": "Continue",
     "of": "of",
     "question_one": {
-      "question": "If you lose your Secret Recovery Phrase, ArbiEver...",
+      "question": "If you lose your Secret Recovery Phrase, EtherEver...",
       "right_answer": "Can’t help you",
       "wrong_answer": "Can get it back for you",
       "right_answer_title": "Right! No one can help get your Secret Recovery Phrase back",
@@ -5428,9 +5427,9 @@
     "bluetooth_off_message": "Please turn on Bluetooth for your device",
     "bluetooth_access_blocked": "Ledger needs Bluetooth access to pair with your mobile device.",
     "bluetooth_access_blocked_message": "If you want to pair your Ledger device using Bluetooth, enable it in Settings & try again.",
-    "location_access_blocked": "ArbiEver needs location access permission to pair with your ledger.",
+    "location_access_blocked": "EtherEver needs location access permission to pair with your ledger.",
     "location_access_blocked_message": "If you want to pair your Ledger device using Bluetooth, you’ll need to enable location access in Settings & try again.",
-    "nearbyDevices_access_blocked": "ArbiEver needs nearby devices permission to pair with your Ledger.",
+    "nearbyDevices_access_blocked": "EtherEver needs nearby devices permission to pair with your Ledger.",
     "nearbyDevices_access_blocked_message": "If you want to pair your Ledger device using Bluetooth, you’ll need to enable nearby devices access in Settings & try again.",
     "bluetooth_scanning_error": "Error while scanning the device",
     "bluetooth_scanning_error_message": "Please make sure your device is unlocked and the Ethereum app is running",
@@ -5470,7 +5469,7 @@
     "unknown_error_message": "An unexpected error occurred. Please try again.",
     "error_occured": "An error occurred",
     "how_to_install_eth_app": "How to install the Ethereum app on a Ledger device",
-    "ledger_account_count": "You are using 1 account from your Ledger with ArbiEver Mobile.",
+    "ledger_account_count": "You are using 1 account from your Ledger with EtherEver Mobile.",
     "open_eth_app": "Please open the Ethereum app",
     "open_eth_app_message_one": "We’ve detected you have the Ethereum app installed but it’s not open, please ",
     "open_eth_app_message_two": "press the two buttons on the device to accept the prompt to open the Ethereum app to continue.",
@@ -5484,7 +5483,7 @@
     "not_supported": "Operation not supported",
     "not_supported_error": "Only version 4 of typed data signing is supported.",
     "error_during_connection": "An unknown error occurred",
-    "error_during_connection_message": "There's been a slight problem connecting your Ledger device, tap 'Retry' below to give this another go. Sometimes this occurs due to the ETH app on your Ledger device being open at the start of the pairing process with ArbiEver Mobile.",
+    "error_during_connection_message": "There's been a slight problem connecting your Ledger device, tap 'Retry' below to give this another go. Sometimes this occurs due to the ETH app on your Ledger device being open at the start of the pairing process with EtherEver Mobile.",
     "how_to_install_eth_webview_title": "How to install the Ethereum App",
     "nonce_too_low": "Nonce too low",
     "nonce_too_low_error": "The set nonce is too low",
@@ -5493,7 +5492,7 @@
     "select_hd_path_description": "If you don't see the accounts you expect, try switching the HD path or current selected network.",
     "ledger_live_path": "Ledger Live",
     "ledger_legacy_path": "Legacy(MEW/MyCrypto)",
-    "ledger_bip44_path": "BIP44(e.g. ArbiEver, Trezor)",
+    "ledger_bip44_path": "BIP44(e.g. EtherEver, Trezor)",
     "ledger_legacy_label": " (legacy)",
     "blind_sign_error": "Blind signing error",
     "blind_sign_error_message": "Blind signing is not enabled on your Ledger device. Please enable it in the settings.",
@@ -5663,7 +5662,7 @@
       },
       "education": {
         "heading": "Earn rewards with mUSD",
-        "description": "Convert your USDC, USDT, or DAI for mUSD, ArbiEver's dollar-backed stablecoin. Earn points every time you convert.",
+        "description": "Convert your USDC, USDT, or DAI for mUSD, EtherEver's dollar-backed stablecoin. Earn points every time you convert.",
         "continue_button": "Continue"
       },
       "earn_points_daily": "Earn points daily",
@@ -5697,7 +5696,7 @@
     "reward_frequency": "Reward frequency",
     "reward_frequency_tooltip": "Your staked balance updates every {{frequency}} to account for new rewards.",
     "withdrawal_time": "Withdrawal time",
-    "metamask_pool": "ArbiEver Pool",
+    "metamask_pool": "EtherEver Pool",
     "enter_amount": "Enter amount",
     "review": "Review",
     "not_enough_eth": "Not enough ETH",
@@ -5716,12 +5715,12 @@
     "got_it": "Got it",
     "your_balance": "Your balance",
     "stake_your_eth_cta": {
-      "base": "Stake your ETH with ArbiEver Pool and earn",
+      "base": "Stake your ETH with EtherEver Pool and earn",
       "annually": "annually.",
       "learn_more_with_period": "Learn more."
     },
     "stake_your_trx_cta": {
-      "base": "Stake your TRX with ArbiEver Pool and earn",
+      "base": "Stake your TRX with EtherEver Pool and earn",
       "annually": "annually.",
       "learn_more_with_period": "Learn more."
     },
@@ -5803,7 +5802,7 @@
   },
   "default_settings": {
     "title": "Your Wallet is ready",
-    "description": "ArbiEver uses default settings to best balance safety and ease of use. Change these settings to further increase your privacy.",
+    "description": "EtherEver uses default settings to best balance safety and ease of use. Change these settings to further increase your privacy.",
     "learn_more_about_privacy": "Learn more about privacy best practices.",
     "privacy_policy": "Privacy policy",
     "default_settings": "Default Settings",
@@ -5813,17 +5812,17 @@
     "manage_networks_body": "We use Infura as our remote procedure call (RPC) provider to offer the most reliable and private access to Ethereum data we can. You can choose your own RPC, but remember that any RPC will receive your IP address and Ethereum wallet to make transactions. Read our ",
     "manage_networks_body2": " to learn more about how Infura handles data for EVM accounts, for Solana accounts ",
     "manage_networks_body3": "click here.",
-    "functionality_body": "ArbiEver offers basic features like token details and gas settings through internet services. When you use internet services, your IP address is shared, in this case with ArbiEver. This is just like when you visit any website. ArbiEver uses this data temporarily and never sells your data. You can use a VPN or turn off these services, but it may affect your ArbiEver experience. Read our ",
+    "functionality_body": "EtherEver offers basic features like token details and gas settings through internet services. When you use internet services, your IP address is shared, in this case with EtherEver. This is just like when you visit any website. EtherEver uses this data temporarily and never sells your data. You can use a VPN or turn off these services, but it may affect your EtherEver experience. Read our ",
     "functionality_body2": " to learn more.",
     "sheet": {
       "title_off": "Turn off basic functionality",
-      "description_off": "This means you won't fully optimize your time on ArbiEver. Basic features (like token details, optimal gas settings, and others) won't be available to you.",
+      "description_off": "This means you won't fully optimize your time on EtherEver. Basic features (like token details, optimal gas settings, and others) won't be available to you.",
       "description_off2": "Turning this off also disables all features within",
       "description_off2_related_features1": "security and privacy, backup and sync",
       "description_off2_related_features1_and": "and",
       "description_off2_related_features2": "notifications.",
       "title_on": "Turn on basic functionality",
-      "description_on": "To optimize your time on ArbiEver, you’ll need to turn on this feature. Basic functions (like token details, optimal gas settings, notifications, and others) are important to the web3 experience.",
+      "description_on": "To optimize your time on EtherEver, you’ll need to turn on this feature. Basic functions (like token details, optimal gas settings, notifications, and others) are important to the web3 experience.",
       "checkbox_label": "I understand and want to continue",
       "buttons": {
         "cancel": "Cancel",
@@ -5838,7 +5837,7 @@
     "drawer_assets_desc": "Autodetect tokens in your wallet, display NFTs, and get batched account balance updates",
     "drawer_security_title": "Security",
     "drawer_security_desc": "Reduce your chances of joining unsafe networks and protect your accounts",
-    "network_details_check_desc": "ArbiEver uses a third-party service called chainid.network to show accurate and standardized network details. This reduces your chances of connecting to malicious or incorrect network. When using this feature, your IP address is exposed to chainid.network."
+    "network_details_check_desc": "EtherEver uses a third-party service called chainid.network to show accurate and standardized network details. This reduces your chances of connecting to malicious or incorrect network. When using this feature, your IP address is exposed to chainid.network."
   },
   "simulation_details": {
     "failed": "There was an error loading your estimation.",
@@ -5872,7 +5871,7 @@
     },
     "estimated_gas_fee": {
       "title": "Estimated gas fee",
-      "gas_recipient": "Gas fees are paid to crypto miners who process transactions on Ethereum network. ArbiEver does not profit from gas fees.",
+      "gas_recipient": "Gas fees are paid to crypto miners who process transactions on Ethereum network. EtherEver does not profit from gas fees.",
       "gas_fluctuation": "Gas fees are estimated and will fluctuate based on network traffic and transaction complexity.",
       "gas_learn_more": "Learn more about gas fees"
     },
@@ -5912,7 +5911,7 @@
       "pay_with": "Pay with",
       "total": "Total",
       "transaction_fee": "Transaction fee",
-      "metamask_fee": "ArbiEver fee",
+      "metamask_fee": "EtherEver fee",
       "network_fee": "Network fee",
       "bridge_fee": "Bridge provider fee"
     },
@@ -5946,10 +5945,10 @@
     },
     "tooltip": {
       "perps_deposit": {
-        "transaction_fee": "We'll swap your tokens for USDC on HyperCore, the network used by Perps. Swap providers may charge a fee, but ArbiEver won't."
+        "transaction_fee": "We'll swap your tokens for USDC on HyperCore, the network used by Perps. Swap providers may charge a fee, but EtherEver won't."
       },
       "predict_deposit": {
-        "transaction_fee": "We'll swap your tokens for USDC.e on Polygon, the network used by Predict. Swap providers may charge a fee, but ArbiEver won't."
+        "transaction_fee": "We'll swap your tokens for USDC.e on Polygon, the network used by Predict. Swap providers may charge a fee, but EtherEver won't."
       },
       "musd_conversion": {
         "transaction_fee": "mUSD conversion fees include network costs and may include provider fees."
@@ -6075,7 +6074,7 @@
     "reject": "Reject the transaction"
   },
   "snap_account_custom_name_approval": {
-    "title": "Add account to ArbiEver",
+    "title": "Add account to EtherEver",
     "input_title": "Account name",
     "add_account_button": "Add account",
     "name_taken_message": "This account name already exists"
@@ -6102,7 +6101,7 @@
     "slippage": "Slippage",
     "slippage_info": "If the price changes between the time your order is placed and confirmed it’s called “slippage.” Your swap will automatically cancel if slippage exceeds the tolerance you set here.",
     "network_fee": "Network fee",
-    "gas_fees_sponsored": "Paid by ArbiEver",
+    "gas_fees_sponsored": "Paid by EtherEver",
     "included": "Included",
     "estimated_time": "Estimated Time",
     "quote": "Quote",
@@ -6110,14 +6109,14 @@
     "quote_details": "Quote Details",
     "price_impact": "Price impact",
     "time": "Time",
-    "quote_info_content": "The best rate we found from providers, including provider fees and a 0.875% ArbiEver fee.",
+    "quote_info_content": "The best rate we found from providers, including provider fees and a 0.875% EtherEver fee.",
     "quote_info_title": "Rate",
     "network_fee_info_title": "Network Fee",
     "network_fee_info_content": "Network fees depend on how busy the network is and how complex your transaction is.",
-    "network_fee_info_content_sponsored": "This network fee is paid by ArbiEver, so you can swap without {{nativeToken}} in your account.",
+    "network_fee_info_content_sponsored": "This network fee is paid by EtherEver, so you can swap without {{nativeToken}} in your account.",
     "points": "Est. points",
     "points_tooltip": "Points",
-    "points_tooltip_content_1": "Points are how you earn ArbiEver Rewards for completing transactions, like when you swap, bridge, or trade perps.",
+    "points_tooltip_content_1": "Points are how you earn EtherEver Rewards for completing transactions, like when you swap, bridge, or trade perps.",
     "points_tooltip_content_2": "Keep in mind this value is an estimate and will be finalized once the transaction is complete. Points can take up to 1 hour to be confirmed in your Rewards balance.",
     "unable_to_load": "Unable to load",
     "points_error": "We can't load points right now",
@@ -6144,8 +6143,8 @@
     "hardware_wallet_not_supported": "Hardware wallets aren't supported yet. Use a hot wallet to continue.",
     "hardware_wallet_not_supported_solana": "Hardware wallets aren't supported for Solana yet. Use a hot wallet to continue.",
     "price_impact_info_title": "Price Impact",
-    "price_impact_info_description": "Price impact reflects how your swap order affects the market price of the asset. It depends on the trade size and the available liquidity in the pool. ArbiEver does not influence or control price impact.",
-    "price_impact_info_gasless_description": "Price impact reflects how your swap order affects the market price of the asset. If you don't hold enough funds for gas, part of your source token is automatically allocated to cover fees, which increases price impact. ArbiEver does not influence or control price impact.",
+    "price_impact_info_description": "Price impact reflects how your swap order affects the market price of the asset. It depends on the trade size and the available liquidity in the pool. EtherEver does not influence or control price impact.",
+    "price_impact_info_gasless_description": "Price impact reflects how your swap order affects the market price of the asset. If you don't hold enough funds for gas, part of your source token is automatically allocated to cover fees, which increases price impact. EtherEver does not influence or control price impact.",
     "slippage_info_title": "Slippage",
     "slippage_info_description": "The % change in price you're willing to allow before your transaction is canceled.",
     "blockaid_error_title": "This transaction will be reverted",
@@ -6208,7 +6207,7 @@
     "unable_to_login_description": "Your internet connection is unstable. Check your connection and try again.",
     "something_went_wrong_title": "Something went wrong",
     "something_went_wrong_description": "An error occurred while logging in. Try again and if the issue continues, contact",
-    "support_button": "ArbiEver Support.",
+    "support_button": "EtherEver Support.",
     "error_button": "Try again",
     "user_cancelled_title": "Login cancelled",
     "user_cancelled_description": "You cancelled the login process.\nTry again when you’re ready.",
@@ -6217,7 +6216,7 @@
     "google_login_no_credential_description": "We couldn’t find a Google account associated with this login. Try again with a different login method.",
     "google_login_no_credential_button": "Try again",
     "oauth_error_title": "Login failed",
-    "oauth_error_description": "An error occurred while logging in.\nTry again and if the issue continues, contact ArbiEver Support.",
+    "oauth_error_description": "An error occurred while logging in.\nTry again and if the issue continues, contact EtherEver Support.",
     "oauth_error_button": "Try again",
     "no_internet_connection_title": "Unable to connect",
     "no_internet_connection_description": "Your internet connection is unstable. Check your connection and try again.",
@@ -6242,7 +6241,7 @@
     "reveal": "Reveal",
     "social_recovery_title": "{{authConnection}} RECOVERY",
     "social_recovery_enable": "Enabled",
-    "social_login_description": "Use your {{authConnection}} login and ArbiEver password to recover your account and secret recovery phrases.",
+    "social_login_description": "Use your {{authConnection}} login and EtherEver password to recover your account and secret recovery phrases.",
     "srps_title": "SECRET RECOVERY PHRASES",
     "srps_description": "Your wallet is most protected when both recovery methods are set up. If one fail, the other helps you recover your wallet."
   },
@@ -6254,7 +6253,7 @@
     "enable": {
       "title": "Turn on backup and sync",
       "confirmation": "When you turn on backup and sync, you’re also turning on basic functionality. Do you want to continue?",
-      "description": "Backup and sync lets us store encrypted data for your custom settings and features. This keeps your ArbiEver experience the same across devices and restores settings and features if you ever need to reinstall ArbiEver. This doesn’t back up your Secret Recovery Phrase.",
+      "description": "Backup and sync lets us store encrypted data for your custom settings and features. This keeps your EtherEver experience the same across devices and restores settings and features if you ever need to reinstall EtherEver. This doesn’t back up your Secret Recovery Phrase.",
       "updatePreferences": "You can update your preferences at any time in",
       "settingsPath": "Settings > Backup and sync."
     },
@@ -6294,9 +6293,9 @@
     "intro": {
       "title": "Introducing multichain accounts",
       "section_1_title": "What are multichain accounts?",
-      "section_1_description": "One account, addresses on all the networks ArbiEver supports. So now you can use Ethereum, Solana, and more without switching accounts.",
+      "section_1_description": "One account, addresses on all the networks EtherEver supports. So now you can use Ethereum, Solana, and more without switching accounts.",
       "section_2_title": "Same address, more networks",
-      "section_2_description": "We’ve grouped your accounts, so keep using ArbiEver the same as before. Your funds are safe and unchanged",
+      "section_2_description": "We’ve grouped your accounts, so keep using EtherEver the same as before. Your funds are safe and unchanged",
       "view_accounts_button": "View accounts",
       "learn_more_button": "Learn more",
       "setting_up_accounts": "Setting up your accounts"
@@ -6371,7 +6370,7 @@
     },
     "delete_account": {
       "title": "Remove Account",
-      "warning_title": "This account will be removed from ArbiEver.",
+      "warning_title": "This account will be removed from EtherEver.",
       "warning_description": "Make sure you have the Secret Recovery Phrase or private key for this account before removing.",
       "remove_button": "Remove",
       "cancel_button": "Cancel",
@@ -6421,24 +6420,24 @@
   },
   "deep_link_modal": {
     "private_link": {
-      "title": "Redirecting you to ArbiEver",
+      "title": "Redirecting you to EtherEver",
       "description": "You'll open {{pageTitle}} if you continue.",
       "checkbox_label": "Don't remind me again"
     },
     "public_link": {
       "title": "Proceed with caution",
-      "description": "You were sent here by a third party, not ArbiEver. You'll open {{pageTitle}} if you continue."
+      "description": "You were sent here by a third party, not EtherEver. You'll open {{pageTitle}} if you continue."
     },
     "invalid": {
       "title": "This page doesn't exist",
       "description": "We can't find the page you're looking for.",
-      "update_to_store_link": "Update to the latest version of ArbiEver",
+      "update_to_store_link": "Update to the latest version of EtherEver",
       "well_take_you_to_right_place": " and we'll take you to the right place."
     },
     "unsupported": {
       "title": "This page is not supported in current version",
       "description": "Update to the latest version to use this feature",
-      "update_to_store_link": "Update to the latest version of ArbiEver",
+      "update_to_store_link": "Update to the latest version of EtherEver",
       "well_take_you_to_right_place": " and we'll take you to the right place."
     },
     "go_to_home_button": "Go to the home page",
@@ -6446,8 +6445,8 @@
     "continue_button": "Continue"
   },
   "card": {
-    "card": "ArbiEver Card",
-    "card_button_enabled_toast": "You can now sign up for ArbiEver Card!",
+    "card": "EtherEver Card",
+    "card_button_enabled_toast": "You can now sign up for EtherEver Card!",
     "add_funds_bottomsheet": {
       "deposit": "Fund with cash",
       "deposit_description": "Low-cost card or bank transfer",
@@ -6456,15 +6455,15 @@
       "select_method": "Select method"
     },
     "card_onboarding": {
-      "title": "Enable ArbiEver Card features",
+      "title": "Enable EtherEver Card features",
       "description": "Change your spending token and network by signing in with your Crypto Life email and password.",
       "verify_account_button": "Sign in",
-      "non_cardholder_title": "Welcome to ArbiEver Card",
-      "non_cardholder_description": "ArbiEver Card is the free and easy way to spend your crypto, with rich onchain rewards.",
+      "non_cardholder_title": "Welcome to EtherEver Card",
+      "non_cardholder_description": "EtherEver Card is the free and easy way to spend your crypto, with rich onchain rewards.",
       "non_cardholder_verify_account_button": "Get started",
       "sign_up": {
         "title": "Sign up",
-        "description": "Register with Crypto Life, the provider for ArbiEver Card. Use these credentials to manage your card.",
+        "description": "Register with Crypto Life, the provider for EtherEver Card. Use these credentials to manage your card.",
         "i_already_have_an_account": "I already have an account",
         "email_label": "Email",
         "password_label": "Password",
@@ -6505,7 +6504,7 @@
       },
       "verify_identity": {
         "title": "Next, verify your identity",
-        "description": "To keep your account secure, Crypto Life needs to verify your identity through Veriff.\n\nYour info goes directly to Veriff and Crypto Life, ArbiEver never sees or stores it.\n\nHave your ID and proof of address ready. This usually takes 5 minutes.",
+        "description": "To keep your account secure, Crypto Life needs to verify your identity through Veriff.\n\nYour info goes directly to Veriff and Crypto Life, EtherEver never sees or stores it.\n\nHave your ID and proof of address ready. This usually takes 5 minutes.",
         "verify_button": "Start verification",
         "start_verification_error": "Error starting verification. Please try again shortly."
       },
@@ -6523,7 +6522,7 @@
         "title": "Verifying your identity",
         "description": "Crypto Life is attempting to verify you. This will take at most 30 seconds.",
         "verified_title": "Approved!",
-        "verified_description": "Your KYC was approved. You can now use ArbiEver Card.",
+        "verified_description": "Your KYC was approved. You can now use EtherEver Card.",
         "continue_button": "Continue",
         "timeout_title": "Verification in progress",
         "timeout_description": "Your verification will take up to 12 hours. Please come back to the Card section in that time or contact support at\n{{email}}\nfor assistance.",
@@ -6574,7 +6573,7 @@
         "electronic_consent_3": " and to receive all communications electronically",
         "terms_and_conditions_1": "I agree to the ",
         "terms_and_conditions_2": "Terms and Conditions",
-        "terms_and_conditions_3": " of ArbiEver Card",
+        "terms_and_conditions_3": " of EtherEver Card",
         "privacy_policy_1": "I agree to the data practices described in the ",
         "privacy_policy_2": "Privacy Policy",
         "right_to_information_1": "I have been informed of my ",
@@ -6589,7 +6588,7 @@
       },
       "complete": {
         "title": "Approved!",
-        "description": "Your KYC was approved. You can now use ArbiEver Card."
+        "description": "Your KYC was approved. You can now use EtherEver Card."
       },
       "continue_button": "Next",
       "confirm_button": "Confirm",
@@ -6621,9 +6620,9 @@
       "enable_assets_button_label": "Enable Assets",
       "spending_limit_warning": "You're close to your spending limit. Update to avoid declines.",
       "logout": "Log out",
-      "logout_description": "Log out from your ArbiEver Card account",
+      "logout_description": "Log out from your EtherEver Card account",
       "logout_confirmation_title": "Log out of Card?",
-      "logout_confirmation_message": "Are you sure you want to log out of your ArbiEver Card account?",
+      "logout_confirmation_message": "Are you sure you want to log out of your EtherEver Card account?",
       "logout_confirmation_cancel": "Cancel",
       "logout_confirmation_confirm": "Log out",
       "enable_card_error": "Failed to enable card. Please try again later.",
@@ -6722,7 +6721,7 @@
       "solana_not_supported_button_description": "Enable on card.metamask.io"
     },
     "card_authentication": {
-      "title": "Log in to your ArbiEver Card account",
+      "title": "Log in to your EtherEver Card account",
       "location_button_text": "International",
       "location_button_text_us": "US account",
       "email_label": "Email",
@@ -6758,7 +6757,7 @@
   },
   "onboarding_error_fallback": {
     "title": "An error occurred",
-    "description": "Send us an error report to help fix the problem and improve ArbiEver. It will be confidential and anonymous.",
+    "description": "Send us an error report to help fix the problem and improve EtherEver. It will be confidential and anonymous.",
     "recovery_warning": "If you keep getting this error, save your Secret Recovery Phrase and re-install the app. Remember: without your Secret Recovery Phrase, you can't restore your wallet.",
     "error_message_report": "Error report:",
     "copy": "Copy",
@@ -6854,7 +6853,7 @@
     "loading_activity": "Loading activity...",
     "error_loading_activity": "Error loading activity",
     "activity_empty_title": "No recent activity.",
-    "activity_empty_description": "Use ArbiEver to earn points, level up, and unlock rewards.",
+    "activity_empty_description": "Use EtherEver to earn points, level up, and unlock rewards.",
     "activity_empty_link": "See ways to earn",
     "events": {
       "to": "to",
@@ -6889,8 +6888,8 @@
     },
     "previous_season_summary": {
       "title": "{{seasonName}} Results",
-      "update_metamask_version": "Update ArbiEver to {{version}} to claim your rewards",
-      "update_metamask": "Update ArbiEver to claim your rewards",
+      "update_metamask_version": "Update EtherEver to {{version}} to claim your rewards",
+      "update_metamask": "Update EtherEver to claim your rewards",
       "point_earned": "point earned",
       "points_earned": "points earned",
       "no_end_of_season_rewards": "You didn't earn rewards this season, but there's always next time.",
@@ -6922,9 +6921,9 @@
       "step_confirm": "Next",
       "step_skip": "Skip",
       "step1_title": "Earn points on every trade",
-      "step1_description": "Every swap and perps trade you make in ArbiEver gets you closer to rewards. Add your accounts and watch your points add up.",
+      "step1_description": "Every swap and perps trade you make in EtherEver gets you closer to rewards. Add your accounts and watch your points add up.",
       "step2_title": "Level up for bigger perks",
-      "step2_description": "Hit points milestones to get perks like 50% off perps fees, exclusive tokens, and a free ArbiEver Metal Card.",
+      "step2_description": "Hit points milestones to get perks like 50% off perps fees, exclusive tokens, and a free EtherEver Metal Card.",
       "step3_title": "Exclusive seasonal rewards",
       "step3_description": "Each season brings new perks. Join in, compete, and claim what you can before time runs out.",
       "step4_title": "You'll earn 250 points when you sign up!",
@@ -6937,17 +6936,17 @@
       "step4_confirm_loading": "Claiming points...",
       "step4_linking_accounts": "Adding accounts... ({{current}}/{{total}})",
       "step4_linking_accounts_loading": "Adding additional accounts...",
-      "step4_success_description": "You have successfully signed up for ArbiEver Rewards!",
-      "step4_legal_disclaimer_1": "By selecting 'Claim Points', you agree to the ArbiEver Rewards",
+      "step4_success_description": "You have successfully signed up for EtherEver Rewards!",
+      "step4_legal_disclaimer_1": "By selecting 'Claim Points', you agree to the EtherEver Rewards",
       "step4_legal_disclaimer_2": "Supplemental Terms of Use and Privacy Notice",
       "step4_legal_disclaimer_3": ". We'll track onchain activity to reward you automatically –",
       "step4_legal_disclaimer_4": "learn more",
       "no_active_season": {
         "title": "Sign up for Rewards",
-        "description": "Get more out of ArbiEver with the best loyalty program in crypto.",
+        "description": "Get more out of EtherEver with the best loyalty program in crypto.",
         "sign_up": "Sign up",
         "sign_up_loading": "Signing up...",
-        "legal_disclaimer_1": "By clicking 'Sign up,' you agree to the ArbiEver Rewards",
+        "legal_disclaimer_1": "By clicking 'Sign up,' you agree to the EtherEver Rewards",
         "legal_disclaimer_2": "Supplemental Terms of Use and Privacy Notice",
         "legal_disclaimer_3": ". We'll track onchain activity to reward you automatically –",
         "legal_disclaimer_4": "learn more"
@@ -7038,7 +7037,7 @@
         "sheet": {
           "title": "Loyalty bonus",
           "points": "250 points per $1250",
-          "description": "Add accounts with past ArbiEver in-wallet swaps or bridges to earn loyalty bonuses. Each eligible account unlocks points in increments of 250, up to a total of 50,000. Bonuses appear shortly after you add an account.",
+          "description": "Add accounts with past EtherEver in-wallet swaps or bridges to earn loyalty bonuses. Each eligible account unlocks points in increments of 250, up to a total of 50,000. Bonuses appear shortly after you add an account.",
           "cta_label": "Add accounts"
         }
       },
@@ -7053,12 +7052,12 @@
         }
       },
       "card": {
-        "title": "ArbiEver Card",
+        "title": "EtherEver Card",
         "description": "1 point per $1 spent",
         "sheet": {
-          "title": "ArbiEver Card",
+          "title": "EtherEver Card",
           "points": "1 point per $1 spent",
-          "description": "Earn points every time you use your ArbiEver Card for purchases, plus 1% cash back (3% for Metal cardholders).",
+          "description": "Earn points every time you use your EtherEver Card for purchases, plus 1% cash back (3% for Metal cardholders).",
           "cta_label": "Manage Card"
         }
       },
@@ -7088,7 +7087,7 @@
       "referral_link": "Referral link",
       "actions": {
         "share_referral_link": "Refer a friend",
-        "share_referral_subject": "Join ArbiEver Rewards"
+        "share_referral_subject": "Join EtherEver Rewards"
       },
       "info": {
         "title": "Share your code to earn more",

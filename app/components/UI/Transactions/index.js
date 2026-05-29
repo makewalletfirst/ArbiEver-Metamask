@@ -407,9 +407,23 @@ class Transactions extends PureComponent {
     try {
       let url, title;
 
+      // [ArbiEver] ArbiEver L2 의 활동 탭 — chainId 의 다양한 형식 + rpcBlockExplorer 도 검사
+      const chainHex =
+        typeof chainId === 'string' ? chainId.toLowerCase() : String(chainId);
+      const isArbiEver =
+        chainHex === '0x8db9f' ||
+        chainHex === '580511' ||
+        type === 'arbiever' ||
+        type === 'arbiever-mainnet' ||
+        (rpcBlockExplorer &&
+          String(rpcBlockExplorer).includes('arbiever.ever-chain.xyz'));
+
       if (this.isNonEvmChain && rpcBlockExplorer) {
         url = `${rpcBlockExplorer}/address/${selectedAddress}`;
         title = getBlockExplorerName(rpcBlockExplorer);
+      } else if (isArbiEver) {
+        url = `https://arbiever.ever-chain.xyz/address/${selectedAddress}`;
+        title = 'arbiever.ever-chain.xyz';
       } else {
         const result = getBlockExplorerAddressUrl(
           type,

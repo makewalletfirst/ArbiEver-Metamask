@@ -1,7 +1,7 @@
 {
   "sample_feature": {
     "title": "샘플 기능",
-    "description": "이 화면은 ArbiEver에서 샘플 기능을 처음부터 끝까지 구축하는 방법을 보여줍니다.",
+    "description": "이 화면은 EtherEver에서 샘플 기능을 처음부터 끝까지 구축하는 방법을 보여줍니다.",
     "counter": {
       "title": "카운터",
       "value": "값: {{value}}",
@@ -170,14 +170,14 @@
   },
   "onboarding": {
     "title": "시작해 보세요!",
-    "sync_desc": "ArbiEver 확장 프로그램 또는 다른 지갑을 사용하고 있으신 경우, 기존에 보유한 자산 관리를 위해 이를 연동하거나 불러오세요.",
+    "sync_desc": "EtherEver 확장 프로그램 또는 다른 지갑을 사용하고 있으신 경우, 기존에 보유한 자산 관리를 위해 이를 연동하거나 불러오세요.",
     "create_desc": "첫 지갑을 설정하고 탈중앙화된 앱을 체험해 보세요.",
     "import": "기존 지갑을 불러오거나 새 지갑을 만드세요",
     "import_wallet_button": "지갑 동기화 또는 불러오기",
     "new_to_crypto": "암호화 화폐의 세계에 처음 오셨나요?",
     "start_exploring_now": "새 지갑 생성하기",
     "unlock": "잠금 해제",
-    "new_to_metamask": "ArbiEver에 처음 오셨나요?",
+    "new_to_metamask": "EtherEver에 처음 오셨나요?",
     "already_have_wallet": "이미 지갑이 있으신가요?",
     "optin_back_title": "조심하세요!",
     "optin_back_desc": "데이터 분석 사용에 동의 또는 비동의해 주세요. 설정에서 이 옵션을 변경하실 수 있습니다.",
@@ -185,15 +185,15 @@
     "warning_text_1": "계속 진행하시면 현재의 지갑과 계정이",
     "warning_text_2": "제거되니",
     "warning_text_3": "이 점 유의하세요.",
-    "warning_text_4": "삭제되면 지갑의 비밀 복구 구문을 통해서만 복구가 가능합니다. ArbiEver는 관련 복구를 도와드릴 수 없습니다.",
+    "warning_text_4": "삭제되면 지갑의 비밀 복구 구문을 통해서만 복구가 가능합니다. EtherEver는 관련 복구를 도와드릴 수 없습니다.",
     "warning_proceed": "지갑 제거 & 진행",
     "warning_cancel": "취소",
     "step1": "지갑 설정",
     "step2": "비밀번호 생성",
     "step3": "지갑 보호",
     "already_have": "이미 지갑이 있으신가요?",
-    "sync_existing": "현재 보유 중인 ArbiEver 지갑을 브라우저 확장 프로그램에서 동기화하거나 수동으로 불러오세요.",
-    "scan_title": "ArbiEver 확장 프로그램 동기화 절차",
+    "sync_existing": "현재 보유 중인 EtherEver 지갑을 브라우저 확장 프로그램에서 동기화하거나 수동으로 불러오세요.",
+    "scan_title": "EtherEver 확장 프로그램 동기화 절차",
     "scan": "스캔",
     "scan_step_1": "데스크탑에서 확장 기능 열기",
     "scan_step_2": "설정 > 고급으로 이동",
@@ -214,7 +214,7 @@
     "have_existing_wallet": "기존 지갑이 있습니다",
     "import_using_srp": "비밀복구구문을 사용하여 가져오기",
     "import_using_srp_social_login": "기존 지갑이 있습니다",
-    "by_continuing": "계속 진행하면 ArbiEver의 다음 정책에 동의하는 것입니다.",
+    "by_continuing": "계속 진행하면 EtherEver의 다음 정책에 동의하는 것입니다.",
     "terms_of_use": "이용약관",
     "privacy_notice": "개인정보 처리방침",
     "and": "함께"
@@ -259,12 +259,12 @@
     "existing_user_button": "지갑 잠금 해제"
   },
   "onboarding_carousel": {
-    "title1": "ArbiEver에 오신 것을 환영합니다",
+    "title1": "EtherEver에 오신 것을 환영합니다",
     "title2": "디지털 자산을 관리하세요",
     "title3": "웹 3.0으로 가는 관문",
-    "subtitle1": "수백만 명의 신뢰를 받는 ArbiEver는 웹 3.0의 세계를 누구나 사용할 수 있게 만들어줄 안전 지갑입니다.",
+    "subtitle1": "수백만 명의 신뢰를 받는 EtherEver는 웹 3.0의 세계를 누구나 사용할 수 있게 만들어줄 안전 지갑입니다.",
     "subtitle2": "토큰, 이더리움, 고유 수집품과 같은 디지털 자산을 보관, 사용, 전송하세요.",
-    "subtitle3": "ArbiEver에 로그인하여 투자, 적립, 게임 플레이, 판매 등의 거래를 진행하세요!",
+    "subtitle3": "EtherEver에 로그인하여 투자, 적립, 게임 플레이, 판매 등의 거래를 진행하세요!",
     "get_started": "시작하기"
   },
   "onboarding_wizard": {
@@ -294,7 +294,7 @@
     "step4": {
       "title": "메인 메뉴",
       "content1": "이 메뉴에서 트랜잭션 기록, 설정 및 지원 등을 이용하실 수 있습니다.",
-      "content2": "계정 및 ArbiEver 설정에 접속하시면 추가적인 작업을 수행할 수 있습니다."
+      "content2": "계정 및 EtherEver 설정에 접속하시면 추가적인 작업을 수행할 수 있습니다."
     },
     "step5": {
       "title": "브라우저 탐색",
@@ -313,7 +313,7 @@
     },
     "step1": {
       "title": "지갑의 세계에 오신 걸 환영합니다!",
-      "content1": "블록체인에서는 지갑이 필요합니다(약간의 ETH도 포함). 그럼 ArbiEver 지갑 사용법을 살펴보겠습니다."
+      "content1": "블록체인에서는 지갑이 필요합니다(약간의 ETH도 포함). 그럼 EtherEver 지갑 사용법을 살펴보겠습니다."
     },
     "step2": {
       "title": "계정",
@@ -345,14 +345,14 @@
     "subtitle": "오래 걸리지 않을 것입니다"
   },
   "import_wallet": {
-    "title": "이미 ArbiEver 사용자인가요?",
+    "title": "이미 EtherEver 사용자인가요?",
     "sub_title": "확장 프로그램과 동기화",
     "sync_help": "확장 프로그램과 지갑을 동기화하세요",
     "sync_help_step_one": "1. 확장 프로그램을 켭니다",
     "sync_help_step_two": "2. 설정 > 고급으로 이동합니다",
     "sync_help_step_three": "3. \"모바일과 동기화\"를 클릭합니다",
     "sync_help_step_four": "4. QR 코드를 스캔해 동기화를 시작합니다",
-    "sync_from_browser_extension_button": "ArbiEver 확장 프로그램과 동기화하기",
+    "sync_from_browser_extension_button": "EtherEver 확장 프로그램과 동기화하기",
     "or": "또는",
     "import_from_seed_button": "비밀 복구 구문을 활용해 불러오기"
   },
@@ -372,22 +372,22 @@
     "your_current_wallet": "지갑, 계정, 자산이 이 앱에서",
     "removed_from": " 영구적으로 제거됩니다",
     "this_action": "이 작업은 취소할 수 없습니다.",
-    "you_can_only": "이 지갑을 복구하려면 생성 시 사용한 정보(비밀복구구문, Google 계정, Apple 계정 등)가 필요합니다. ArbiEver는 이 정보를 보관하지 않습니다.",
+    "you_can_only": "이 지갑을 복구하려면 생성 시 사용한 정보(비밀복구구문, Google 계정, Apple 계정 등)가 필요합니다. EtherEver는 이 정보를 보관하지 않습니다.",
     "recovery_phrase": "비밀 복구 구문입니다",
-    "metamask_does_not": "ArbiEver는 사용자의 비밀 복구 구문을 보유하고 있지 않습니다.",
+    "metamask_does_not": "EtherEver는 사용자의 비밀 복구 구문을 보유하고 있지 않습니다.",
     "i_understand": "이해했습니다. 계속 진행하겠습니다",
     "passcode_not_set_error": "오류: 비밀번호가 설정되지 않았습니다.",
     "wrong_password_error": "오류: 디크립트에 실패했습니다",
     "wrong_password_error_android": "오류: error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT",
     "vault_error": "오류: 이전 볼트가 없으면 잠금을 해제할 수 없습니다.",
-    "clean_vault_error": "저장 공간 부족으로 오류가 발생했습니다. 로컬 데이터가 손상되었습니다. ArbiEver를 다시 설치하고 비밀 복구 구문으로 복원을 진행하세요.",
+    "clean_vault_error": "저장 공간 부족으로 오류가 발생했습니다. 로컬 데이터가 손상되었습니다. EtherEver를 다시 설치하고 비밀 복구 구문으로 복원을 진행하세요.",
     "seedless_password_outdated": "비밀번호가 최근에 변경되었습니다.",
     "seedless_password_outdated_modal_title": "비밀번호가 변경되었습니다",
-    "seedless_password_outdated_modal_content": "비밀번호가 최근에 변경되었습니다. 따라서 ArbiEver 로그인 상태를 계속 유지하려면 새 비밀번호를 입력해야 합니다.",
+    "seedless_password_outdated_modal_content": "비밀번호가 최근에 변경되었습니다. 따라서 EtherEver 로그인 상태를 계속 유지하려면 새 비밀번호를 입력해야 합니다.",
     "seedless_password_outdated_modal_confirm": "계속",
     "no_internet_connection": "시드리스 계정 복구 기능을 사용하려면 인터넷 연결이 필요합니다.",
     "seedless_controller_error_prompt_title": "문제가 발생했습니다",
-    "seedless_controller_error_prompt_description": "잠금해제 중 문제가 발생했습니다. Google로 다시 로그인한 후 ArbiEver 비밀번호를 입력하세요.",
+    "seedless_controller_error_prompt_description": "잠금해제 중 문제가 발생했습니다. Google로 다시 로그인한 후 EtherEver 비밀번호를 입력하세요.",
     "seedless_controller_error_prompt_primary_button_label": "로그인",
     "security_alert_title": "보안 경고",
     "security_alert_desc": "계속하려면, 비밀번호를 켜거나 또는 회원님의 기기에서 지원되는 생체 인식 인증 방법을 켜야 합니다 (FaceID, TouchID 또는 지문)",
@@ -396,19 +396,19 @@
     "google_button": "Google로 로그인",
     "other_methods": "다른 로그인 방법 사용",
     "forgot_password_desc": "비밀번호를 잊으셨나요?",
-    "forgot_password_desc_2": "ArbiEver는 비밀번호를 복구할 수 없습니다.",
+    "forgot_password_desc_2": "EtherEver는 비밀번호를 복구할 수 없습니다.",
     "forgot_password_point_1": "바이오메트릭(예: Face ID)이 활성화된 장치에서",
-    "forgot_password_point_1_bold": "ArbiEver에 로그인되어 있다면,",
+    "forgot_password_point_1_bold": "EtherEver에 로그인되어 있다면,",
     "forgot_password_point_1_1": "해당 장치에서 비밀번호를 초기화할 수 있습니다.",
     "forgot_password_point_2": "비밀복구구문이 있다면,",
     "forgot_password_point_2_bold": "비밀복구구문입니다,",
     "forgot_password_point_2_1": "비밀복구구문을 사용하여 다시 가져올 수 있습니다.",
     "reset_wallet": "지갑 초기화",
-    "reset_wallet_desc": "이 장치에서 ArbiEver의",
+    "reset_wallet_desc": "이 장치에서 EtherEver의",
     "reset_wallet_desc_bold": "지갑 데이터가",
     "reset_wallet_desc_2": "영구적으로 삭제됩니다. 이 작업은 되돌릴 수 없습니다.",
-    "reset_wallet_desc_login": "지갑을 복구하려면 비밀복구구문, Google 계정 비밀번호, Apple 계정 비밀번호를 사용할 수 있습니다. ArbiEver는 이 정보를 보관하지 않습니다.",
-    "reset_wallet_desc_srp": "지갑을 복구하려면 비밀복구구문이 있어야 합니다. ArbiEver는 이 정보를 보관하지 않습니다."
+    "reset_wallet_desc_login": "지갑을 복구하려면 비밀복구구문, Google 계정 비밀번호, Apple 계정 비밀번호를 사용할 수 있습니다. EtherEver는 이 정보를 보관하지 않습니다.",
+    "reset_wallet_desc_srp": "지갑을 복구하려면 비밀복구구문이 있어야 합니다. EtherEver는 이 정보를 보관하지 않습니다."
   },
   "connect_hardware": {
     "title_select_hardware": "하드웨어 지갑 연결",
@@ -422,13 +422,13 @@
     "error": "오류"
   },
   "choose_password": {
-    "title": "ArbiEver 비밀번호",
-    "description": "이 장치에서만 ArbiEver 잠금해제에 사용됩니다.",
+    "title": "EtherEver 비밀번호",
+    "description": "이 장치에서만 EtherEver 잠금해제에 사용됩니다.",
     "description_social_login": "이를 모든 기기에서 지갑을 복구하는 데 사용하세요.",
     "description_social_login_update": "이 비밀번호를 잃어버리면 모든 기기에서 지갑에 접근할 수 없게 됩니다. 안전한 곳에 보관하세요.",
-    "description_social_login_update_ios": "모든 장치에서 지갑 복구에 사용됩니다. ArbiEver에서 초기화할 수 없습니다.",
-    "description_social_login_update_bold": "ArbiEver는 비밀번호를 재설정해 드릴 수 없습니다.",
-    "subtitle": "이 비밀번호는 이 기기에서 귀하의 ArbiEver 지갑을 잠금 해제할 때만 사용됩니다.",
+    "description_social_login_update_ios": "모든 장치에서 지갑 복구에 사용됩니다. EtherEver에서 초기화할 수 없습니다.",
+    "description_social_login_update_bold": "EtherEver는 비밀번호를 재설정해 드릴 수 없습니다.",
+    "subtitle": "이 비밀번호는 이 기기에서 귀하의 EtherEver 지갑을 잠금 해제할 때만 사용됩니다.",
     "password": "비밀번호 생성",
     "confirm_password": "비밀번호 확인",
     "create_button": "비밀번호 생성",
@@ -446,7 +446,7 @@
     "remember_me": "로그인 정보 저장",
     "security_alert_title": "보안 경고",
     "security_alert_message": "계속하려면, 비밀번호를 켜거나 또는 귀하의 기기에서 지원되는 생체 인식 인증 방법을 켜야 합니다 (FaceID, TouchID 또는 지문)",
-    "i_understand": "ArbiEver가 비밀번호를 복구해 줄 수 없음을 이해했습니다.",
+    "i_understand": "EtherEver가 비밀번호를 복구해 줄 수 없음을 이해했습니다.",
     "learn_more": "더 보기",
     "secure": "지갑 보호",
     "confirm": "비밀 복구 구문 확인",
@@ -454,12 +454,12 @@
     "create_password_cta": "비밀번호 생성",
     "steps": "{{currentStep}} 단계/{{totalSteps}} 단계",
     "password_error": "비밀번호가 일치하지 않습니다.",
-    "marketing_opt_in_description": "제품 업데이트, 팁, 소식을 이메일을 포함한 다양한 방식으로 받아보실 수 있습니다. ArbiEver는 서비스를 개선하기 위해 사용자의 상호작용 정보를 활용할 수 있습니다.",
-    "loose_password_description": "이 비밀번호를 분실하면 ArbiEver가 재설정해 드릴 수 없습니다."
+    "marketing_opt_in_description": "제품 업데이트, 팁, 소식을 이메일을 포함한 다양한 방식으로 받아보실 수 있습니다. EtherEver는 서비스를 개선하기 위해 사용자의 상호작용 정보를 활용할 수 있습니다.",
+    "loose_password_description": "이 비밀번호를 분실하면 EtherEver가 재설정해 드릴 수 없습니다."
   },
   "reset_password": {
     "title": "비밀번호 변경",
-    "subtitle": "이 비밀번호는 이 기기에서 귀하의 ArbiEver 지갑을 잠금 해제할 때만 사용됩니다.",
+    "subtitle": "이 비밀번호는 이 기기에서 귀하의 EtherEver 지갑을 잠금 해제할 때만 사용됩니다.",
     "password": "새 비밀번호",
     "confirm_password": "비밀번호 확인",
     "reset_button": "비밀번호 재설정",
@@ -477,7 +477,7 @@
     "remember_me": "로그인 정보 저장",
     "security_alert_title": "보안 경고",
     "security_alert_message": "계속하려면, 비밀번호를 켜거나 또는 귀하의 기기에서 지원되는 생체 인식 인증 방법을 켜야 합니다 (FaceID, TouchID 또는 지문)",
-    "i_understand": "ArbiEver가 비밀번호를 복구해 줄 수 없음을 이해했습니다.",
+    "i_understand": "EtherEver가 비밀번호를 복구해 줄 수 없음을 이해했습니다.",
     "learn_more": "더 보기",
     "secure": "지갑 보호",
     "confirm": "비밀 복구 구문 확인",
@@ -487,12 +487,12 @@
     "confirm_password_placeholder": "비밀번호를 다시 입력하세요",
     "confirm_btn": "저장",
     "warning_password_change_title": "진행하시겠습니까?",
-    "warning_password_change_description": "여기서 비밀번호를 변경하면 다른 장치에서 사용 중인 ArbiEver가 잠깁니다. 그러면 새 비밀번호로 다시 로그인해야 합니다",
+    "warning_password_change_description": "여기서 비밀번호를 변경하면 다른 장치에서 사용 중인 EtherEver가 잠깁니다. 그러면 새 비밀번호로 다시 로그인해야 합니다",
     "warning_password_change_button": "확인",
     "warning_password_cancel_button": "취소",
     "changing_password": "비밀번호 변경 중...",
     "changing_password_subtitle": "오래 걸리지 않습니다",
-    "checkbox_forgot_password": "이 비밀번호를 잊으면 지갑에 영구적으로 접근할 수 없게 됩니다. ArbiEver는 비밀번호를 초기화해 드릴 수 없습니다.",
+    "checkbox_forgot_password": "이 비밀번호를 잊으면 지갑에 영구적으로 접근할 수 없게 됩니다. EtherEver는 비밀번호를 초기화해 드릴 수 없습니다.",
     "seedless_change_password_error_modal_title": "비밀번호 변경 실패",
     "seedless_change_password_error_modal_content": "비밀번호를 변경할 수 없습니다. 다시 시도해 주세요.",
     "seedless_change_password_error_modal_confirm": "다시 시도"
@@ -512,14 +512,14 @@
     "invalid_qr_code_title": "잘못된 QR 코드",
     "invalid_qr_code_message": "이 QR 코드는 유효한 비밀 복구 구문이 아닙니다",
     "enter_your_secret_recovery_phrase": "비밀복구구문을 입력하세요",
-    "metamask_password": "ArbiEver 비밀번호",
-    "metamask_password_description": "이 장치에서만 ArbiEver 잠금해제에 사용됩니다.",
+    "metamask_password": "EtherEver 비밀번호",
+    "metamask_password_description": "이 장치에서만 EtherEver 잠금해제에 사용됩니다.",
     "seed_phrase_required": "비밀복구구문이 필요합니다",
     "re_enter_password": "비밀번호를 다시 입력하세요",
     "use_at_least_8_characters": "8자 이상이어야 합니다",
     "unlock_with_face_id": "페이스 ID로 잠금 해제하시겠습니까?",
-    "learn_more": "이 비밀번호를 잊으면 ArbiEver는 복구할 수 없습니다.",
-    "learn_more_social_login": "이 비밀번호를 잊으면 지갑에 영구적으로 접근할 수 없게 됩니다. ArbiEver는 비밀번호를 초기화해 드릴 수 없습니다.",
+    "learn_more": "이 비밀번호를 잊으면 EtherEver는 복구할 수 없습니다.",
+    "learn_more_social_login": "이 비밀번호를 잊으면 지갑에 영구적으로 접근할 수 없게 됩니다. EtherEver는 비밀번호를 초기화해 드릴 수 없습니다.",
     "seed_phrase_length_error": "비밀복구구문은 12, 15, 18, 21 또는 24개 단어로 구성되어야 합니다",
     "continue": "계속",
     "clear_all": "모두 지우기",
@@ -573,7 +573,7 @@
     "lock_ok": "예",
     "lock_cancel": "아니오",
     "feedback": "피드백",
-    "metamask_support": "ArbiEver 지원",
+    "metamask_support": "EtherEver 지원",
     "public_address": "공개 주소"
   },
   "send": {
@@ -821,7 +821,7 @@
     },
     "privacy_section": {
       "transak": "Transak이 이 정보를 암호화하여 저장합니다.",
-      "metamask": "ArbiEver는 회원님의 데이터를 수집하거나 사용하지 않습니다."
+      "metamask": "EtherEver는 회원님의 데이터를 수집하거나 사용하지 않습니다."
     },
     "kyc_processing": {
       "navbar_title": "본인 인증",
@@ -968,8 +968,8 @@
       "apply": "적용",
       "max_button": "최대",
       "done_button": "완료",
-      "metamask_fee": "ArbiEver 수수료",
-      "metamask_fee_tooltip": "ArbiEver는 Hyperliquid 입금에 대해 수수료를 부과하지 않습니다",
+      "metamask_fee": "EtherEver 수수료",
+      "metamask_fee_tooltip": "EtherEver는 Hyperliquid 입금에 대해 수수료를 부과하지 않습니다",
       "minimum_deposit_error": "최소 예치금은 {{amount}} USDC입니다",
       "processing_title": "예치 처리 중",
       "preview": {
@@ -1043,7 +1043,7 @@
       "success_title": "출금 성공",
       "success_description": "Hyperliquid에서 {{amount}} USDC가 출금되었습니다",
       "network_fee": "네트워크 수수료",
-      "metamask_fee": "ArbiEver 수수료",
+      "metamask_fee": "EtherEver 수수료",
       "total_fees": "총 수수료",
       "receiving_amount": "받을 금액:",
       "estimated_time": "예상 시간",
@@ -1071,10 +1071,10 @@
       "network_fee": "네트워크 수수료",
       "estimated_time": "예상 시간",
       "rate": "비율",
-      "metamask_fee": "ArbiEver 수수료",
-      "metamask_fee_tooltip": "ArbiEver는 Hyperliquid 트랜잭션에 수수료를 부과하지 않습니다",
-      "metamask_fee_tooltip_deposit": "ArbiEver는 Hyperliquid 입금에 대해 수수료를 부과하지 않습니다",
-      "metamask_fee_tooltip_withdrawal": "ArbiEver는 Hyperliquid 출금에 대해 수수료를 부과하지 않습니다"
+      "metamask_fee": "EtherEver 수수료",
+      "metamask_fee_tooltip": "EtherEver는 Hyperliquid 트랜잭션에 수수료를 부과하지 않습니다",
+      "metamask_fee_tooltip_deposit": "EtherEver는 Hyperliquid 입금에 대해 수수료를 부과하지 않습니다",
+      "metamask_fee_tooltip_withdrawal": "EtherEver는 Hyperliquid 출금에 대해 수수료를 부과하지 않습니다"
     },
     "order": {
       "title": "새 주문",
@@ -1467,14 +1467,14 @@
       "fees": {
         "title": "수수료",
         "content": "거래 수수료는 포지션을 시작하거나 종료할 때 부과됩니다.",
-        "metamask_fee": "ArbiEver 수수료",
+        "metamask_fee": "EtherEver 수수료",
         "provider_fee": "공급자 수수료",
         "total": "총 수수료",
-        "discount_message": "ArbiEver 보상으로 {{percentage}}%를 절약하고 있습니다."
+        "discount_message": "EtherEver 보상으로 {{percentage}}%를 절약하고 있습니다."
       },
       "closing_fees": {
         "title": "종료 수수료",
-        "metamask_fee": "ArbiEver 수수료",
+        "metamask_fee": "EtherEver 수수료",
         "provider_fee": "공급자 수수료"
       },
       "estimated_pnl": {
@@ -1531,7 +1531,7 @@
       },
       "points": {
         "title": "포인트",
-        "content": "포인트는 스왑, 브릿지, 무기한 선물 거래 등의 트랜잭션을 완료할 때마다 적립되며, 이를 통해 ArbiEver 보상을 획득할 수 있습니다."
+        "content": "포인트는 스왑, 브릿지, 무기한 선물 거래 등의 트랜잭션을 완료할 때마다 적립되며, 이를 통해 EtherEver 보상을 획득할 수 있습니다."
       },
       "market_hours": {
         "title": "Market hours",
@@ -1605,7 +1605,7 @@
     },
     "support": {
       "title": "지원팀에 문의",
-      "description": "도움이 필요하면 ArbiEver 지원팀에 문의하세요"
+      "description": "도움이 필요하면 EtherEver 지원팀에 문의하세요"
     },
     "close_all_modal": {
       "title": "모든 포지션 종료",
@@ -1637,7 +1637,7 @@
     },
     "crossMargin": {
       "title": "Cross Margin Not Supported",
-      "message": "ArbiEver Perps only support trading with isolated margin. You need to first close your cross margin position before you can trade on ArbiEver.",
+      "message": "EtherEver Perps only support trading with isolated margin. You need to first close your cross margin position before you can trade on EtherEver.",
       "dismiss": "컨펌"
     },
     "sort": {
@@ -1701,7 +1701,7 @@
         "size": "규모",
         "limit_price": "지정가",
         "filled": "체결",
-        "metamask_fee": "ArbiEver 수수료",
+        "metamask_fee": "EtherEver 수수료",
         "hyperliquid_fee": "Hyperliquid 수수료",
         "total_fee": "총 수수료",
         "liquidated": "강제 청산됨",
@@ -1727,7 +1727,7 @@
       "add_funds": "자금 추가",
       "what_are_perps": {
         "title": "무기한 선물이란 무엇인가요?",
-        "description": "ArbiEver가 이제 무기한 선물을 지원합니다. 이를 통해 토큰을 매수하지 않고도 가격 변동에 따라 거래할 수 있습니다.",
+        "description": "EtherEver가 이제 무기한 선물을 지원합니다. 이를 통해 토큰을 매수하지 않고도 가격 변동에 따라 거래할 수 있습니다.",
         "subtitle": "무기한 선물 거래 방식은 다음과 같습니다."
       },
       "go_long_or_short": {
@@ -1750,7 +1750,7 @@
       "ready_to_trade": {
         "title": "거래할 준비가 되셨나요?",
         "description": "원하는 토큰으로 무기한 선물 계정에 입금하고, 바로 첫 거래를 시작하세요.",
-        "footer_text": "ArbiEver가 추가 수수료 없이 Arbitrum에서 자금을 USDC로 스왑하고 HyperCore에 입금합니다."
+        "footer_text": "EtherEver가 추가 수수료 없이 Arbitrum에서 자금을 USDC로 스왑하고 HyperCore에 입금합니다."
       },
       "got_it": "컨펌",
       "lets_go": "Let's go",
@@ -1768,15 +1768,15 @@
       "title": "PnL Hero Card",
       "header_title": "Share your trade",
       "share_button": "공유",
-      "share_message_with_referral_code": "ArbiEver에서 {{asset}} 무기한 선물을 거래해 보세요. 이 추천 코드 {{code}}를 사용하여 가입하고 추가 리워드를 받으세요. {{link}}",
-      "share_message_without_referral_code": "Trade {{asset}} perps on ArbiEver.",
+      "share_message_with_referral_code": "EtherEver에서 {{asset}} 무기한 선물을 거래해 보세요. 이 추천 코드 {{code}}를 사용하여 가입하고 추가 리워드를 받으세요. {{link}}",
+      "share_message_without_referral_code": "Trade {{asset}} perps on EtherEver.",
       "share_failed": "Failed to export image",
       "export_success": "Exported image",
       "referral_code_text": "추천 코드를 사용하여 추가 리워드를 받으세요."
     }
   },
   "predict": {
-    "title": "ArbiEver 예측",
+    "title": "EtherEver 예측",
     "prediction_markets": "예측 시장",
     "market_list": "시장 목록",
     "loading": "로딩 중...",
@@ -1891,7 +1891,7 @@
     },
     "consent_sheet": {
       "title": "이용약관",
-      "description": "ArbiEver는 Polymarket과 파트너십을 맺고 예측 시장을 제공합니다. 모든 이용 가능한 시장, 주문, 정산은 Polymarket에서 이루어집니다.",
+      "description": "EtherEver는 Polymarket과 파트너십을 맺고 예측 시장을 제공합니다. 모든 이용 가능한 시장, 주문, 정산은 Polymarket에서 이루어집니다.",
       "learn_more": "자세히 알아보세요.",
       "agree": "동의",
       "disagree": "동의하지 않음",
@@ -1968,11 +1968,11 @@
       "fees": "수수료",
       "provider_fee_label": "Polymarket 수수료",
       "provider_fee": "공급자 수수료",
-      "metamask_fee": "ArbiEver 수수료",
+      "metamask_fee": "EtherEver 수수료",
       "total": "총액",
       "estimated_points": "예상 포인트",
       "points_tooltip": "포인트",
-      "points_tooltip_content_1": "포인트는 스왑, 브릿지, 예측과 같은 거래를 완료하여 적립할 수 있으며 ArbiEver 리워드를 획득하는 데 사용할 수 있습니다.",
+      "points_tooltip_content_1": "포인트는 스왑, 브릿지, 예측과 같은 거래를 완료하여 적립할 수 있으며 EtherEver 리워드를 획득하는 데 사용할 수 있습니다.",
       "points_tooltip_content_2": "이 값은 추정치이며, 거래가 완료되면 최종적으로 확정됩니다. 포인트는 보상 잔액에 반영되기까지 최대 1시간이 걸릴 수 있습니다.",
       "points_error": "지금 포인트를 불러올 수 없습니다",
       "points_error_content": "이 트랜잭션에 대해서도 포인트가 적립됩니다. 포인트가 계정에 추가되면 알려드립니다. 약 한 시간이 지나면 보상 탭에서도 확인할 수 있습니다."
@@ -2002,7 +2002,7 @@
   "experience_enhancer_modal": {
     "title": "사용자 경험을 개선할 수 있도록 도와주세요",
     "paragraph1a": "또한 ",
-    "paragraph1b": ", ArbiEver는 쿠키 정보 같은 데이터를 사용하여 사용자가 마케팅 커뮤니케이션과 어떻게 상호작용하는지 파악하고자 합니다.",
+    "paragraph1b": ", EtherEver는 쿠키 정보 같은 데이터를 사용하여 사용자가 마케팅 커뮤니케이션과 어떻게 상호작용하는지 파악하고자 합니다.",
     "link": "MetaMetrics",
     "paragraph2": "이를 통해 회원님과 공유하는 다음과 같은 콘텐츠를 개인화할 수 있습니다.",
     "bullet1": "최신 개발",
@@ -2025,7 +2025,7 @@
       "subtitle": "지갑 내에서 9개 체인을 자유롭게 이동하세요"
     },
     "card": {
-      "title": "ArbiEver 카드",
+      "title": "EtherEver 카드",
       "subtitle": "일부 지역에서만 이용 가능"
     },
     "fund": {
@@ -2033,7 +2033,7 @@
       "subtitle": "시작하려면 토큰을 추가하거나 전송하세요"
     },
     "cashout": {
-      "title": "ArbiEver를 통한 현금화",
+      "title": "EtherEver를 통한 현금화",
       "subtitle": "암호화폐를 매도하여 현금화하세요"
     },
     "aggregated": {
@@ -2042,7 +2042,7 @@
     },
     "multisrp": {
       "title": "여러 비밀복구구문 추가",
-      "subtitle": "ArbiEver로 여러 지갑 가져와 사용하기"
+      "subtitle": "EtherEver로 여러 지갑 가져와 사용하기"
     },
     "solana": {
       "title": "이제 솔라나가 지원됩니다",
@@ -2114,7 +2114,7 @@
     "no_tokens": "토큰이 없습니다!",
     "show_tokens_without_balance": "잔액 없는 토큰 표시",
     "nfts_autodetection_title": "NFT 감지",
-    "nfts_autodetection_desc": "ArbiEver를 통해 자동으로 NFT를 감지하여 지갑에 표시할 수 있습니다.",
+    "nfts_autodetection_desc": "EtherEver를 통해 자동으로 NFT를 감지하여 지갑에 표시할 수 있습니다.",
     "network_details_check": "네트워크 세부 정보 확인",
     "network_with_chain_id": "체인 ID 포함 네트워크",
     "chain_list_returned_different_ticker_symbol": "이 토큰 심볼이 입력한 네트워크 이름 또는 체인 ID와 일치하지 않습니다. 여러 인기 토큰이 비슷한 심볼을 사용합니다. 사기꾼은 이를 이용해 더 가격이 높은 토큰을 보내도록 속일 수 있습니다. 계속하기 전에 모든 사항을 확인하세요.",
@@ -2211,7 +2211,7 @@
       "remove_nft": "NFT 제거"
     },
     "attributes": "속성",
-    "disclaimer": "면책 조항: ArbiEver는 소스 URL에서 미디어 파일을 가져옵니다. 이러한 URL은 때때로 NFT가 민팅된 마켓플레이스에서 변경되기도 합니다."
+    "disclaimer": "면책 조항: EtherEver는 소스 URL에서 미디어 파일을 가져옵니다. 이러한 URL은 때때로 NFT가 민팅된 마켓플레이스에서 변경되기도 합니다."
   },
   "activity_view": {
     "title": "활동"
@@ -2270,7 +2270,7 @@
     "privacy_policy_button": "개인정보 보호방침",
     "agree": "동의합니다",
     "decline": "동의하지 않습니다",
-    "description_title": "ArbiEver를 개선할 수 있도록 도와주세요",
+    "description_title": "EtherEver를 개선할 수 있도록 도와주세요",
     "description_content_1": "이러한 권한을 요청하고자 합니다. 언제든지 사용 데이터를 거부하거나 삭제할 수 있습니다.",
     "description_content_2": "메트릭을 수집할 때는 항상...",
     "description_content_3": "프로필 사용 데이터를 수집하는 동안 개인정보 보호 방법을 알아보세요.",
@@ -2283,18 +2283,18 @@
     "action_description_2_prefix": "일반:",
     "action_description_3_prefix": "선택 사항:",
     "action_description_1_description": "앱의 클릭 수와 조회수는 저장되지만, 공개 주소와 같은 기타 세부 정보는 저장되지 않습니다.",
-    "action_description_2_description": "ArbiEver는 사용자의 국가나 지역과 같은 일반적인 위치를 찾기 위해 일시적으로 사용자의 IP 주소를 사용하지만, 이 정보는 저장되지 않습니다.",
+    "action_description_2_description": "EtherEver는 사용자의 국가나 지역과 같은 일반적인 위치를 찾기 위해 일시적으로 사용자의 IP 주소를 사용하지만, 이 정보는 저장되지 않습니다.",
     "action_description_3_description": "언제든지 설정을 통해 사용 데이터를 공유할지 삭제할지 결정할 수 있습니다.",
     "cta_no_thanks": "아니요, 괜찮습니다",
     "cta_i_agree": "동의합니다",
     "continue": "계속",
     "fine_print_1_legacy": "이 데이터는 집계 처리된 정보이며 일반 데이터 보호 규정 (EU) 2016/679의 목적에 따라 익명으로 관리됩니다.",
-    "fine_print_2a_legacy": "*ArbiEver에서 Infura를 기본 RPC 공급업체로 이용하는 경우, 트랜잭션 전송 시 Infura가 IP 주소와 이더리움 지갑 주소 정보를 수집합니다. ArbiEver는 해당 두 정보를 연계할 수 있는 방식으로 정보를 저장하지 않습니다. 계속 진행하기 전에 RPC 공급업체 이용방식을 구성할 수 있습니다.",
-    "fine_print_2b_legacy": "데이터 수집 관점에서 ArbiEver와 Infura가 인터렉션하는 방법에 대한 자세한 내용은 업데이트를 참조하세요.",
+    "fine_print_2a_legacy": "*EtherEver에서 Infura를 기본 RPC 공급업체로 이용하는 경우, 트랜잭션 전송 시 Infura가 IP 주소와 이더리움 지갑 주소 정보를 수집합니다. EtherEver는 해당 두 정보를 연계할 수 있는 방식으로 정보를 저장하지 않습니다. 계속 진행하기 전에 RPC 공급업체 이용방식을 구성할 수 있습니다.",
+    "fine_print_2b_legacy": "데이터 수집 관점에서 EtherEver와 Infura가 인터렉션하는 방법에 대한 자세한 내용은 업데이트를 참조하세요.",
     "fine_print_2c_legacy": "일반적인 개인정보 보호방침에 대한 자세한 내용은 개인정보 보호방침에서 확인하세요",
     "here_legacy": "여기에서 확인하세요",
-    "description_content_1_legacy": "ArbiEver는 사용자가 모바일 앱을 어떻게 사용하는지 이해하기 위해 기본적인 사용 데이터를 수집하고자 합니다. 이 데이터는 당사 제품의 사용 편의성과 사용자 경험을 지속적으로 개선하기 위해 사용됩니다.",
-    "description_content_2_legacy": "ArbiEver는...",
+    "description_content_1_legacy": "EtherEver는 사용자가 모바일 앱을 어떻게 사용하는지 이해하기 위해 기본적인 사용 데이터를 수집하고자 합니다. 이 데이터는 당사 제품의 사용 편의성과 사용자 경험을 지속적으로 개선하기 위해 사용됩니다.",
+    "description_content_2_legacy": "EtherEver는...",
     "action_description_1_legacy": "설정을 통해 수신 거부를 설정할 수 있도록 허용합니다",
     "action_description_2_legacy": "익명화된 클릭 및 페이지 뷰 이벤트를 전송합니다",
     "action_description_3_legacy": "서비스 제공에 필요하지 않은 정보(예: 키, 주소, 트랜잭션 해시 또는 잔액) 관련 정보를 수집합니다.",
@@ -2391,7 +2391,7 @@
     "no": "아니오",
     "yes_remove_it": "네. 제거하겠습니다",
     "remove_hardware_account": "하드웨어 계정 제거",
-    "remove_hw_account_alert_description": "이 하드웨어 지갑 계정을 제거하시겠습니까? 이 계정을 ArbiEver 모바일에서 다시 사용하려면 하드웨어 지갑에 다시 동기화해야 합니다.",
+    "remove_hw_account_alert_description": "이 하드웨어 지갑 계정을 제거하시겠습니까? 이 계정을 EtherEver 모바일에서 다시 사용하려면 하드웨어 지갑에 다시 동기화해야 합니다.",
     "remove_snap_account": "Snap 계정 제거",
     "remove_snap_account_alert_description": "이 계정이 지갑에서 제거됩니다. 계속하기 전에 가져온 계정의 원래 비밀복구구문이나 개인 키를 가지고 있는지 확인하세요. 계정 드롭다운에서 계정을 다시 가져오거나 생성할 수 있습니다.",
     "remove_account_alert_remove_btn": "제거",
@@ -2431,7 +2431,7 @@
     "learn_more": "더 보기",
     "advisory_by": "Ethereum Phishing Detector와 PhishFort에서 자문 제공",
     "potential_threat": "다음과 같은 잠재적 위협이 있습니다.",
-    "fake_metamask": "ArbiEver 위조 버전",
+    "fake_metamask": "EtherEver 위조 버전",
     "srp_theft": "비밀복구구문 또는 비밀번호 도용",
     "malicious_transactions": "자산 도난으로 이어지는 악성 거래",
     "secret_recovery_phrase": "비밀복구구문입니다",
@@ -2506,7 +2506,7 @@
   },
   "data_collection_modal": {
     "accept": "확인",
-    "content": "마케팅 목적의 데이터 수집을 비활성화했습니다. 이는 이 기기에만 적용됩니다. 다른 기기에서도 ArbiEver를 사용하는 경우 해당 기기에서도 데이터 수집을 비활성화해야 합니다."
+    "content": "마케팅 목적의 데이터 수집을 비활성화했습니다. 이는 이 기기에만 적용됩니다. 다른 기기에서도 EtherEver를 사용하는 경우 해당 기기에서도 데이터 수집을 비활성화해야 합니다."
   },
   "account_selector": {
     "prev": "이전",
@@ -2531,7 +2531,7 @@
     "current_conversion": "기준 통화",
     "current_language": "현재 언어",
     "ipfs_gateway": "IPFS 게이트웨이",
-    "ipfs_gateway_content": "ArbiEver는 타사 서비스를 이용하여 IPFS에 저장된 NFT 이미지를 표시하고, 브라우저 주소창에 입력한 ENS 주소 관련 정보를 표시하며 다양한 토큰의 아이콘도 가져옵니다. 이러한 서비스를 이용하면 회원님의 IP 주소가 해당 서비스에 노출될 수 있습니다.",
+    "ipfs_gateway_content": "EtherEver는 타사 서비스를 이용하여 IPFS에 저장된 NFT 이미지를 표시하고, 브라우저 주소창에 입력한 ENS 주소 관련 정보를 표시하며 다양한 토큰의 아이콘도 가져옵니다. 이러한 서비스를 이용하면 회원님의 IP 주소가 해당 서비스에 노출될 수 있습니다.",
     "ipfs_gateway_down": "현재 IPFS 게이트웨이가 닫혀 있습니다",
     "ipfs_gateway_desc": "선호하는 IPFS 게이트웨이를 선택하세요.",
     "search_engine": "검색 엔진",
@@ -2540,7 +2540,7 @@
     "add_network_title": "네트워크 추가",
     "auto_lock": "자동 잠금",
     "auto_lock_desc": "앱이 자동으로 잠기기 전까지 걸리는 시간을 선택하세요.",
-    "state_logs_desc": "이렇게 하면 ArbiEver에서 발생할 수 있는 문제를 디버깅하는 데 도움이 됩니다. 햄버거 아이콘 > 피드백 보내기로 문의하시거나 또는 기존 문의 티켓이 있으면, 해당 티켓으로 회신하여 ArbiEver 지원 서비스로 보내주시기 바랍니다.",
+    "state_logs_desc": "이렇게 하면 EtherEver에서 발생할 수 있는 문제를 디버깅하는 데 도움이 됩니다. 햄버거 아이콘 > 피드백 보내기로 문의하시거나 또는 기존 문의 티켓이 있으면, 해당 티켓으로 회신하여 EtherEver 지원 서비스로 보내주시기 바랍니다.",
     "autolock_immediately": "즉시",
     "autolock_never": "절대",
     "autolock_after": " {{time}}초 후",
@@ -2577,7 +2577,7 @@
     "manage_recovery_method": "복구 방법 관리",
     "video_failed": "영상을 가져올 수 없습니다.",
     "protect_desc": "비밀복구구문을 백업해 두면 지갑 접근 권한을 잃지 않을 수 있습니다. 본인만 접근할 수 있는 안전한 장소에 보관하고 반드시 기억하세요",
-    "protect_desc_no_backup": "이것은 지갑의 12단어 구문입니다. 이 구문은 지갑에 있는 자금을 보내는 기능을 포함하여 현재와 미래의 모든 계정을 통제하기 위해 사용할 수 있습니다. 이 구문은 안전하게 보관하고 다른 사람과 공유하지 마세요. ArbiEver는 이 키를 복구해 드릴 수 없습니다.",
+    "protect_desc_no_backup": "이것은 지갑의 12단어 구문입니다. 이 구문은 지갑에 있는 자금을 보내는 기능을 포함하여 현재와 미래의 모든 계정을 통제하기 위해 사용할 수 있습니다. 이 구문은 안전하게 보관하고 다른 사람과 공유하지 마세요. EtherEver는 이 키를 복구해 드릴 수 없습니다.",
     "learn_more": "더 알아보기.",
     "seedphrase_not_backed_up": "중요! 비밀 복구 구문이 백업되지 않았습니다",
     "seedphrase_backed_up": "비밀 복구 구문이 백업되었습니다",
@@ -2666,9 +2666,9 @@
     "remove_network_title": "해당 네트워크를 제거하시겠습니까?",
     "remove_network": "제거",
     "cancel_remove_network": "취소",
-    "info_title": "ArbiEver 소개",
-    "info_title_beta": "ArbiEver 베타 소개",
-    "info_title_flask": "ArbiEver Flask 소개",
+    "info_title": "EtherEver 소개",
+    "info_title_beta": "EtherEver 베타 소개",
+    "info_title_flask": "EtherEver Flask 소개",
     "experimental_title": "실험적",
     "experimental_desc": "지갑 연결 및 기타...",
     "legal_title": "법률",
@@ -2714,7 +2714,7 @@
     "hide_zero_balance_tokens_title": "잔고 없는 토큰 숨기기",
     "hide_zero_balance_tokens_desc": "토큰 목록에서 잔고가 없는 토큰을 보이지 않게 합니다.",
     "token_detection_title": "토큰 자동 감지",
-    "token_detection_description": "ArbiEver는 지갑에 보내진 새로운 토큰을 감지해 표시하기 위해 타사 API를 사용합니다. 이 서비스로부터 데이터를 가져오기를 원치 않으시면 해당 기능을 끄세요.",
+    "token_detection_description": "EtherEver는 지갑에 보내진 새로운 토큰을 감지해 표시하기 위해 타사 API를 사용합니다. 이 서비스로부터 데이터를 가져오기를 원치 않으시면 해당 기능을 끄세요.",
     "theme_button_text": "테마 변경",
     "theme_title": "({{theme}}) 테마",
     "theme_description": "테마를 설정해 앱 외관을 변경하세요.",
@@ -2751,18 +2751,18 @@
     "delete_metrics_confirm_modal_title": "MetaMetrics 데이터 삭제?",
     "delete_metrics_confirm_modal_description": "모든 MetaMetrics 데이터를 삭제하려고 합니다. 확실합니까?",
     "delete_wallet_data_title": "지갑 초기화",
-    "delete_wallet_data_description": "장치에서 모든 지갑 관련 데이터가 삭제됩니다. 계정은 블록체인에 존재하므로 ArbiEver와는 관련이 없습니다. 비밀복구구문을 사용하면 언제든지 계정을 복구할 수 있습니다.",
+    "delete_wallet_data_description": "장치에서 모든 지갑 관련 데이터가 삭제됩니다. 계정은 블록체인에 존재하므로 EtherEver와는 관련이 없습니다. 비밀복구구문을 사용하면 언제든지 계정을 복구할 수 있습니다.",
     "delete_wallet_data_button": "지갑 초기화",
     "delete_data_status_title": "삭제 작업 상태",
     "delete_data_status_description": "현재 상태:",
     "delete_metrics_error_title": "지금 데이터를 가져올 수 없습니다.",
     "delete_metrics_error_description": "분석 시스템 서버 문제로 지금 요청을 처리할 수 없습니다. 나중에 다시 시도하세요.",
     "ok": "확인",
-    "clear_sdk_connections_title": "모든 ArbiEver SDK 연결 지우기",
+    "clear_sdk_connections_title": "모든 EtherEver SDK 연결 지우기",
     "clear_sdk_connections_text": "모든 연결이 삭제되며 디앱은 다시 연결을 위해 요청할 것입니다.",
-    "sdk_connections": "ArbiEver SDK 연결",
+    "sdk_connections": "EtherEver SDK 연결",
     "manage_sdk_connections_title": "연결 관리",
-    "manage_sdk_connections_text": "사이트 및/또는 ArbiEver SDK 연결 제거",
+    "manage_sdk_connections_text": "사이트 및/또는 EtherEver SDK 연결 제거",
     "fiat_on_ramp": {
       "title": "암호화폐 매수 및 매도",
       "description": "지역 & 더 보기...",
@@ -2787,9 +2787,9 @@
     "contact_support": "지원팀에 문의",
     "display_nft_media": "NFT 미디어 표시",
     "display_nft_media_desc": "NFT 미디어와 데이터를 표시하면 IP 주소가 OpenSea나 기타 제3자에게 노출될 수 있습니다. NFT 자동 감지는 이 기능을 사용하며, 이 기능이 꺼져 있는 경우 사용할 수 없습니다.",
-    "autodetect_nft_desc": "ArbiEver가 타사 서비스(예: OpenSea)를 이용하여 회원님의 NFT를 추가할 수 있도록 합니다. NFT를 자동 감지하면 이러한 서비스에 IP와 계정 주소가 노출됩니다. 이 기능을 켜면 IP 주소가 이더리움 주소와 연결되고 사기꾼이 에어드랍한 가짜 NFT가 표시될 수 있습니다. 이러한 위험을 피하기 위해 수동으로 토큰을 추가할 수 있습니다.",
+    "autodetect_nft_desc": "EtherEver가 타사 서비스(예: OpenSea)를 이용하여 회원님의 NFT를 추가할 수 있도록 합니다. NFT를 자동 감지하면 이러한 서비스에 IP와 계정 주소가 노출됩니다. 이 기능을 켜면 IP 주소가 이더리움 주소와 연결되고 사기꾼이 에어드랍한 가짜 NFT가 표시될 수 있습니다. 이러한 위험을 피하기 위해 수동으로 토큰을 추가할 수 있습니다.",
     "display_nft_media_desc_new": "NFT 미디어와 데이터를 표시하면 IP 주소가 OpenSea나 기타 제삼자에게 노출될 수 있습니다. NFT 자동 감지는 이 기능을 이용하기 때문에 이 기능이 꺼져 있는 경우 사용할 수 없습니다. NFT 미디어가 IPFS에 완전히 자리를 잡으면 이 기능이 꺼져 있어도 계속 표시될 수 있습니다.",
-    "use_safe_chains_list_validation_desc_1": "ArbiEver는 다음의 제3자 서비스를 사용하여 ",
+    "use_safe_chains_list_validation_desc_1": "EtherEver는 다음의 제3자 서비스를 사용하여 ",
     "use_safe_chains_list_validation_desc_2": "정확하고 표준화된 네트워크 세부 정보를 표시합니다. 이를 통해 악성 또는 잘못된 네트워크에 연결될 가능성이 줄어듭니다. 이 기능을 사용하면 사용자의 IP 주소가 다음에 노출됩니다:  ",
     "snaps": {
       "title": "Snap",
@@ -2805,7 +2805,7 @@
         "remove_button_label": "{{snapName}} 제거",
         "remove_account_snap_warning": {
           "title": "Snap 제거",
-          "description": "이 Snap을 제거하면 ArbiEver에서 다음 계정들이 제거됩니다.",
+          "description": "이 Snap을 제거하면 EtherEver에서 다음 계정들이 제거됩니다.",
           "remove_account_snap_alert_description_1": "종류",
           "remove_account_snap_alert_description_2": "Snap을 제거하기 위한",
           "banner_title": "제거하기 전에 이 Snap으로 생성된 계정에 직접 접근할 수 있는지 확인하세요",
@@ -2878,7 +2878,7 @@
     "dismiss_smart_account_update_heading": "'스마트 계정으로 전환' 제안 무시",
     "dismiss_smart_account_update_desc": "이 기능을 켜면 모든 계정에서 '스마트 계정으로 전환' 제안이 더 이상 표시되지 않습니다. 스마트 계정을 사용하면 트랜잭션이 빨라지고 네트워크 수수료가 낮아지며 결제가 유연해집니다.",
     "use_smart_account_heading": "스마트 계정 사용",
-    "use_smart_account_desc": "이 옵션을 켜면 트랜잭션 속도 향상, 네트워크 수수료 감소, 유연한 결제 등 관련 기능을 사용할 수 있을 때마다 ArbiEver에서 생성한 계정이 자동으로 스마트 계정으로 전환됩니다.",
+    "use_smart_account_desc": "이 옵션을 켜면 트랜잭션 속도 향상, 네트워크 수수료 감소, 유연한 결제 등 관련 기능을 사용할 수 있을 때마다 EtherEver에서 생성한 계정이 자동으로 스마트 계정으로 전환됩니다.",
     "use_smart_account_learn_more": "자세히 알아보세요.",
     "smart_transactions_opt_in_heading": "스마트 트랜잭션",
     "smart_transactions_opt_in_desc_supported_networks": "지원되는 네트워크에서 더 안정적이고 안전하게 트랜잭션을 진행하려면 스마트 트랜잭션을 활성화하세요.",
@@ -2887,7 +2887,7 @@
     "simulation_details_description": "이 기능을 켜면 트랜잭션을 확정하기 전에 트랜잭션의 잔액 변동을 추정할 수 있습니다. 이 기능이 트랜잭션의 최종 결과를 보장하지는 않습니다. ",
     "simulation_details_learn_more": "자세히 알아보세요.",
     "aes_crypto_test_form_title": "AES 암호화 - 테스트 양식",
-    "aes_crypto_test_form_description": "E2E 테스트 전용으로 개발된 섹션입니다. 앱에서 이 섹션이 표시되면 ArbiEver 지원팀에 보고하세요.",
+    "aes_crypto_test_form_description": "E2E 테스트 전용으로 개발된 섹션입니다. 앱에서 이 섹션이 표시되면 EtherEver 지원팀에 보고하세요.",
     "developer_options": {
       "title": "개발자 옵션",
       "generate_trace_test": "트레이스 테스트 생성",
@@ -2923,7 +2923,7 @@
     "manage_connections": "연결 관리",
     "manage": "관리",
     "cancel": "취소",
-    "loading": "ArbiEver 연결 중...",
+    "loading": "EtherEver 연결 중...",
     "unkown_dapp": "디앱 이름을 사용할 수 없습니다",
     "unknown": "알 수 없음",
     "no_connections": "연결 없음",
@@ -2949,7 +2949,7 @@
   "sdk_feedback_modal": {
     "ok": "확인",
     "title": "계정에 연결할 수 없습니다",
-    "info": "ArbiEver에 다시 연결하려면 디앱의 QR 코드를 스캔하세요"
+    "info": "EtherEver에 다시 연결하려면 디앱의 QR 코드를 스캔하세요"
   },
   "app_information": {
     "title": "정보",
@@ -2974,7 +2974,7 @@
       "비밀복구구문입니다",
       "(을)를 통해",
       "지갑과 자금, 계정에 완전히 접속할 수 있습니다.\n\n",
-      "ArbiEver는",
+      "EtherEver는",
       "비수탁형 지갑입니다",
       "이는 사용자가",
       "회원님이 비밀복구구문의 소유자입니다."
@@ -2983,14 +2983,14 @@
     "private_key_warning": "이것은 현재 선택된 계정용 개인 키 {{accountName}} 입니다. 이 키를 절대 다른 사람에게 공개하지 마세요. 개인 키를 가지고 있는 사람은 누구든 해당 계정을 완전히 통제할 수 있습니다. 계정의 자금을 다른 곳에 송금할 수도 있습니다.",
     "seed_phrase_warning_explanation": [
       "본인의 화면을 아무도 보지 못하게 하세요.",
-      "ArbiEver 지원팀은 절대 개인 키를 알려달라고 요청하지 않습니다."
+      "EtherEver 지원팀은 절대 개인 키를 알려달라고 요청하지 않습니다."
     ],
     "private_key_warning_explanation": "이 키를 절대 다른 사람에게 공개하지 마세요. 개인 키를 가지고 있는 사람은 누구든 해당 계정을 완전히 통제할 수 있습니다. 계정의 자금을 다른 곳에 송금할 수도 있습니다.",
     "reveal_credential_modal": [
       "{{credentialName}} 사용자 이름으로 ",
       "계정과 자금에 완전히 액세스할 수 있습니다.\n\n이 정보를 아무에게도 알려주지 마세요.\n",
       "지갑 및 자금 전체에 접속할 수 있습니다.\n\n 누구에게도 이 구문을 공유하지 마세요.\n",
-      "ArbiEver 지원팀은 절대 이를 요구하지 않습니다.",
+      "EtherEver 지원팀은 절대 이를 요구하지 않습니다.",
       "정보를 요구하는 경우 피싱 사기일 수 있습니다."
     ],
     "seed_phrase": "비밀 복구 구문",
@@ -3027,7 +3027,7 @@
   },
   "password_reset": {
     "password_title": "비밀번호",
-    "password_desc": "기기에 설치된 ArbiEver 앱을 잠금 해제하는 비밀번호는 보안 강도가 높아야 합니다. 비밀번호를 잃어버렸을 때는 지갑을 다시 불러오기 위해 비밀 복구 구문이 필요합니다.",
+    "password_desc": "기기에 설치된 EtherEver 앱을 잠금 해제하는 비밀번호는 보안 강도가 높아야 합니다. 비밀번호를 잃어버렸을 때는 지갑을 다시 불러오기 위해 비밀 복구 구문이 필요합니다.",
     "password_learn_more": "더 알아보기.",
     "change_password": "비밀번호 변경",
     "password_hint": "비밀번호 힌트"
@@ -3128,7 +3128,7 @@
       "show_less": "요약 보기"
     },
     "activity": "{{symbol}} 활동",
-    "disclaimer": "시장 데이터는 CoinGecko 등 복수의 타사 데이터 소스에서 제공됩니다. 이러한 타사 콘텐츠는 정보 제공의 목적으로만 제공되므로 특정 자산의 구매, 판매 또는 사용에 대한 조언으로 취급해서는 안 됩니다. ArbiEver는 특정한 목적으로 콘텐츠를 사용하는 것을 권장하지 않으며 그 정확성에 대해서도 책임지지 않습니다."
+    "disclaimer": "시장 데이터는 CoinGecko 등 복수의 타사 데이터 소스에서 제공됩니다. 이러한 타사 콘텐츠는 정보 제공의 목적으로만 제공되므로 특정 자산의 구매, 판매 또는 사용에 대한 조언으로 취급해서는 안 됩니다. EtherEver는 특정한 목적으로 콘텐츠를 사용하는 것을 권장하지 않으며 그 정확성에 대해서도 책임지지 않습니다."
   },
   "account_details": {
     "title": "계정 상세 내역",
@@ -3140,7 +3140,7 @@
   },
   "enable_nft-auto-detection": {
     "title": "NFT 자동 감지 활성화",
-    "description": "자동 감지를 통해 ArbiEver가 NFT를 감지하고 표시하도록 허용합니다. 다음과 같은 작업을 할 수 있습니다.",
+    "description": "자동 감지를 통해 EtherEver가 NFT를 감지하고 표시하도록 허용합니다. 다음과 같은 작업을 할 수 있습니다.",
     "immediateAccess": "NFT에 즉시 액세스",
     "navigate": "디지털 자산을 손쉽게 탐색",
     "dive": "NFT 바로 사용",
@@ -3180,9 +3180,9 @@
     "cancel": "취소",
     "error": "오류",
     "attempting_to_scan_with_wallet_locked": "QR 코드를 스캔하시는 것 같습니다. 먼저 지갑을 잠금 해제하세요.",
-    "attempting_sync_from_wallet_error": "확장 프로그램과의 동기화를 시도하시는 것 같습니다. 이를 위해서는 현재 지갑을 지워야 합니다. \n\n 신규 버전 앱을 지우거나 재설치하고 나면 \"ArbiEver 확장 프로그램과 동기화\" 옵션을 선택하세요. 중요!: 지갑을 지우기 전에 비밀 복구 구문을 반드시 백업하세요.",
+    "attempting_sync_from_wallet_error": "확장 프로그램과의 동기화를 시도하시는 것 같습니다. 이를 위해서는 현재 지갑을 지워야 합니다. \n\n 신규 버전 앱을 지우거나 재설치하고 나면 \"EtherEver 확장 프로그램과 동기화\" 옵션을 선택하세요. 중요!: 지갑을 지우기 전에 비밀 복구 구문을 반드시 백업하세요.",
     "not_allowed_error_title": "카메라 접근 권한 허용",
-    "not_allowed_error_desc": "QR 코드를 스캔하려면 기기 설정 메뉴에서 ArbiEver에 카메라 접근 권한을 허용해야 합니다.",
+    "not_allowed_error_desc": "QR 코드를 스캔하려면 기기 설정 메뉴에서 EtherEver에 카메라 접근 권한을 허용해야 합니다.",
     "unrecognized_address_qr_code_title": "읽을 수 없는 QR 코드",
     "unrecognized_address_qr_code_desc": "죄송합니다. 이 QR 코드는 계정 주소나 연락처 주소와 연계되어 있지 않습니다.",
     "url_redirection_alert_title": "이제 외부 링크로 이동합니다",
@@ -3200,7 +3200,7 @@
     "native_toggle_wallet": "지갑에 있는 잔액으로 네트워크 수수료를 지불하세요.",
     "list_balance": "잔액:",
     "insufficient_balance": "자금 부족",
-    "native_toggle_metamask": "ArbiEver가 이 트랜잭션을 완료하기 위해 잔액을 보충하고 있습니다."
+    "native_toggle_metamask": "EtherEver가 이 트랜잭션을 완료하기 위해 잔액을 보충하고 있습니다."
   },
   "gas_fee_token_toast": {
     "message": "이 네트워크 수수료는 다음 자산으로 지불됩니다 "
@@ -3316,7 +3316,7 @@
     "gas_education_1": "가스요금은 다음 네트워크에서 거래를 진행할 때 암호화 화폐 채굴자에게 지불하는 비용입니다:",
     "gas_education_2_ethereum": "이더리움 네트워크.",
     "gas_education_2": "네트워크.",
-    "gas_education_3": "ArbiEver는 가스요금으로 수익을 얻지 않습니다.",
+    "gas_education_3": "EtherEver는 가스요금으로 수익을 얻지 않습니다.",
     "gas_education_4": "가스비는 네트워크의 트래픽과 트랜잭션의 복잡성에 따라 달라질 수 있습니다.",
     "gas_education_learn_more": "가스요금에 대해 더 자세히 알아보기",
     "confusable_title": "받는 사람 주소를 확인하세요",
@@ -3331,7 +3331,7 @@
     "invalid_qr_code_sync": "잘못된 QR 코드입니다. 하드웨어 지갑의 동기화 QR 코드를 스캔하세요.",
     "no_camera_permission": "카메라가 허용되지 않았습니다. 권한 허용 후 다시 시도하세요.",
     "invalid_qr_code_sign": "잘못된 QR 코드입니다. 하드웨어를 확인하고 다시 시도하세요.",
-    "no_camera_permission_android": "진행하려면 ArbiEver에서 카메라를 허용해야 합니다. 시스템 설정을 변경해야 할 수도 있습니다.",
+    "no_camera_permission_android": "진행하려면 EtherEver에서 카메라를 허용해야 합니다. 시스템 설정을 변경해야 할 수도 있습니다.",
     "mismatched_qr_request_id": "일치하지 않는 트랜잭션 데이터입니다. 하드웨어 지갑으로 아래의 QR 코드에 서명하고 '서명받기'를 누르세요.",
     "fiat_conversion_not_available": "현재 명목 화폐 환율을 사용할 수 없습니다.",
     "hex_data_copied": "헥스 데이터를 클립보드에 복사했습니다",
@@ -3350,7 +3350,7 @@
     "save": "저장",
     "warning_gas_limit": "가스 한도 값은 20999보다 더 커야 합니다",
     "warning_gas_limit_estimated": "예상 가스 한도 가격은 {{gas}}이니 이를 최소 값으로 생각하고 이용하세요",
-    "cost_explanation": "가스요금은 이더리움 네트워크에서 거래를 진행할 때 지불하는 비용을 의미합니다. ArbiEver는 이 비용으로 수익을 얻지 않습니다. 비용이 더 높을수록 거래가 처리될 확률이 높습니다."
+    "cost_explanation": "가스요금은 이더리움 네트워크에서 거래를 진행할 때 지불하는 비용을 의미합니다. EtherEver는 이 비용으로 수익을 얻지 않습니다. 비용이 더 높을수록 거래가 처리될 확률이 높습니다."
   },
   "spend_limit_edition": {
     "save": "저장",
@@ -3419,7 +3419,7 @@
     "change_url": "url 변경",
     "switch_network": "네트워크 변경",
     "dapp_browser": "디앱 브라우저",
-    "dapp_browser_message": "ArbiEver는 탈중앙화 웹을 위한 여러분의 지갑과 브라우저입니다. 전체를 둘러보세요!",
+    "dapp_browser_message": "EtherEver는 탈중앙화 웹을 위한 여러분의 지갑과 브라우저입니다. 전체를 둘러보세요!",
     "featured_dapps": "추천 디앱",
     "my_favorites": "즐겨찾기",
     "search": "검색 또는 URL 입력",
@@ -3546,7 +3546,7 @@
     "view_on": "다음에서 보기:",
     "view_on_etherscan": "이더스캔에서 보기",
     "view_full_history_on": "다음에서 전체 기록 확인:",
-    "view_full_history_on_etherscan": "EtherEver스캔에서 전체 기록 확인",
+    "view_full_history_on_etherscan": "이더스캔에서 전체 기록 확인",
     "hash_copied_to_clipboard": "거래 해시가 클립보드에 복사되었습니다",
     "address_copied_to_clipboard": "주소가 클립보드에 복사되었습니다",
     "transaction_error": "거래 오류",
@@ -3569,8 +3569,8 @@
     "request_from": "요청자:",
     "network_fee": "네트워크 수수료",
     "network_fee_tooltip": "네트워크에서 트랜잭션 처리를 위해 지불된 금액입니다.",
-    "confirm_gas_fee_token_tooltip": "이 비용은 사용자 트랜잭션을 처리하는 대가로 네트워크에 지불됩니다. 여기에는 ETH 계열이 아닌 토큰이나 사전 충전된 ETH에 대한 {{metamaskFeeFiat}} ArbiEver 수수료가 포함됩니다.",
-    "paid_by_metamask": "ArbiEver가 지불함",
+    "confirm_gas_fee_token_tooltip": "이 비용은 사용자 트랜잭션을 처리하는 대가로 네트워크에 지불됩니다. 여기에는 ETH 계열이 아닌 토큰이나 사전 충전된 ETH에 대한 {{metamaskFeeFiat}} EtherEver 수수료가 포함됩니다.",
+    "paid_by_metamask": "EtherEver가 지불함",
     "confirm_gas_fee_token_metamask_fee": "{{metamaskFeeFiat}} 수수료 포함",
     "smart_account_upgrade": "스마트 계정으로 업그레이드",
     "smart_account_downgrade": "일반 계정으로 전환",
@@ -3606,8 +3606,7 @@
       "no_zero_value": "{{field}}(은)는 0보다 커야 합니다",
       "speed": "속도",
       "only_integers_allowed": "정수만 입력할 수 있습니다"
-    },
-    "view_full_history_on_arbieverscan": "ArbiEver스캔에서 전체 기록 확인"
+    }
   },
   "smart_transactions": {
     "status_submitting_header": "트랜잭션 제출 중",
@@ -3618,7 +3617,7 @@
     "status_cancelled_header": "트랜잭션이 취소되었습니다",
     "status_cancelled_description": "트랜잭션이 완료되지 않았습니다. 가스비 지출이 없도록 트랜잭션을 취소했습니다.",
     "status_failed_header": "트랜잭션 실패",
-    "status_failed_description": "시장 상황이 갑자기 변하면 실패할 수 있습니다. 문제가 지속되면 ArbiEver 고객 지원으로 문의하세요.",
+    "status_failed_description": "시장 상황이 갑자기 변하면 실패할 수 있습니다. 문제가 지속되면 EtherEver 고객 지원으로 문의하세요.",
     "view_transaction": "트랜잭션 보기",
     "view_activity": "활동 보기",
     "return_to_dapp": "{{dappName}}(으)로 돌아가기",
@@ -3671,8 +3670,8 @@
     "status_not_ok": "네트워크에 문제가 있습니다",
     "want_to_add_network": "이 네트워크를 추가하시겠습니까?",
     "add_custom_network": "사용자 지정 네트워크 추가",
-    "network_infomation": "이것은 이 네트워크가 ArbiEver 내에 사용될 수 있게 합니다",
-    "network_endorsement": "ArbiEver는 커스텀 네트워크나 해당 네트워크의 보안을 보증하지 않습니다.",
+    "network_infomation": "이것은 이 네트워크가 EtherEver 내에 사용될 수 있게 합니다",
+    "network_endorsement": "EtherEver는 커스텀 네트워크나 해당 네트워크의 보안을 보증하지 않습니다.",
     "learn_about": "다음에 대해 알아보세요:",
     "network_risk": "사기 및 네트워크 보안 위험",
     "network_display_name": "디스플레이 이름",
@@ -3750,7 +3749,7 @@
     "cancel": "취소",
     "got_it": "컨펌",
     "connection_details_title": "연결 세부 정보",
-    "connection_details_description": "{{connectionDateTime}}에 ArbiEver 브라우저를 이용해 이 사이트에 접속했습니다",
+    "connection_details_description": "{{connectionDateTime}}에 EtherEver 브라우저를 이용해 이 사이트에 접속했습니다",
     "title_add_network_permission": "네트워크 권한 추가",
     "add_this_network": "이 네트워크 추가",
     "permitted_networks": "허용된 네트워크",
@@ -3763,7 +3762,7 @@
     "sdk_connection": "SDK {{originator_platform}} v{{api_version}}"
   },
   "account_dapp_connections": {
-    "account_summary_header": "이 웹사이트를 ArbiEver와 연결"
+    "account_summary_header": "이 웹사이트를 EtherEver와 연결"
   },
   "select": {
     "cancel": "취소",
@@ -3816,9 +3815,9 @@
   },
   "authentication": {
     "auth_prompt_title": "인증 필요",
-    "auth_prompt_desc": "ArbiEver를 사용하려면 인증을 받으세요",
+    "auth_prompt_desc": "EtherEver를 사용하려면 인증을 받으세요",
     "fingerprint_prompt_title": "인증 필요",
-    "fingerprint_prompt_desc": "지문으로 ArbiEver 잠금을 해제하세요",
+    "fingerprint_prompt_desc": "지문으로 EtherEver 잠금을 해제하세요",
     "fingerprint_prompt_cancel": "취소"
   },
   "accountApproval": {
@@ -3841,7 +3840,7 @@
   "import_private_key": {
     "title": "계정 불러오기",
     "description_one": "가져온 개인 키는 계정에 백업되고, 동일한 Google 또는 Apple 계정으로 로그인하면 자동으로 동기화됩니다.",
-    "description_srp": "가져온 계정을 지갑에서 확인할 수 있습니다. 다만 해당 계정은 ArbiEver 비밀복구구문으로는 복구할 수 없습니다.",
+    "description_srp": "가져온 계정을 지갑에서 확인할 수 있습니다. 다만 해당 계정은 EtherEver 비밀복구구문으로는 복구할 수 없습니다.",
     "learn_more": "더 보기",
     "learn_more_here": "가져온 키의 작동 방식.",
     "learn_more_srp": "가져온 계정 더 알아보기",
@@ -3856,7 +3855,7 @@
   },
   "import_private_key_success": {
     "title": "계정을 성공적으로 불러왔습니다!",
-    "description_one": "이제 ArbiEver에 있는 계정을 확인할 수 있습니다."
+    "description_one": "이제 EtherEver에 있는 계정을 확인할 수 있습니다."
   },
   "import_new_secret_recovery_phrase": {
     "title": "비밀복구구문 가져오기",
@@ -3902,7 +3901,7 @@
     "step_1_description": "비밀번호 생성",
     "step_2": "2단계:",
     "step_2_description": "지갑 비밀 복구 구문을 저장하세요",
-    "info_text_1": "잠깐의 시간을 내어 ArbiEver 지갑 설정을 완료하세요.",
+    "info_text_1": "잠깐의 시간을 내어 EtherEver 지갑 설정을 완료하세요.",
     "info_text_2": "이를 통해 오직 본인만이 자금에 접속할 수 있고 기기를 잃어버렸을 때 지갑을 복구할 수 있습니다.",
     "cta_text": "비밀번호 생성",
     "creating_password": "비밀번호 생성 중...",
@@ -3923,9 +3922,9 @@
     "skip_title": "계정 보안을 건너뛸까요?",
     "skip_check": "이 비밀복구구문을 잃으면 지갑에 접근할 수 없습니다.",
     "what_is_seedphrase_title": "비밀복구구문이란?",
-    "what_is_seedphrase_text_1": "비밀복구구문은 시드구문 또는 니모닉이라고도 하며, 암호화폐 지갑에 접근하고 제어할 수 있게 해주는 단어 조합입니다. 지갑을 ArbiEver로 옮기려면 이 구문이 필요합니다.",
+    "what_is_seedphrase_text_1": "비밀복구구문은 시드구문 또는 니모닉이라고도 하며, 암호화폐 지갑에 접근하고 제어할 수 있게 해주는 단어 조합입니다. 지갑을 EtherEver로 옮기려면 이 구문이 필요합니다.",
     "what_is_seedphrase_text_2": "비밀 복구 구문은 비밀스럽고 안전한 곳에 보관해야 합니다. 누군가가 비밀 복구 구문을 알게 되면, 해당 계정을 제어할 수 있게 됩니다.",
-    "what_is_seedphrase_text_3": "본인만 접근할 수 있는 곳에 이를 저장하세요. 이를 잃어버리게 되면 ArbiEver도 구문 복구를 도와드릴 수 없습니다.",
+    "what_is_seedphrase_text_3": "본인만 접근할 수 있는 곳에 이를 저장하세요. 이를 잃어버리게 되면 EtherEver도 구문 복구를 도와드릴 수 없습니다.",
     "what_is_seedphrase_text_4": "비밀복구구문을 가진 사람은 다음을 수행할 수 있습니다.",
     "seedPhrase_point_1": "모든 자금을 인출할 수 있습니다",
     "seedPhrase_point_2": "트랜잭션을 컨펌할 수 있습니다",
@@ -4003,7 +4002,7 @@
   },
   "account_backup_step_6": {
     "title": "보안 팁",
-    "info_text": "비밀 복구 구문 분실시 ArbiEver는 구문을 복구해드릴 수 없습니다",
+    "info_text": "비밀 복구 구문 분실시 EtherEver는 구문을 복구해드릴 수 없습니다",
     "tip_1": "자신의 비밀 복구 구문을 여러 군데 백업해 놓으세요",
     "tip_2": "구문을 신뢰할 수 있는 비밀번호 매니저에 저장하고 종이에 적어 안전한 곳에 두세요",
     "tip_3": "다른 사람과 절대 구문을 공유하지 마세요",
@@ -4058,7 +4057,7 @@
     "congratulations": "축하합니다",
     "success": "지갑을 성공적으로 보호했습니다. 비밀 복구 구문을 꼭 안전하게 보관하세요. 이 구문의 보안 책임을 본인에게 있습니다!",
     "hint": "힌트를 남기고 싶으신가요?",
-    "recover": "지갑을 잃어버릴 경우 ArbiEver는 이를 복구해드릴 수 없습니다. 비밀 복구 구문은 설정 > 보안 & 개인정보 보호에서 확인할 수 있습니다.",
+    "recover": "지갑을 잃어버릴 경우 EtherEver는 이를 복구해드릴 수 없습니다. 비밀 복구 구문은 설정 > 보안 & 개인정보 보호에서 확인할 수 있습니다.",
     "learn": "더 알아보기",
     "done": "완료",
     "recovery_hint": "복구 힌트",
@@ -4071,8 +4070,8 @@
   "phishing": {
     "ethereum_phishing_detection": "이더리움 피싱 사기 탐지",
     "ethereum_phishing_detector": "이더리움 피싱 사기 탐지기",
-    "intro": "이 도메인은 현재 ArbiEver 도메인 위험 목록에 있습니다. 즉 이용 가능한 정보를 바탕으로, ArbiEver는 이 도메인이 귀하의 보안에 침투할 수 있다고 판단한 것입니다. 추가적인 안전 조치로 ArbiEver는 해당 사이트의 접근을 제한했습니다. 이를 무시하고 계속 진행하고 싶으시면 나머지 경고 내용을 읽어 위험을 감수하고 계속 진행하는 방법을 확인하세요.",
-    "reasons": "사이트가 위험 목록에 오르는 데에는 여러가지 이유가 있습니다. 그ArbiEver은 다른 산업에서도 널리 사용되고 있는 목록을 병합한 것입니다. 사기 이력, 보안 위험 같이 테스트 결과 위험이 확인되는 것 등이 이유가 될 수 있습니다.",
+    "intro": "이 도메인은 현재 EtherEver 도메인 위험 목록에 있습니다. 즉 이용 가능한 정보를 바탕으로, EtherEver는 이 도메인이 귀하의 보안에 침투할 수 있다고 판단한 것입니다. 추가적인 안전 조치로 EtherEver는 해당 사이트의 접근을 제한했습니다. 이를 무시하고 계속 진행하고 싶으시면 나머지 경고 내용을 읽어 위험을 감수하고 계속 진행하는 방법을 확인하세요.",
+    "reasons": "사이트가 위험 목록에 오르는 데에는 여러가지 이유가 있습니다. 그EtherEver은 다른 산업에서도 널리 사용되고 있는 목록을 병합한 것입니다. 사기 이력, 보안 위험 같이 테스트 결과 위험이 확인되는 것 등이 이유가 될 수 있습니다.",
     "list_content": "위험 목록에 있는 도메인은 명백히 악의적인 웹사이트이거나 악의적인 행위자에 의해 해킹을 당한 적이 있는 적법한 웹사이트 등일 수 있습니다.",
     "to_read_more": "이 웹사이트 대해 더 자세히 알아보세요",
     "review_on_etherscam": "이더스캠(Etherscam)에 있는 도메인을 검토하세요.",
@@ -4082,13 +4081,13 @@
     "file_an_issue": "문의를 제출하세요.",
     "back_to_safety": "안전성으로 돌아가기",
     "site_might_be_harmful": "이 웹사이트는 해로울 수 있습니다",
-    "metamask_flagged_site": "ArbiEver는 방문하려는 사이트를 잠재적인 사기성 사이트로 표시했습니다. 공격자가 사용자를 속여 위험한 행동을 유도할 수 있습니다.",
+    "metamask_flagged_site": "EtherEver는 방문하려는 사이트를 잠재적인 사기성 사이트로 표시했습니다. 공격자가 사용자를 속여 위험한 행동을 유도할 수 있습니다.",
     "you_may_proceed_anyway": "아마",
     "proceed_anyway": "계속 진행",
     "but_please_do_so_at_your_own_risk": "하지만 위험은 직접 감수하셔야 합니다.",
     "report_detection_problem": "감지 문제 보고",
     "share_on_twitter": "이 정보가 유용했다면, X를 통해 공유해 주세요!",
-    "share_text": "ArbiEver가 잠재적으로 위험한 사이트({{url}})로부터 저를 보호해줬어요. 모두 안전하게 이용하세요!"
+    "share_text": "EtherEver가 잠재적으로 위험한 사이트({{url}})로부터 저를 보호해줬어요. 모두 안전하게 이용하세요!"
   },
   "notifications": {
     "timeout": "시간 초과",
@@ -4184,7 +4183,7 @@
     "erc721_received_title": "NFT 받음",
     "erc1155_sent_title": "NFT 전송됨",
     "erc1155_received_title": "NFT 받음",
-    "default_message_title": "ArbiEver",
+    "default_message_title": "EtherEver",
     "default_message_description": "탭하여 보기",
     "received_payment_title": "즉시 결제됨",
     "pending_message": "확인을 기다리는 중",
@@ -4220,7 +4219,7 @@
       "funds_received_description": "{{amount}} {{symbol}}(을)를 받았습니다",
       "funds_received_default_description": "토큰을 받았습니다",
       "metamask_swap_completed_title": "스왑 완료",
-      "metamask_swap_completed_description": "ArbiEver 스왑이 완료되었습니다",
+      "metamask_swap_completed_description": "EtherEver 스왑이 완료되었습니다",
       "nft_sent_title": "NFT 전송됨",
       "nft_sent_description": "NFT를 보냈습니다",
       "nft_received_title": "NFT 받음",
@@ -4284,7 +4283,7 @@
     "activation_card": {
       "title": "알림 켜기",
       "description_1": "알림을 통해 지갑에서 무슨 일이 일어나고 있는지 계속 확인하세요.",
-      "description_2": "이 기능 사용을 위해 계정에 대한 익명 ID가 생성됩니다. 이는 ArbiEver에서 데이터를 동기화하는 데에만 사용되며 활동이나 기타 식별자와 링크되지 않으므로 개인정보가 보호됩니다.",
+      "description_2": "이 기능 사용을 위해 계정에 대한 익명 ID가 생성됩니다. 이는 EtherEver에서 데이터를 동기화하는 데에만 사용되며 활동이나 기타 식별자와 링크되지 않으므로 개인정보가 보호됩니다.",
       "learn_more": "이 기능을 사용하는 동안 개인정보가 어떻게 보호되는지 알아보세요.",
       "manage_preferences_1": "다음에서 언제든지 알림을 끌 수 있습니다: ",
       "manage_preferences_2": "설정 > 알림",
@@ -4352,8 +4351,8 @@
     "network_not_supported": "현재 네트워크는 지원하지 않음",
     "select_provider": "선호하는 공급업체 선택",
     "switch_network": "메인넷이나 세폴리아로 전환하세요",
-    "card_title": "ArbiEver 카드 버튼 항상 표시",
-    "card_desc": "ArbiEver 카드는 일부 국가의 거주자만 사용할 수 있습니다."
+    "card_title": "EtherEver 카드 버튼 항상 표시",
+    "card_desc": "EtherEver 카드는 일부 국가의 거주자만 사용할 수 있습니다."
   },
   "walletconnect_sessions": {
     "no_active_sessions": "현재 활성화된 세션이 없습니다",
@@ -4445,7 +4444,7 @@
     "wyre_minimum_deposit": "최소 예금은 {{amount}}입니다",
     "wyre_maximum_deposit": "최대 예금은 {{amount}}입니다",
     "apple_pay_purchase": "{{currency}} 구매",
-    "apple_pay_provider_total_label": "{{provider}} (ArbiEver 경유)",
+    "apple_pay_provider_total_label": "{{provider}} (EtherEver 경유)",
     "buy_with": "다음으로 구매:",
     "plus_fee": "수수료 {{fee}} 추가",
     "date": "날짜",
@@ -4464,12 +4463,12 @@
         "average_gas_fee": "현재 평균 가스요금:",
         "subtitle_1": "{{ticker}} 스와프 또는 전송을 원하시면 가스비 충당을 위해 추가로 구매를 진행하세요.",
         "subtitle_2": "트랜잭션에 대한 가스비는 {{ticker}} 구매 비용과 별도입니다.",
-        "subtitle_3": "ArbiEver는 가스요금으로 수익을 얻지 않습니다."
+        "subtitle_3": "EtherEver는 가스요금으로 수익을 얻지 않습니다."
       },
       "step_2": {
         "title": "가스요금이 무엇인가요?",
         "subtitle_1": "가스가 있어야 이더리움 네트워크에서 트랜잭션이 진행될 수 있습니다. 가스비는 트랜잭션을 진행하는 암호화폐 채굴자에게 {{ticker}}으(로) 지불하는 수수료입니다.",
-        "subtitle_2": "ArbiEver는 가스요금으로 수익을 얻지 않습니다.",
+        "subtitle_2": "EtherEver는 가스요금으로 수익을 얻지 않습니다.",
         "learn_more": "가스요금에 대해 더 자세히 알아보기"
       },
       "step_3": {
@@ -4512,8 +4511,8 @@
     },
     "onboarding": {
       "what_to_expect": "소개",
-      "quotes": "ArbiEver의 암호화폐 구매 기능은 통합된 공급업체로부터 견적을 집계하여 견적을 제공하므로 대기 기간 없이 암호화폐를 소스에서 지갑으로 직접 가져올 수 있습니다.",
-      "quotes_sell": "이제 ArbiEver에서 직접 현금을 인출할 수 있습니다! ArbiEver의 안내에 따라 한 단계씩 진행하며 신뢰하는 제공업체의 최신 견적을 받으세요.",
+      "quotes": "EtherEver의 암호화폐 구매 기능은 통합된 공급업체로부터 견적을 집계하여 견적을 제공하므로 대기 기간 없이 암호화폐를 소스에서 지갑으로 직접 가져올 수 있습니다.",
+      "quotes_sell": "이제 EtherEver에서 직접 현금을 인출할 수 있습니다! EtherEver의 안내에 따라 한 단계씩 진행하며 신뢰하는 제공업체의 최신 견적을 받으세요.",
       "benefits": "가스비가 저렴하면서 수많은 네트워크, 토큰, 결제 수단이 지원됩니다.",
       "benefits_sell": "이제 암호화폐를 현지 통화로 환전하는 것이 어느 때보다 쉬워졌습니다.",
       "get_started": "시작하기"
@@ -4720,13 +4719,13 @@
       "best_swap": "스와프를",
       "across": "찾으세요...",
       "want_to_learn_more": "더 자세히 알아보고 싶으신가요?",
-      "learn_more": "ArbiEver 스와프에 대해 더 자세히 알아보세요",
+      "learn_more": "EtherEver 스와프에 대해 더 자세히 알아보세요",
       "what_are": "토큰 스와프란 무엇인가요?",
       "review_audits": "공식 계약 감사 검토",
       "start_swapping": "스와프 시작"
     },
     "feature_off_title": "일시적으로 이용이 불가합니다",
-    "feature_off_body": "ArbiEver 스와프는 현재 유지 보수 작업을 진행하고 있습니다. 향후에 다시 확인해 주세요.",
+    "feature_off_body": "EtherEver 스와프는 현재 유지 보수 작업을 진행하고 있습니다. 향후에 다시 확인해 주세요.",
     "wrong_network_title": "스와프 이용 불가",
     "wrong_network_body": "이더리움 메인 네트워크에서만 토큰 스와프가 가능합니다.",
     "unallowed_asset_title": "이 토큰은 스와프할 수 없습니다.",
@@ -4805,17 +4804,17 @@
     "included": "포함됨",
     "max_gas_fee": "최대 가스요금",
     "edit": "수정",
-    "quotes_include_fee": "견적에는 {{fee}}%의 ArbiEver 수수료가 포함됩니다",
-    "quotes_include_gas_and_metamask_fee": "견적에는 가스비와 {{fee}}%의 ArbiEver 수수료가 포함됩니다",
+    "quotes_include_fee": "견적에는 {{fee}}%의 EtherEver 수수료가 포함됩니다",
+    "quotes_include_gas_and_metamask_fee": "견적에는 가스비와 {{fee}}%의 EtherEver 수수료가 포함됩니다",
     "tap_to_swap": "눌러서 스와프하세요",
     "swipe_to_swap": "밀어서 스와프하세요",
     "swipe_to": "밀어서",
     "swap": "스왑",
     "completed_swap": "스와프!",
-    "metamask_swap_fee": "ArbiEver 스와프 수수료",
+    "metamask_swap_fee": "EtherEver 스와프 수수료",
     "fee_text": {
-      "fee_is_applied": "{{fee}}의 수수료는 자동으로 각 견적에 반영됩니다. 이는 ArbiEver의 유동성 공급자 정보 집계용 소프트웨어 사용 라이선스 비용입니다.",
-      "fee_is_not_applied": "ArbiEver에서는 이 견적에 추가 비용을 부과되지 않습니다."
+      "fee_is_applied": "{{fee}}의 수수료는 자동으로 각 견적에 반영됩니다. 이는 EtherEver의 유동성 공급자 정보 집계용 소프트웨어 사용 라이선스 비용입니다.",
+      "fee_is_not_applied": "EtherEver에서는 이 견적에 추가 비용을 부과되지 않습니다."
     },
     "enable": {
       "this_will": "이것이",
@@ -4882,7 +4881,7 @@
     "gas_education_1": "가스요금은 다음 네트워크에서 거래를 진행할 때 암호화 화폐 채굴자에게 지불하는 비용입니다:",
     "gas_education_2_ethereum": "이더리움 네트워크.",
     "gas_education_2": "네트워크.",
-    "gas_education_3": "ArbiEver는 가스요금으로 수익을 얻지 않습니다.",
+    "gas_education_3": "EtherEver는 가스요금으로 수익을 얻지 않습니다.",
     "gas_education_4": "\"예상 ",
     "gas_education_5": "가스요금\"은",
     "gas_education_6": "실제 수수료로 예상되는 비용을 말합니다. 정확한 금액은 네트워크 조건에 따라 다릅니다.",
@@ -4959,9 +4958,9 @@
   "switch_custom_network": {
     "title_existing_network": "이 사이트는 네트워크 전환을 원합니다",
     "title_new_network": "신규 네트워크 추가됨",
-    "switch_warning": "이는 ArbiEver에서 선택한 네트워크를 이전에 추가한 다음 네트워크로 전환하게 됩니다:",
-    "add_network_and_give_dapp_permission_warning": "ArbiEver에 이 네트워크를 추가하고 {{dapp_origin}}에 사용 권한을 허용합니다.",
-    "update_network_and_give_dapp_permission_warning": "ArbiEver에서 이 네트워크를 업데이트하고 있으며, {{dapp_origin}}에 사용 권한을 부여하고 있습니다.",
+    "switch_warning": "이는 EtherEver에서 선택한 네트워크를 이전에 추가한 다음 네트워크로 전환하게 됩니다:",
+    "add_network_and_give_dapp_permission_warning": "EtherEver에 이 네트워크를 추가하고 {{dapp_origin}}에 사용 권한을 허용합니다.",
+    "update_network_and_give_dapp_permission_warning": "EtherEver에서 이 네트워크를 업데이트하고 있으며, {{dapp_origin}}에 사용 권한을 부여하고 있습니다.",
     "request_update_network_url": "{{dapp_origin}}에서 기본 네트워크 URL 업데이트를 요청하고 있습니다. 기본값과 네트워크 정보는 언제든지 편집할 수 있습니다.",
     "available": "이것은 이제 네트워크 선택자 내에서 이용 가능합니다.",
     "cancel": "취소",
@@ -4969,8 +4968,8 @@
   },
   "add_custom_network": {
     "title": "이 사이트를 네트워크에 추가하는 것을 허용하시겠습니까?",
-    "warning": "이것은 이 네트워크가 ArbiEver 내에 사용될 수 있게 합니다.",
-    "warning_subtext_1": "ArbiEver는 맞춤 네트워크나 그의 보안은 인증해주지 않습니다.",
+    "warning": "이것은 이 네트워크가 EtherEver 내에 사용될 수 있게 합니다.",
+    "warning_subtext_1": "EtherEver는 맞춤 네트워크나 그의 보안은 인증해주지 않습니다.",
     "warning_subtext_2": "다음에 대해 알아보세요:",
     "warning_subtext_3": "사기 및 네트워크 보안 위험",
     "display_name": "디스플레이 이름",
@@ -4986,7 +4985,7 @@
     "alert_recommend": "체인 ID를",
     "alert_verify": "인증할 것을 권고합니다",
     "warning_subtext_new": {
-      "1": "ArbiEver는 사용자 지정 네트워크를 확인하지 않습니다. 신뢰할 수 있는 네트워크만 승인하세요.",
+      "1": "EtherEver는 사용자 지정 네트워크를 확인하지 않습니다. 신뢰할 수 있는 네트워크만 승인하세요.",
       "2": "네트워크 보안 위험 및 사기에 관해 자세히 알아보세요."
     },
     "invalid_rpc_url": "이 네트워크 URL은 이 체인 ID에 대해 알려진 공급자와 일치하지 않습니다.",
@@ -5061,7 +5060,7 @@
     "estimated_gas_fee_tooltip_text_1": "가스요금은 다음에서 거래를 처리하는 암호화 화폐 채굴자에게 지급되는 비용입니다:",
     "estimated_gas_fee_tooltip_text_2": "이더리움",
     "estimated_gas_fee_tooltip_text_3": "네트워크.",
-    "estimated_gas_fee_tooltip_text_4": "ArbiEver는 가스요금으로 수익을 얻지 않습니다.",
+    "estimated_gas_fee_tooltip_text_4": "EtherEver는 가스요금으로 수익을 얻지 않습니다.",
     "estimated_gas_fee_tooltip_text_5": "가스요금은 네트워크에 의해 설정되며 네트워크 트래픽 및 거래 복잡성에 따라 달라집니다.",
     "learn_more": "가스요금에 대해 더 자세히 알아보기",
     "legacy_gas_suggestion_tooltip": "이 가스요금 추천은 기존의 가스 예측 시스템을 사용해 계산된 것으로, 부정확할 수 있습니다."
@@ -5085,7 +5084,7 @@
     "high_fees": "왜 수수료가 이렇게 높은가요?",
     "missing_tokens": "토큰이 사라졌습니다...",
     "swap_issues": "스와프가 불가능합니다...",
-    "mobile_sentiment": "ArbiEver 모바일에 대해 어떻게 생각하시나요?",
+    "mobile_sentiment": "EtherEver 모바일에 대해 어떻게 생각하시나요?",
     "sentiment_good_face": "😁",
     "sentiment_bad_face": "☹️",
     "sentiment_good": "좋습니다!",
@@ -5135,12 +5134,12 @@
   },
   "remember_me": {
     "enable_remember_me": "로그인 정보 저장",
-    "enable_remember_me_description": "로그인 정보를 저장하면 회원님의 휴대폰을 이용하는 모든 사람이 회원님의 ArbiEver 계정에 액세스할 수 있습니다."
+    "enable_remember_me_description": "로그인 정보를 저장하면 회원님의 휴대폰을 이용하는 모든 사람이 회원님의 EtherEver 계정에 액세스할 수 있습니다."
   },
   "turn_off_remember_me": {
     "title": "로그인 정보 저장 기능을 끄려면 비밀번호를 입력하세요",
     "placeholder": "비밀번호",
-    "description": "이 기능을 끄면 지금부터 비밀번호를 사용하여 ArbiEver를 잠금 해제해야 합니다.",
+    "description": "이 기능을 끄면 지금부터 비밀번호를 사용하여 EtherEver를 잠금 해제해야 합니다.",
     "action": "로그인 정보 저장 끄기"
   },
   "dapp_connect": {
@@ -5152,11 +5151,11 @@
   },
   "automatic_security_checks": {
     "title": "자동 보안 점검",
-    "description": "업데이트를 위한 자동 보안 점검의 경우 GitHub 서버에 IP 주소가 노출될 수 있습니다. 이때 노출되는 정보는 해당 IP 주소가 ArbiEver를 사용한다는 사실뿐입니다. 다른 정보나 계정 주소는 노출되지 않습니다."
+    "description": "업데이트를 위한 자동 보안 점검의 경우 GitHub 서버에 IP 주소가 노출될 수 있습니다. 이때 노출되는 정보는 해당 IP 주소가 EtherEver를 사용한다는 사실뿐입니다. 다른 정보나 계정 주소는 노출되지 않습니다."
   },
   "terms_of_use_modal": {
     "title": "이용약관을 검토하세요",
-    "terms_of_use_check_description": "본인은 ArbiEver의 사용과 관련 모든 기능에 적용되는 이용약관에 동의합니다",
+    "terms_of_use_check_description": "본인은 EtherEver의 사용과 관련 모든 기능에 적용되는 이용약관에 동의합니다",
     "accept_cta": "동의",
     "accept_helper_description": "스크롤하여 모든 섹션의 내용을 읽으세요",
     "agree_cta": "동의"
@@ -5168,7 +5167,7 @@
   },
   "enable_automatic_security_check_modal": {
     "title": "보안 업데이트를 자동으로 확인할까요?",
-    "description": "업데이트를 위한 자동 보안 점검의 경우 GitHub 서버에 IP 주소가 노출될 수 있습니다. 이때 노출되는 정보는 해당 IP 주소가 ArbiEver를 사용한다는 사실뿐입니다. 다른 정보나 계정 주소는 노출되지 않습니다.",
+    "description": "업데이트를 위한 자동 보안 점검의 경우 GitHub 서버에 IP 주소가 노출될 수 있습니다. 이때 노출되는 정보는 해당 IP 주소가 EtherEver를 사용한다는 사실뿐입니다. 다른 정보나 계정 주소는 노출되지 않습니다.",
     "primary_action": "자동 보안 확인 활성화",
     "secondary_action": "아니요, 괜찮습니다"
   },
@@ -5221,7 +5220,7 @@
     "new_wallet_needed_create_try_again_action": "지갑 복구 시도",
     "new_wallet_needed_description_part_one": "지갑에 문제가 발생하여 새 지갑이 필요할 수 있습니다. 회원님의 계정은 블록체인에 있기 때문에 여전히 안전합니다. 기기에 저장된 기본 설정, 저장된 네트워크, 계정 제목 및 관련 데이터만 손실되었습니다.",
     "new_wallet_needed_description_part_two": "새 지갑으로 계정을 가져오려면 비밀복구구문이 필요합니다. 비밀복구구문이 없으면 계정을 가져올 수 없습니다.",
-    "new_wallet_needed_description_part_three": "이런 일이 다시 발생하지 않도록 ArbiEver 앱과 OS를 항상 최신 버전으로 업데이트하세요."
+    "new_wallet_needed_description_part_three": "이런 일이 다시 발생하지 않도록 EtherEver 앱과 OS를 항상 최신 버전으로 업데이트하세요."
   },
   "srp_security_quiz": {
     "title": "보안 퀴즈",
@@ -5232,7 +5231,7 @@
     "continue": "계속",
     "of": "따른",
     "question_one": {
-      "question": "비밀복구구문을 분실하시면 ArbiEver가...",
+      "question": "비밀복구구문을 분실하시면 EtherEver가...",
       "right_answer": "도와드릴 수 없습니다",
       "wrong_answer": "찾아드릴 수 있습니다",
       "right_answer_title": "맞습니다! 아무도 본인의 비밀복구구문을 복구할 수 없습니다",
@@ -5257,9 +5256,9 @@
     "bluetooth_off_message": "기기의 블루투스를 켜세요",
     "bluetooth_access_blocked": "Ledger가 모바일 기기와 페어링하려면 블루투스가 필요합니다.",
     "bluetooth_access_blocked_message": "블루투스를 이용하여 Ledger 기기를 페어링하기 원하시면 설정에서 블루투스를 활성화하고 다시 시도하세요.",
-    "location_access_blocked": "ArbiEver를 Ledger와 페어링하려면 위치 액세스 권한이 필요합니다.",
+    "location_access_blocked": "EtherEver를 Ledger와 페어링하려면 위치 액세스 권한이 필요합니다.",
     "location_access_blocked_message": "블루투스를 이용하여 Ledger 기기를 페어링하기 원하시면 설정에서 위치 정보 액세스를 활성화하고 다시 시도하세요.",
-    "nearbyDevices_access_blocked": "ArbiEver를 Ledger와 페어링하려면 주변 장치 권한이 필요합니다.",
+    "nearbyDevices_access_blocked": "EtherEver를 Ledger와 페어링하려면 주변 장치 권한이 필요합니다.",
     "nearbyDevices_access_blocked_message": "블루투스를 이용하여 Ledger 기기를 페어링하려면, 설정에서 주변 장치 액세스를 활성화하고 다시 시도하세요.",
     "bluetooth_scanning_error": "기기 스캐닝 중 오류 발생",
     "bluetooth_scanning_error_message": "기기가 잠금해제되어 있고 이더리움 앱이 실행되고 있는지 확인하세요",
@@ -5299,7 +5298,7 @@
     "unknown_error_message": "예기치 못한 오류가 발생했습니다. 다시 시도하세요.",
     "error_occured": "오류가 발생했습니다",
     "how_to_install_eth_app": "Ledger 기기에 이더리움 앱 설치하는 방법",
-    "ledger_account_count": "ArbiEver Mobile의 Ledger에서 1개의 계정을 사용 중입니다.",
+    "ledger_account_count": "EtherEver Mobile의 Ledger에서 1개의 계정을 사용 중입니다.",
     "open_eth_app": "이더리움 앱을 여세요",
     "open_eth_app_message_one": "이더리움 앱이 설치되었지만 열려있지 않습니다. ",
     "open_eth_app_message_two": "이더리움 앱을 계속 실행할 수 있도록 기기의 두 버튼을 누르고 안내에 따라 진행하세요.",
@@ -5313,7 +5312,7 @@
     "not_supported": "지원되지 않는 지역입니다",
     "not_supported_error": "입력한 데이터의 버전 4만 지원됩니다.",
     "error_during_connection": "알 수 없는 오류가 발생했습니다",
-    "error_during_connection_message": "Ledger 장치를 연결하는 데 약간의 문제가 발생했습니다. 다시 시도하려면 아래의 '재시도'를 탭하세요. 이는 가끔 ArbiEver 모바일을 페어링할 때 Ledger 장치에서 ETH 앱이 열려 있기 때문에 발생합니다.",
+    "error_during_connection_message": "Ledger 장치를 연결하는 데 약간의 문제가 발생했습니다. 다시 시도하려면 아래의 '재시도'를 탭하세요. 이는 가끔 EtherEver 모바일을 페어링할 때 Ledger 장치에서 ETH 앱이 열려 있기 때문에 발생합니다.",
     "how_to_install_eth_webview_title": "이더리움 앱 설치 방법",
     "nonce_too_low": "논스가 너무 낮습니다",
     "nonce_too_low_error": "설정한 논스가 너무 낮습니다",
@@ -5322,7 +5321,7 @@
     "select_hd_path_description": "원하는 계정이 표시되지 않으면 HD 경로나 현재 선택한 네트워크를 바꿔 보세요.",
     "ledger_live_path": "Ledger Live",
     "ledger_legacy_path": "레거시 (MEW/MyCrypto)",
-    "ledger_bip44_path": "BIP44 (예: ArbiEver, Trezor)",
+    "ledger_bip44_path": "BIP44 (예: EtherEver, Trezor)",
     "ledger_legacy_label": " (레거시)",
     "blind_sign_error": "블라인드 서명 오류",
     "blind_sign_error_message": "Ledger 장치에서 블라인드 서명이 활성화되어 있지 않습니다. 설정에서 활성화해 주세요.",
@@ -5518,7 +5517,7 @@
     "reward_frequency": "보상 빈도",
     "reward_frequency_tooltip": "스테이킹 잔액은 새로운 보상을 반영하기 위해 {{frequency}}마다 업데이트됩니다.",
     "withdrawal_time": "출금 시간",
-    "metamask_pool": "ArbiEver 풀",
+    "metamask_pool": "EtherEver 풀",
     "enter_amount": "금액 입력",
     "review": "검토",
     "not_enough_eth": "ETH 부족",
@@ -5537,12 +5536,12 @@
     "got_it": "컨펌",
     "your_balance": "잔액",
     "stake_your_eth_cta": {
-      "base": "ArbiEver 풀에서 ETH를 스테이킹하고 수익을 창출하세요",
+      "base": "EtherEver 풀에서 ETH를 스테이킹하고 수익을 창출하세요",
       "annually": "받으세요.",
       "learn_more_with_period": "자세히 알아보세요."
     },
     "stake_your_trx_cta": {
-      "base": "Stake your TRX with ArbiEver Pool and earn",
+      "base": "Stake your TRX with EtherEver Pool and earn",
       "annually": "받으세요.",
       "learn_more_with_period": "자세히 알아보세요."
     },
@@ -5624,7 +5623,7 @@
   },
   "default_settings": {
     "title": "지갑이 준비되었습니다",
-    "description": "ArbiEver의 기본 설정은 보안과 사용의 편의성 사이에서 최적의 균형을 맞추기 위한 설정입니다. 개인정보 보호 기능을 강화하려면 설정을 변경하세요.",
+    "description": "EtherEver의 기본 설정은 보안과 사용의 편의성 사이에서 최적의 균형을 맞추기 위한 설정입니다. 개인정보 보호 기능을 강화하려면 설정을 변경하세요.",
     "learn_more_about_privacy": "개인정보 보호 모범 사례에 대해 자세히 알아보세요.",
     "privacy_policy": "개인정보 처리방침",
     "default_settings": "기본 설정",
@@ -5634,17 +5633,17 @@
     "manage_networks_body": "가능한 가장 안정적인 비공개 이더리움 액세스를 위해 Infura를 원격 프로시저 호출(RPC) 공급업체로 선정하였습니다. 회원님은 개인적으로 원하는 RPC를 선택할 수 있습니다. 하지만, 모든 RPC는 트랜잭션을 위해 회원님의 이더리움 지갑과 IP 주소를 수령한다는 점에 유의해야 합니다. 다음을 확인하세요: ",
     "manage_networks_body2": " Infura가 EVM 계정 및 Solana 계정의 데이터를 어떻게 처리하는지 자세히 알아보세요. ",
     "manage_networks_body3": "여기를 클릭하세요.",
-    "functionality_body": "ArbiEver는 인터넷 서비스를 통해 토큰 세부 정보 및 가스 설정과 같은 기본 기능을 제공합니다. 인터넷 서비스를 이용할 때 IP 주소가 공유되며, 이 경우 ArbiEver와 공유됩니다. 이는 다른 웹사이트를 방문할 때와 마찬가지입니다. ArbiEver는 이 데이터를 일시적으로 사용하며 데이터를 절대 판매하지 않습니다. VPN을 사용하거나 이러한 서비스를 비활성화할 수 있지만 ArbiEver 사용 환경에 영향을 미칠 수 있습니다. 자세한 내용은 ",
+    "functionality_body": "EtherEver는 인터넷 서비스를 통해 토큰 세부 정보 및 가스 설정과 같은 기본 기능을 제공합니다. 인터넷 서비스를 이용할 때 IP 주소가 공유되며, 이 경우 EtherEver와 공유됩니다. 이는 다른 웹사이트를 방문할 때와 마찬가지입니다. EtherEver는 이 데이터를 일시적으로 사용하며 데이터를 절대 판매하지 않습니다. VPN을 사용하거나 이러한 서비스를 비활성화할 수 있지만 EtherEver 사용 환경에 영향을 미칠 수 있습니다. 자세한 내용은 ",
     "functionality_body2": "을 확인하세요",
     "sheet": {
       "title_off": "기본 기능 끄기",
-      "description_off": "이렇게 하면 ArbiEver에서 시간을 완전히 최적화할 수 없습니다. 기본 기능(토큰 세부 정보, 최적의 가스 설정 등)을 사용할 수 없게 됩니다.",
+      "description_off": "이렇게 하면 EtherEver에서 시간을 완전히 최적화할 수 없습니다. 기본 기능(토큰 세부 정보, 최적의 가스 설정 등)을 사용할 수 없게 됩니다.",
       "description_off2": "이 기능을 끄면 보안 및 개인정보 보호,",
       "description_off2_related_features1": "백업 및 동기화, 알림에 포함된 모든 기능도",
       "description_off2_related_features1_and": "돌아와서",
       "description_off2_related_features2": "지갑 사용.",
       "title_on": "기본 기능 켜기",
-      "description_on": "ArbiEver에서 시간을 최적화하려면 이 기능을 켜야 합니다. 기본 기능(토큰 세부 정보, 최적의 가스 설정, 알림 등)은 웹3 경험에 중요한 요소입니다.",
+      "description_on": "EtherEver에서 시간을 최적화하려면 이 기능을 켜야 합니다. 기본 기능(토큰 세부 정보, 최적의 가스 설정, 알림 등)은 웹3 경험에 중요한 요소입니다.",
       "checkbox_label": "이해했습니다. 계속 진행하겠습니다",
       "buttons": {
         "cancel": "취소",
@@ -5659,7 +5658,7 @@
     "drawer_assets_desc": "지갑에서 토큰을 자동으로 감지하고, NFT를 표시하며, 계정 잔액을 일괄 업데이트하세요.",
     "drawer_security_title": "보안",
     "drawer_security_desc": "안전하지 않은 네트워크에 가입할 가능성을 줄이고 계정을 보호하세요",
-    "network_details_check_desc": "ArbiEver는 chainid.network라는 제삼자 서비스를 사용하여 정확하고 표준화된 네트워크 세부 정보를 표시합니다. 이를 통해 악성 또는 잘못된 네트워크에 연결할 가능성이 줄어듭니다. 이 기능을 사용하면 사용자의 IP 주소가 chainid.network에 노출됩니다."
+    "network_details_check_desc": "EtherEver는 chainid.network라는 제삼자 서비스를 사용하여 정확하고 표준화된 네트워크 세부 정보를 표시합니다. 이를 통해 악성 또는 잘못된 네트워크에 연결할 가능성이 줄어듭니다. 이 기능을 사용하면 사용자의 IP 주소가 chainid.network에 노출됩니다."
   },
   "simulation_details": {
     "failed": "추정치를 불러오는 동안 오류가 발생했습니다.",
@@ -5693,7 +5692,7 @@
     },
     "estimated_gas_fee": {
       "title": "예상 가스비",
-      "gas_recipient": "가스비는 이더리움 네트워크에서 트랜잭션을 처리하는 암호화폐 채굴자에게 지급됩니다. ArbiEver는 가스비로 수익을 창출하지 않습니다.",
+      "gas_recipient": "가스비는 이더리움 네트워크에서 트랜잭션을 처리하는 암호화폐 채굴자에게 지급됩니다. EtherEver는 가스비로 수익을 창출하지 않습니다.",
       "gas_fluctuation": "가스비는 예상치이며 네트워크 트래픽과 트랜잭션 복잡도에 따라 변동됩니다.",
       "gas_learn_more": "가스비에 대해 더 자세히 알아보기"
     },
@@ -5733,7 +5732,7 @@
       "pay_with": "결제 수단:",
       "total": "총액",
       "transaction_fee": "트랜잭션 수수료",
-      "metamask_fee": "ArbiEver 수수료",
+      "metamask_fee": "EtherEver 수수료",
       "network_fee": "네트워크 수수료",
       "bridge_fee": "브릿지 제공자 수수료"
     },
@@ -5767,10 +5766,10 @@
     },
     "tooltip": {
       "perps_deposit": {
-        "transaction_fee": "무기한 선물 거래 시 사용되는 네트워크인 HyperCore에서 토큰을 USDC로 스왑합니다. 스왑 제공업체가 수수료를 부과할 수 있지만 ArbiEver에서 부과하는 수수료는 없습니다."
+        "transaction_fee": "무기한 선물 거래 시 사용되는 네트워크인 HyperCore에서 토큰을 USDC로 스왑합니다. 스왑 제공업체가 수수료를 부과할 수 있지만 EtherEver에서 부과하는 수수료는 없습니다."
       },
       "predict_deposit": {
-        "transaction_fee": "예측을 위해 사용하는 Polygon 네트워크를 통해 귀하의 토큰을 USDC.e로 스왑합니다. 스왑 제공업체는 수수료를 부과할 수 있으나 ArbiEver는 수수료가 없습니다."
+        "transaction_fee": "예측을 위해 사용하는 Polygon 네트워크를 통해 귀하의 토큰을 USDC.e로 스왑합니다. 스왑 제공업체는 수수료를 부과할 수 있으나 EtherEver는 수수료가 없습니다."
       },
       "musd_conversion": {
         "transaction_fee": "mUSD conversion fees include network costs and may include provider fees."
@@ -5896,7 +5895,7 @@
     "reject": "트랜잭션 거부"
   },
   "snap_account_custom_name_approval": {
-    "title": "ArbiEver에 계정 추가",
+    "title": "EtherEver에 계정 추가",
     "input_title": "계정 이름",
     "add_account_button": "계정 추가",
     "name_taken_message": "이미 존재하는 계정 이름입니다"
@@ -5930,13 +5929,13 @@
     "quote_details": "견적 세부 정보",
     "price_impact": "가격 영향",
     "time": "시간",
-    "quote_info_content": "제공자 수수료와 0.875%의 ArbiEver 수수료를 포함한 최적의 환율입니다.",
+    "quote_info_content": "제공자 수수료와 0.875%의 EtherEver 수수료를 포함한 최적의 환율입니다.",
     "quote_info_title": "비율",
     "network_fee_info_title": "네트워크 수수료",
     "network_fee_info_content": "네트워크 수수료는 네트워크의 혼잡도와 트랜잭션의 복잡성에 따라 달라집니다.",
     "points": "예상 포인트",
     "points_tooltip": "포인트",
-    "points_tooltip_content_1": "포인트는 스왑, 브릿지, 무기한 선물 거래 등의 트랜잭션을 완료할 때마다 적립되며, 이를 통해 ArbiEver 보상을 획득할 수 있습니다.",
+    "points_tooltip_content_1": "포인트는 스왑, 브릿지, 무기한 선물 거래 등의 트랜잭션을 완료할 때마다 적립되며, 이를 통해 EtherEver 보상을 획득할 수 있습니다.",
     "points_tooltip_content_2": "이 값은 추정치이며, 거래가 완료되면 최종적으로 확정됩니다. 포인트는 보상 잔액에 반영되기까지 최대 1시간이 걸릴 수 있습니다.",
     "unable_to_load": "불러올 수 없습니다",
     "points_error": "지금 포인트를 불러올 수 없습니다",
@@ -5963,8 +5962,8 @@
     "hardware_wallet_not_supported": "하드웨어 지갑은 아직 지원되지 않습니다. 핫월렛을 사용하여 계속하세요.",
     "hardware_wallet_not_supported_solana": "솔라나는 아직 하드웨어 지갑이 지원하지 않습니다. 계속하려면 핫월렛을 사용하세요.",
     "price_impact_info_title": "가격 영향",
-    "price_impact_info_description": "가격 영향은 회원님의 스왑 주문이 자산의 시장 가격에 미치는 영향을 나타냅니다. 이는 거래 규모와 풀의 가용 유동성에 따라 달라집니다. ArbiEver는 가격 영향에 관여하지 않으며 이를 통제하지도 않습니다.",
-    "price_impact_info_gasless_description": "가격 영향은 사용자의 스왑 주문이 자산의 시장 가격에 미치는 영향을 의미합니다. 가스비를 지불할 충분한 자금이 없는 경우, 스왑할 토큰 일부가 자동으로 수수료로 사용되므로 가격 영향이 커질 수 있습니다. ArbiEver는 가격 영향에 관여하지 않으며 이를 통제하지도 않습니다.",
+    "price_impact_info_description": "가격 영향은 회원님의 스왑 주문이 자산의 시장 가격에 미치는 영향을 나타냅니다. 이는 거래 규모와 풀의 가용 유동성에 따라 달라집니다. EtherEver는 가격 영향에 관여하지 않으며 이를 통제하지도 않습니다.",
+    "price_impact_info_gasless_description": "가격 영향은 사용자의 스왑 주문이 자산의 시장 가격에 미치는 영향을 의미합니다. 가스비를 지불할 충분한 자금이 없는 경우, 스왑할 토큰 일부가 자동으로 수수료로 사용되므로 가격 영향이 커질 수 있습니다. EtherEver는 가격 영향에 관여하지 않으며 이를 통제하지도 않습니다.",
     "slippage_info_title": "슬리피지",
     "slippage_info_description": "사용자가 허용하는 가격 변동률(%)로, 가격이 이보다 크게 변동하면 트랜잭션이 취소됩니다.",
     "blockaid_error_title": "이 트랜잭션은 취소됩니다",
@@ -6027,7 +6026,7 @@
     "unable_to_login_description": "인터넷 연결이 불안정합니다. 연결을 확인하고 다시 시도하세요.",
     "something_went_wrong_title": "문제가 발생했습니다",
     "something_went_wrong_description": "로그인 중 오류가 발생했습니다. 다시 시도하고 문제가 계속되면",
-    "support_button": "ArbiEver 지원.",
+    "support_button": "EtherEver 지원.",
     "error_button": "다시 시도",
     "user_cancelled_title": "로그인 취소됨",
     "user_cancelled_description": "로그인을 취소했습니다.\n준비되면 다시 시도하세요.",
@@ -6036,7 +6035,7 @@
     "google_login_no_credential_description": "이 로그인과 연결된 Google 계정을 찾을 수 없습니다. 다른 로그인 방법으로 다시 시도해 주세요.",
     "google_login_no_credential_button": "다시 시도",
     "oauth_error_title": "로그인 실패",
-    "oauth_error_description": "로그인 중 오류가 발생했습니다.\n다시 시도하고 문제가 계속되면 ArbiEver 지원팀에 문의하세요.",
+    "oauth_error_description": "로그인 중 오류가 발생했습니다.\n다시 시도하고 문제가 계속되면 EtherEver 지원팀에 문의하세요.",
     "oauth_error_button": "다시 시도",
     "no_internet_connection_title": "연결할 수 없음",
     "no_internet_connection_description": "인터넷 연결이 불안정합니다. 연결을 확인하고 다시 시도하세요.",
@@ -6061,7 +6060,7 @@
     "reveal": "공개",
     "social_recovery_title": "{{authConnection}} 복구",
     "social_recovery_enable": "활성화됨",
-    "social_login_description": "{{authConnection}} 로그인 정보와 ArbiEver 비밀번호를 사용하여 계정과 비밀복구구문을 복구하세요.",
+    "social_login_description": "{{authConnection}} 로그인 정보와 EtherEver 비밀번호를 사용하여 계정과 비밀복구구문을 복구하세요.",
     "srps_title": "비밀복구구문",
     "srps_description": "두 가지 복구 방법을 모두 설정하면 지갑을 가장 안전하게 보호할 수 있습니다. 하나의 방법에 실패해도 다른 방법으로 지갑을 복구할 수 있습니다."
   },
@@ -6073,7 +6072,7 @@
     "enable": {
       "title": "백업 및 동기화 켜기",
       "confirmation": "백업 및 동기화를 켜면 기본 기능도 함께 활성화됩니다. 계속하시겠습니까?",
-      "description": "백업 및 동기화를 사용하면 사용자 지정 설정과 기능을 암호화된 상태로 저장할 수 있습니다. 이 기능은 ArbiEver를 여러 기기에서 동일하게 사용할 수 있게 해주며, ArbiEver를 재설치할 경우 설정과 기능을 복원해 줍니다. 비밀복구구문은 백업되지 않습니다.",
+      "description": "백업 및 동기화를 사용하면 사용자 지정 설정과 기능을 암호화된 상태로 저장할 수 있습니다. 이 기능은 EtherEver를 여러 기기에서 동일하게 사용할 수 있게 해주며, EtherEver를 재설치할 경우 설정과 기능을 복원해 줍니다. 비밀복구구문은 백업되지 않습니다.",
       "updatePreferences": "언제든지 설정 > 백업 및 동기화에서",
       "settingsPath": "설정을 변경할 수 있습니다."
     },
@@ -6113,9 +6112,9 @@
     "intro": {
       "title": "멀티체인 계정을 소개합니다",
       "section_1_title": "멀티체인 계정이란?",
-      "section_1_description": "하나의 계정으로 ArbiEver가 지원하는 모든 네트워크의 주소를 사용할 수 있습니다. 이제 계정을 전환하지 않고도 이더리움, 솔라나 등 다양한 네트워크를 이용할 수 있습니다.",
+      "section_1_description": "하나의 계정으로 EtherEver가 지원하는 모든 네트워크의 주소를 사용할 수 있습니다. 이제 계정을 전환하지 않고도 이더리움, 솔라나 등 다양한 네트워크를 이용할 수 있습니다.",
       "section_2_title": "같은 주소, 더 많은 네트워크",
-      "section_2_description": "계정을 그룹화했습니다. 이전과 동일하게 ArbiEver를 계속 사용하세요. 회원님의 자금은 안전하며 변경되지 않았습니다",
+      "section_2_description": "계정을 그룹화했습니다. 이전과 동일하게 EtherEver를 계속 사용하세요. 회원님의 자금은 안전하며 변경되지 않았습니다",
       "view_accounts_button": "계정 보기",
       "learn_more_button": "더 보기",
       "setting_up_accounts": "계정 설정 중"
@@ -6190,7 +6189,7 @@
     },
     "delete_account": {
       "title": "계정 제거",
-      "warning_title": "이 계정이 ArbiEver에서 제거됩니다.",
+      "warning_title": "이 계정이 EtherEver에서 제거됩니다.",
       "warning_description": "제거하기 전에 이 계정의 비밀복구구문이나 개인 키를 가지고 있는지 확인하세요.",
       "remove_button": "제거",
       "cancel_button": "취소",
@@ -6240,24 +6239,24 @@
   },
   "deep_link_modal": {
     "private_link": {
-      "title": "ArbiEver로 이동 중",
+      "title": "EtherEver로 이동 중",
       "description": "계속하면 {{pageTitle}} 페이지가 열립니다.",
       "checkbox_label": "다시 알리지 않기"
     },
     "public_link": {
       "title": "주의해서 진행하세요",
-      "description": "이 페이지는 ArbiEver가 아닌 제3자에 의해 안내되었습니다. 계속하면 {{pageTitle}} 페이지가 열립니다."
+      "description": "이 페이지는 EtherEver가 아닌 제3자에 의해 안내되었습니다. 계속하면 {{pageTitle}} 페이지가 열립니다."
     },
     "invalid": {
       "title": "이 페이지는 존재하지 않습니다",
       "description": "찾으시는 페이지를 찾을 수 없습니다.",
-      "update_to_store_link": "ArbiEver 최신 버전으로 업데이트하세요",
+      "update_to_store_link": "EtherEver 최신 버전으로 업데이트하세요",
       "well_take_you_to_right_place": " 그러면 적절하게 안내해 드리겠습니다."
     },
     "unsupported": {
       "title": "이 페이지는 현재 버전에서 지원되지 않습니다",
       "description": "이 기능을 사용하려면 최신 버전으로 업데이트하세요",
-      "update_to_store_link": "ArbiEver 최신 버전으로 업데이트하세요",
+      "update_to_store_link": "EtherEver 최신 버전으로 업데이트하세요",
       "well_take_you_to_right_place": " 그러면 적절하게 안내해 드리겠습니다."
     },
     "go_to_home_button": "홈페이지로 가기",
@@ -6265,8 +6264,8 @@
     "continue_button": "계속"
   },
   "card": {
-    "card": "ArbiEver 카드",
-    "card_button_enabled_toast": "You can now sign up for ArbiEver Card!",
+    "card": "EtherEver 카드",
+    "card_button_enabled_toast": "You can now sign up for EtherEver Card!",
     "add_funds_bottomsheet": {
       "deposit": "현금으로 자금 충전",
       "deposit_description": "저비용 카드 또는 은행 이체",
@@ -6275,15 +6274,15 @@
       "select_method": "방법 선택"
     },
     "card_onboarding": {
-      "title": "ArbiEver 카드 기능 활성화",
+      "title": "EtherEver 카드 기능 활성화",
       "description": "Crypto Life 이메일 주소와 비밀번호로 로그인하여 지출 토큰과 네트워크를 변경할 수 있습니다.",
       "verify_account_button": "로그인",
-      "non_cardholder_title": "ArbiEver 카드에 오신 것을 환영합니다",
-      "non_cardholder_description": "ArbiEver 카드는 무료로 간편하게 암호화폐를 결제에 사용할 수 있는 수단으로, 다양한 온체인 보상을 제공합니다.",
+      "non_cardholder_title": "EtherEver 카드에 오신 것을 환영합니다",
+      "non_cardholder_description": "EtherEver 카드는 무료로 간편하게 암호화폐를 결제에 사용할 수 있는 수단으로, 다양한 온체인 보상을 제공합니다.",
       "non_cardholder_verify_account_button": "지금 시작하세요",
       "sign_up": {
         "title": "가입",
-        "description": "ArbiEver 카드 제공업체인 Crypto Life에 가입하세요. 이 자격 증명으로 카드를 관리할 수 있습니다.",
+        "description": "EtherEver 카드 제공업체인 Crypto Life에 가입하세요. 이 자격 증명으로 카드를 관리할 수 있습니다.",
         "i_already_have_an_account": "이미 계정이 있습니다",
         "email_label": "이메일",
         "password_label": "비밀번호",
@@ -6324,7 +6323,7 @@
       },
       "verify_identity": {
         "title": "그다음 본인 확인을 진행해 주세요",
-        "description": "계정 보안을 위해 Crypto Life는 Veriff를 통해 귀하의 신원을 확인해야 합니다.\n\n귀하의 정보는 Veriff와 Crypto Life에 바로 전송되며, ArbiEver는 절대 해당 정보를 보거나 저장하지 않습니다.\n\n신분증과 주소 증명 자료를 준비해 주세요. 5분 정도 소요됩니다.",
+        "description": "계정 보안을 위해 Crypto Life는 Veriff를 통해 귀하의 신원을 확인해야 합니다.\n\n귀하의 정보는 Veriff와 Crypto Life에 바로 전송되며, EtherEver는 절대 해당 정보를 보거나 저장하지 않습니다.\n\n신분증과 주소 증명 자료를 준비해 주세요. 5분 정도 소요됩니다.",
         "verify_button": "본인 확인 시작",
         "start_verification_error": "확인을 시작할 수 없습니다. 잠시 후에 다시 시도해 주세요."
       },
@@ -6342,7 +6341,7 @@
         "title": "Verifying your identity",
         "description": "Crypto Life is attempting to verify you. This will take at most 30 seconds.",
         "verified_title": "Approved!",
-        "verified_description": "Your KYC was approved. You can now use ArbiEver Card.",
+        "verified_description": "Your KYC was approved. You can now use EtherEver Card.",
         "continue_button": "Continue",
         "timeout_title": "Verification in progress",
         "timeout_description": "Your verification will take up to 12 hours. Please come back to the Card section in that time or contact support at\n{{email}}\nfor assistance.",
@@ -6393,7 +6392,7 @@
         "electronic_consent_3": " and to receive all communications electronically",
         "terms_and_conditions_1": "I agree to the ",
         "terms_and_conditions_2": "이용약관",
-        "terms_and_conditions_3": " of ArbiEver Card",
+        "terms_and_conditions_3": " of EtherEver Card",
         "privacy_policy_1": "I agree to the data practices described in the ",
         "privacy_policy_2": "개인정보 처리방침",
         "right_to_information_1": "I have been informed of my ",
@@ -6408,7 +6407,7 @@
       },
       "complete": {
         "title": "승인되었습니다!",
-        "description": "KYC가 승인되었습니다. 이제 ArbiEver 카드를 사용하실 수 있습니다."
+        "description": "KYC가 승인되었습니다. 이제 EtherEver 카드를 사용하실 수 있습니다."
       },
       "continue_button": "다음",
       "confirm_button": "확인",
@@ -6440,9 +6439,9 @@
       "enable_assets_button_label": "자산 활성화",
       "spending_limit_warning": "지출 한도가 거의 찼습니다. 결제가 거부되지 않도록 정보를 업데이트하세요.",
       "logout": "로그아웃",
-      "logout_description": "ArbiEver 카드 계정에서 로그아웃하기",
+      "logout_description": "EtherEver 카드 계정에서 로그아웃하기",
       "logout_confirmation_title": "카드에서 로그아웃하시겠습니까?",
-      "logout_confirmation_message": "ArbiEver 카드 계정에서 로그아웃하시겠습니까?",
+      "logout_confirmation_message": "EtherEver 카드 계정에서 로그아웃하시겠습니까?",
       "logout_confirmation_cancel": "취소",
       "logout_confirmation_confirm": "로그아웃",
       "enable_card_error": "Failed to enable card. Please try again later.",
@@ -6541,7 +6540,7 @@
       "solana_not_supported_button_description": "card.metamask.io에서 활성화"
     },
     "card_authentication": {
-      "title": "ArbiEver 카드 계정 로그인",
+      "title": "EtherEver 카드 계정 로그인",
       "location_button_text": "국제",
       "location_button_text_us": "미국 계정",
       "email_label": "이메일",
@@ -6577,7 +6576,7 @@
   },
   "onboarding_error_fallback": {
     "title": "오류가 발생했습니다",
-    "description": "문제 해결 및 ArbiEver 개선을 위해 오류 보고서를 보내주세요. 보고 내용은 기밀로 처리되며 익명으로 전송됩니다.",
+    "description": "문제 해결 및 EtherEver 개선을 위해 오류 보고서를 보내주세요. 보고 내용은 기밀로 처리되며 익명으로 전송됩니다.",
     "recovery_warning": "오류가 계속되면 비밀복구구문을 저장하고 앱을 다시 설치하세요. 중요: 비밀복구구문 없이는 지갑을 복구할 수 없습니다.",
     "error_message_report": "오류 보고서:",
     "copy": "복사",
@@ -6673,7 +6672,7 @@
     "loading_activity": "활동 정보를 불러오는 중...",
     "error_loading_activity": "활동 정보를 불러올 수 없습니다",
     "activity_empty_title": "최근 활동이 없습니다.",
-    "activity_empty_description": "ArbiEver로 포인트를 획득하고 보상을 잠금 해제하세요.",
+    "activity_empty_description": "EtherEver로 포인트를 획득하고 보상을 잠금 해제하세요.",
     "activity_empty_link": "포인트 적립 방법 보기",
     "events": {
       "to": "수신:",
@@ -6731,9 +6730,9 @@
       "step_confirm": "다음",
       "step_skip": "건너뛰기",
       "step1_title": "거래할 때마다 포인트를 획득하세요",
-      "step1_description": "ArbiEver에서 스왑과 무기한 선물 거래를 할 때마다 보상 포인트가 적립됩니다. 계정을 추가하고 포인트가 쌓이는 것을 확인하세요.",
+      "step1_description": "EtherEver에서 스왑과 무기한 선물 거래를 할 때마다 보상 포인트가 적립됩니다. 계정을 추가하고 포인트가 쌓이는 것을 확인하세요.",
       "step2_title": "레벨을 높여 더 많은 특전을 받으세요",
-      "step2_description": "포인트 마일스톤을 달성하면 무기한 선물 수수료 50% 할인, 독점 토큰, 무료 ArbiEver 메탈 카드와 같은 특전을 받을 수 있습니다.",
+      "step2_description": "포인트 마일스톤을 달성하면 무기한 선물 수수료 50% 할인, 독점 토큰, 무료 EtherEver 메탈 카드와 같은 특전을 받을 수 있습니다.",
       "step3_title": "특별한 시즌 보상",
       "step3_description": "시즌마다 새로운 특전이 기다립니다. 시즌이 끝나기 전에 참여하고 경쟁하여 보상을 받으세요.",
       "step4_title": "가입하면 250포인트를 획득할 수 있습니다!",
@@ -6746,8 +6745,8 @@
       "step4_confirm_loading": "포인트 수령 중...",
       "step4_linking_accounts": "계정 추가 중...({{current}}/{{total}})",
       "step4_linking_accounts_loading": "다른 계정 추가 중...",
-      "step4_success_description": "ArbiEver 보상 프로그램에 성공적으로 등록하셨습니다!",
-      "step4_legal_disclaimer_1": "'포인트 수령'을 선택하면 ArbiEver 보상 프로그램",
+      "step4_success_description": "EtherEver 보상 프로그램에 성공적으로 등록하셨습니다!",
+      "step4_legal_disclaimer_1": "'포인트 수령'을 선택하면 EtherEver 보상 프로그램",
       "step4_legal_disclaimer_2": "추가 이용 약관 및 개인정보 처리방침에 동의하는 것이 됩니다",
       "step4_legal_disclaimer_3": ". 당사는 온체인 활동을 추척하여 사용자에게 자동으로 보상을 제공합니다 -",
       "step4_legal_disclaimer_4": "자세히 알아보세요"
@@ -6837,7 +6836,7 @@
         "sheet": {
           "title": "로열티 보너스",
           "points": "$1,250달러당 250포인트",
-          "description": "과거 ArbiEver 지갑 내 스왑 또는 브릿지 기록이 있는 계정을 추가하여 로열티 보너스를 받으세요. 적격 계정마다 250 포인트씩 적립되며 최대 50,000 포인트까지 받을 수 있습니다. 보너스는 계정 추가 후 곧 표시됩니다.",
+          "description": "과거 EtherEver 지갑 내 스왑 또는 브릿지 기록이 있는 계정을 추가하여 로열티 보너스를 받으세요. 적격 계정마다 250 포인트씩 적립되며 최대 50,000 포인트까지 받을 수 있습니다. 보너스는 계정 추가 후 곧 표시됩니다.",
           "cta_label": "계정 추가"
         }
       },
@@ -6852,12 +6851,12 @@
         }
       },
       "card": {
-        "title": "ArbiEver 카드",
+        "title": "EtherEver 카드",
         "description": "$1 사용 시 1포인트",
         "sheet": {
-          "title": "ArbiEver 카드",
+          "title": "EtherEver 카드",
           "points": "$1 사용 시 1포인트",
-          "description": "ArbiEver 카드로 구매할 때마다 포인트를 획득하고, 1% 캐시백(메탈 카드 소지자는 3%)을 받으세요.",
+          "description": "EtherEver 카드로 구매할 때마다 포인트를 획득하고, 1% 캐시백(메탈 카드 소지자는 3%)을 받으세요.",
           "cta_label": "카드 관리"
         }
       },
@@ -6877,7 +6876,7 @@
       "referral_link": "추천 링크",
       "actions": {
         "share_referral_link": "친구 추천",
-        "share_referral_subject": "ArbiEver 보상 프로그램 가입"
+        "share_referral_subject": "EtherEver 보상 프로그램 가입"
       },
       "info": {
         "title": "코드를 공유하고 더 많이 적립하세요",

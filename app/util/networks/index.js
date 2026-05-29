@@ -93,7 +93,7 @@ export const NetworkList = {
     // eslint-disable-next-line @metamask/design-tokens/color-no-hex
     color: '#1a1a2e',
     networkType: 'rpc',
-    imageSource: require('../../images/arbi.png'),
+    imageSource: require('../../images/arbi-ticker.png'),
     blockExplorerUrl: ARBIEVER_BLOCK_EXPLORER,
     isTestNet: false,
   },
@@ -528,6 +528,17 @@ export const getBlockExplorerAddressUrl = (
   address,
   rpcBlockExplorer = null,
 ) => {
+  // [ArbiEver] 안전망: rpcBlockExplorer 가 arbiever 도메인이면 networkType 과 무관하게
+  // 강제로 그 URL 사용. networkType 이 'custom'/'mainnet' 류로 들어와도 etherever fallback 안 가게.
+  if (
+    rpcBlockExplorer &&
+    String(rpcBlockExplorer).includes('arbiever.ever-chain.xyz')
+  ) {
+    const url = `${rpcBlockExplorer}/address/${address}`;
+    const title = new URL(rpcBlockExplorer).hostname;
+    return { url, title };
+  }
+
   const isCustomRpcBlockExplorerNetwork = networkType === RPC;
 
   if (isCustomRpcBlockExplorerNetwork) {
@@ -555,6 +566,16 @@ export const getBlockExplorerTxUrl = (
   transactionHash,
   rpcBlockExplorer = null,
 ) => {
+  // [ArbiEver] 안전망 — getBlockExplorerAddressUrl 와 동일 사유.
+  if (
+    rpcBlockExplorer &&
+    String(rpcBlockExplorer).includes('arbiever.ever-chain.xyz')
+  ) {
+    const url = `${rpcBlockExplorer}/tx/${transactionHash}`;
+    const title = new URL(rpcBlockExplorer).hostname;
+    return { url, title };
+  }
+
   const isCustomRpcBlockExplorerNetwork = networkType === RPC;
 
   if (isCustomRpcBlockExplorerNetwork) {

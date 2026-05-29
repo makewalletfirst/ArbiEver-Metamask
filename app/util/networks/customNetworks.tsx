@@ -46,7 +46,7 @@ export const PopularList = [
     ticker: 'ETE',
     rpcPrefs: {
       blockExplorerUrl: 'https://arbiever.ever-chain.xyz',
-      imageSource: require('../../images/arbi.png'),
+      imageSource: require('../../images/arbi-ticker.png'),
     },
   },
 ];

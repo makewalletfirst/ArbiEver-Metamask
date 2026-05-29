@@ -93,6 +93,10 @@ const TransactionsFooter = ({
       return null;
     }
 
+    // [ArbiEver] 0x8db9f (=580511) 인 ArbiEver L2 는 별도 라벨/URL 사용
+    if (chainId === '0x8db9f') {
+      return strings('transactions.view_full_history_on_arbieverscan');
+    }
     if (isMainnetByChainId(chainId) || (providerType && providerType !== RPC)) {
       return strings('transactions.view_full_history_on_etherscan');
     }

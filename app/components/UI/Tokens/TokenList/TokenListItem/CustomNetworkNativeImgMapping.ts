@@ -16,8 +16,12 @@ import LuksoImg from '../../../../../images/lukso.png';
 import InjectiveImg from '../../../../../images/injective.png';
 import PlasmaImg from '../../../../../images/plasma-native.png';
 import HypeImg from '../../../../../images/hyperevm.png';
+// [ArbiEver] ArbiEver 의 native asset(ETE) 큰 아이콘
+import ArbiEverImg from '../../../../../images/arbi.png';
 
 export const CustomNetworkNativeImgMapping: Record<Hex, ImageSourcePropType> = {
+  // [ArbiEver] ArbiEver L2 (0x8db9f) 의 native ETE 큰 아이콘 매핑
+  '0x8db9f': ArbiEverImg,
   [NETWORK_CHAIN_ID.FLARE_MAINNET]: FlareMainnetImg,
   [NETWORK_CHAIN_ID.SONGBIRD_TESTNET]: SongbirdImg,
   [NETWORK_CHAIN_ID.APECHAIN_TESTNET]: ApeNetworkImg,

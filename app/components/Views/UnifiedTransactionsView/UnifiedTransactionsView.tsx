@@ -378,6 +378,26 @@ const UnifiedTransactionsView = ({
 
     let url;
     let title;
+
+    // [ArbiEver] ArbiEver L2 (0x8db9f) 활성화 시 무조건 arbiever.ever-chain.xyz 로 라우팅.
+    // 이 분기를 안 두면 popularListBlockExplorer / getEtherscanBaseUrl 의 fallback
+    // (https://etherever.ever-chain.xyz) 으로 흘러서 EtherEver 탐색기로 잘못 감.
+    const isArbiEverEnabled =
+      Array.isArray(enabledEVMChainIds) &&
+      enabledEVMChainIds.some(
+        (cid) => typeof cid === 'string' && cid.toLowerCase() === '0x8db9f',
+      );
+    if (isArbiEverEnabled) {
+      navigation.navigate('Webview', {
+        screen: 'SimpleWebview',
+        params: {
+          url: `https://arbiever.ever-chain.xyz/address/${selectedAccountGroupEvmAddress}`,
+          title: 'arbiever.ever-chain.xyz',
+        },
+      });
+      return;
+    }
+
     if (configBlockExplorerUrl) {
       const result = getBlockExplorerAddressUrl(
         providerType,
