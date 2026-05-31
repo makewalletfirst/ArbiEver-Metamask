@@ -3,12 +3,13 @@ name: ArbiMask CI
 on:
   push:
     branches:
-      - '260525'
       - 'main'
+      - '260530_FIN'
   pull_request:
     branches:
-      - '260525'
       - 'main'
+      - '260530_FIN'
+  workflow_dispatch:
 
 jobs:
   validate:

@@ -24,6 +24,58 @@ ArbiMask serves as the dedicated portal to the ArbiEver network, integrating net
 
 ---
 
+## 🔧 Network Customization Layer (only EtherEver + ArbiEver visible)
+
+To restrict the wallet to exactly two chains — EtherEver L1 (`0xe2c3`) and
+ArbiEver L2 (`0x8db9f`) — and prevent any other EVM (Linea/Base/Arbitrum/BSC/
+Polygon/Optimism…) or non-EVM (Bitcoin/Solana/Tron) network from leaking in
+through any UI path, four independent guards are applied in the source:
+
+| Guard | File | What it does |
+|---|---|---|
+| ① Receive-address selector whitelist | `app/selectors/multichainAccounts/accounts.ts` | EVM list filtered to `ARBIEVER_ALLOWED_HEX = {'0xe2c3', '0x8db9f'}`. Non-EVM accounts forced to `scopes = []` so no row is rendered |
+| ② NetworkController initial state cleanup | `app/core/Engine/controllers/network-controller-init.ts` | Adds ArbiEver chain config, then `delete`-s every default chain except the two we keep (`ARBIEVER_KEEP_CHAIN_IDS`) |
+| ③ MultichainNetworkController empty state | `app/core/Engine/controllers/multichain-network-controller/multichain-network-controller-init.ts` | `multichainNetworkConfigurationsByChainId = {}` forced — no BTC/SOL/TRX auto-add |
+| ④ PREINSTALLED_SNAPS surgical exclusion | `app/lib/snaps/preinstalled-snaps.ts` | Solana/Bitcoin/Tron snaps removed from the array (imports preserved so the 27 fence-protected init files don't break) |
+
+### ArbiEver L2 visual assets
+
+| Asset | Where | Notes |
+|---|---|---|
+| Splash | `android/app/src/main/res/drawable*/fox.png` × 14 | **All 14 must be replaced** — both `drawable-*` and `drawable-night-*` × 7 DPIs. Source: `/root/ArbiEver/arbiicon512.png` (512×461). Don't use full-size — `launch_screen.xml` uses `scaleType="center"` so original pixels are rendered as-is |
+| Large ticker icon (asset row) | `app/components/Base/TokenIcon/index.tsx` | `getSource()` branches on `symbol === 'ETE' → arbiLogo` (`app/images/arbi.png`). The actual file is overwritten with the user-provided icon — not Hermes-baked |
+| Small ticker icon (network picker / header) | `app/util/networks/index.js` `NetworkList[ARBIEVER].imageSource` + `app/util/networks/customNetworks.tsx` `PopularList[0].rpcPrefs.imageSource` | Both point at `app/images/arbi-ticker.png` |
+
+### Activity-tab block-explorer routing
+
+The real component is **`app/components/Views/UnifiedTransactionsView/UnifiedTransactionsView.tsx`** —
+not the legacy `app/components/UI/Transactions/index.js` (v7.62+ uses the
+unified view). Two-tier safety net forces ArbiEver to route to
+`arbiever.ever-chain.xyz`:
+
+1. `UnifiedTransactionsView.onViewBlockExplorer` — early-return branch when
+   `enabledEVMChainIds.includes('0x8db9f')`
+2. `app/util/networks/index.js` `getBlockExplorerAddressUrl` +
+   `getBlockExplorerTxUrl` — domain safety net: if `rpcBlockExplorer`
+   contains `arbiever.ever-chain.xyz`, use it regardless of `networkType`
+
+Korean activity-tab label is set in
+`app/components/UI/Transactions/TransactionsFooter.tsx` (when
+`chainId === '0x8db9f'` → `view_full_history_on_arbieverscan`) and the
+string itself in `locales/languages/{en,ko,ko-kr}.json`.
+
+### Metro transformer lint bypass
+
+`metro.transform.js`:
+```js
+// await lintTransformedFile(getESLintInstance(), filename, processedSource);
+```
+The build-fence transformer's per-file ESLint call balloons across the
+~13,296-module bundle, causing the Metro `jest-worker` SIGTERM after ~9
+minutes. Commenting out this one line is enough.
+
+---
+
 ## 🛠️ ArbiMask APK Build Guide (Server Protection Strategies)
 
 Building this large-scale project involves heavy C++ and Android NDK compilation (clang compiler). Running a standard release build (`./gradlew assembleProdRelease`) in restricted resource environments without optimization will lead to **extreme Out of Memory (OOM) situations, severe disk thrashing, and ultimate kernel lockups (load average exceeding 80)**.
