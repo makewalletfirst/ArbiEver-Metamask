@@ -337,7 +337,7 @@
     "bnjs4": "npm:bn.js@^4.12.0",
     "bnjs5": "npm:bn.js@^5.2.1",
     "buffer": "6.0.3",
-    "cockatiel": "^3.1.2",
+    "cockatiel": "^4.0.0",
     "compare-versions": "^3.6.0",
     "content-hash": "2.5.2",
     "contentful": "^11.5.22",

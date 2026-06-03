@@ -24837,6 +24837,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cockatiel@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "cockatiel@npm:4.0.0"
+  checksum: 10/443bc255c19e2fb318296aff1a45c0db3c461d62f88ad4acb33db22db8880844eeab0c30c2e653d4efc5f7f0b3c2eec105514896d14c0aaa8f78dd33c790f2f9
+  languageName: node
+  linkType: hard
+
 "collect-v8-coverage@npm:^1.0.0":
   version: 1.0.1
   resolution: "collect-v8-coverage@npm:1.0.1"
@@ -36183,7 +36190,7 @@ __metadata:
     browserstack-local: "npm:^1.5.1"
     buffer: "npm:6.0.3"
     chromedriver: "npm:^123.0.1"
-    cockatiel: "npm:^3.1.2"
+    cockatiel: "npm:^4.0.0"
     compare-versions: "npm:^3.6.0"
     content-hash: "npm:2.5.2"
     contentful: "npm:^11.5.22"
